@@ -9,6 +9,7 @@ export default {
         sm: "720px",
         md: "900px", // Medium breakpoint (you can adjust the value as needed)
         lg: "1280px",
+        xl: "1480px",
       },
       colors: {
         green_gradient: "#063B26",

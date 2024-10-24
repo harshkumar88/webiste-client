@@ -20,11 +20,11 @@ const CaseStudy = () => {
   return (
     <div className="flex flex-col gap-5 mx-auto sm:mt-4 bg-green_gradient pt-5 pb-14 px-4 w-[100%]">
       <div className="flex flex-col sm:flex-row justify-between items-center w-[90%] mt-8 mx-auto">
-        <div className="flex flex-col gap-2 w-[100%] sm:w-[40%]">
+        <div className="flex flex-col gap-2 w-[100%] sm:w-[70%] md:w-[90%] lg:w-[35%]">
           <p className="text-[2.5rem] sm:text-[3rem] md:text-[3.5rem] text-white font-bold">
             Case Study
           </p>
-          <p className="text-[0.9rem] sm:text-[1rem] md:text-[1.1rem] text-white sm:w-[90%] w-[30%]">
+          <p className="text-[0.9rem] sm:text-[1rem] md:text-[1.1rem] text-white sm:w-[90%] w-[100%]">
             Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Lorem
             ipsum dolor sit amet, consectetuer adipiscing elit. Lorem ipsum
             dolor sit amet.
@@ -50,7 +50,7 @@ const CaseStudy = () => {
       <Slider
         checkScroll={checkScroll}
         cardRef={cardRef}
-        style="overflow-x-auto mt-8 flex md:gap-10 gap-4 w-[92%] mx-auto remove_scrollbar"
+        style="overflow-x-auto mt-8 flex md:gap-10 gap-4 w-[92%] mx-auto remove_scrollbar pe-5"
       >
         {case_study_data?.map((item, idx) => {
           return <CustomCard key={idx} item={item} />;

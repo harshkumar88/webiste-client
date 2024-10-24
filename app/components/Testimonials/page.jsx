@@ -18,13 +18,13 @@ const Testimonials = () => {
   }
 
   return (
-    <div className="flex flex-col gap-5 mx-auto  pb-14 px-4 w-[90%] mb-10">
+    <div className="flex flex-col gap-5 mx-auto  pb-14 px-4 w-[100%] lg:w-[90%] mb-10 ">
       <div className="flex flex-col sm:flex-row justify-between items-center w-[90%] mt-8 mx-auto">
         <div className="flex flex-col gap-2 w-[100%] sm:w-[40%]">
           <p className="text-[2.5rem] sm:text-[3rem] md:text-[3.5rem] text-black font-bold">
             Because they love us
           </p>
-          <p className="text-[0.9rem] sm:text-[1rem] md:text-[1.1rem] text-black sm:w-[90%] w-[30%]">
+          <p className="text-[0.9rem] sm:text-[1rem] md:text-[1.1rem] text-black sm:w-[90%] w-[100%]">
             Dui euismod iaculis libero, aliquet vitae et elementum porttitor.
             Eleifend mi tristique condimentum congue fusce nunc, donec magnis
             commodo.
@@ -47,11 +47,12 @@ const Testimonials = () => {
           />
         </div>
       </div>
-      <div className=" bg-yellow_light h-[30vh] mt-5 w-[90%] px-4 ">
+      <div className=" mt-5 w-[100%] px-4 relative">
+        <div className="bg-yellow_light h-[30vh] w-[100%]"></div>
         <Slider
           checkScroll={checkScroll}
           cardRef={cardRef}
-          style="overflow-x-auto mt-8 flex md:gap-10 gap-4 w-[80vw] mx-auto remove_scrollbar relative z-0 pb-4 pe-10"
+          style="overflow-x-auto mt-8 flex md:gap-10 gap-4 sm:w-[90vw] w-[90vw] mx-auto remove_scrollbar absolute top-0 left-10 z-0 pb-4 pe-10"
         >
           {testimonials_data?.map((item, idx) => {
             return <CustomCard key={idx} item={item} />;

@@ -24,7 +24,7 @@ const Blogs = () => {
           <p className="text-[2.5rem] sm:text-[3rem] md:text-[3.5rem] text-black font-bold">
             Read Our Blogs
           </p>
-          <p className="text-[0.9rem] sm:text-[1rem] md:text-[1.1rem] text-black sm:w-[100%] w-[30%]">
+          <p className="text-[0.9rem] sm:text-[1rem] md:text-[1.1rem] text-black sm:w-[100%] w-[100%]">
             Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Lorem
             ipsum dolor sit amet, consectetuer adipiscing elit. Lorem ipsum
             dolor sit amet.
