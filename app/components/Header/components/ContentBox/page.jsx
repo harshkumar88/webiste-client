@@ -7,13 +7,13 @@ const ContentBox = () => {
   return (
     <div className="flex justify-between flex-col md:flex-row  gap-10 items-center sm:w-[80%] w-[95%] mx-auto sm:px-4 px-2">
       <div className="md:w-[50%] w-[80%]">
-        <p className="lg:text-[4.5rem] md:text-[3.5rem] text-[3.5rem] font-bold text-white">
+        <p className="lg:text-[4.5rem] md:text-[3.5rem] text-[3rem] font-bold text-white">
           The Hub
         </p>
-        <p className="lg:text-[4.5rem] md:text-[3.5rem] text-[3rem]  font-bold text-white">
+        <p className="lg:text-[4.5rem] md:text-[3.5rem] text-[2.5rem]  font-bold text-white">
           For <span className="text-yellow_light ">Unlocking</span>
         </p>
-        <p className="lg:text-[4.5rem] md:text-[3.5rem] text-[3.5rem]  font-bold text-white">
+        <p className="lg:text-[4.5rem] md:text-[3.5rem] text-[2.5rem]  font-bold text-white">
           True Potential
         </p>
 

@@ -9,6 +9,7 @@
 .customCarousel {
   position: relative;
   overflow: hidden;
+  border-radius: 0 0 0 50px;
 }
 
 .prevButton,
@@ -60,4 +61,21 @@
 
 .inactiveDot:hover {
   background-color: #aaa;
+}
+.customDots {
+  display: flex;
+  justify-content: center;
+}
+
+.dot {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: gray;
+  margin: 0 5px;
+  cursor: pointer;
+}
+
+.active {
+  background-color: blue; /* Change to your preferred active color */
 }

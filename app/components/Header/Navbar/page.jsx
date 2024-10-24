@@ -9,6 +9,16 @@ const Navbar = () => {
   const [toggle, setToggle] = useState(false);
 
   const handleLogin = async () => {};
+  const handleScroll = (id) => {
+    const element = document.getElementById(id);
+    if (element) {
+      const topOffset = element.offsetTop; // Get the element's position from the top
+      window.scrollTo({
+        top: topOffset - 30,
+        behavior: "smooth", // Smooth scrolling
+      });
+    }
+  };
 
   return (
     <section className="px-5 py-4 md:w-[85%] w-[95%] mx-auto flex  justify-between items-center">
@@ -17,7 +27,11 @@ const Navbar = () => {
         <div className="gap-5 md:flex hidden ">
           {nav_links?.map((link, idx) => {
             return (
-              <span key={idx} className="text-white">
+              <span
+                key={idx}
+                className="text-white cursor-pointer"
+                onClick={() => handleScroll(link.redirect)}
+              >
                 {link.label}
               </span>
             );
@@ -63,12 +77,15 @@ const Navbar = () => {
                 // handleScrollToSection(nav.id);
               }}
             >
-              <Link
-                href={`#${nav.redirect}`}
-                onClick={() => setToggle(!toggle)}
+              <span
+                className="text-black cursor-pointer"
+                onClick={() => {
+                  handleScroll(nav.redirect);
+                  setToggle(!toggle);
+                }}
               >
                 {nav.label}
-              </Link>
+              </span>
             </li>
           ))}
         </ul>

@@ -1,13 +1,11 @@
 "use client";
-import React, { useRef } from "react";
+import React, { useRef, useState } from "react";
 import "react-responsive-carousel/lib/styles/carousel.min.css"; // Default styles
 import { Carousel } from "react-responsive-carousel";
 import styles from "./slider.module.css"; // Import custom styles
 import { MdChevronLeft, MdChevronRight } from "react-icons/md";
 
-const CardCarousel = ({ children }) => {
-  const carouselRef = useRef(null); // Create a ref for the carousel
-
+const CardCarousel = ({ children, carouselRef, handleChange }) => {
   const handlePrev = () => {
     if (carouselRef.current) {
       carouselRef.current.moveTo(carouselRef.current.state.selectedItem - 1); // Navigate to the previous slide
@@ -42,15 +40,16 @@ const CardCarousel = ({ children }) => {
         ref={carouselRef}
         className={styles.customCarousel}
         autoPlay
-        swipeable={true}
-        emulateTouch
-        swipeScrollTolerance={0}
+        // swipeable={true}
+        // emulateTouch
+        // swipeScrollTolerance={0}
         infiniteLoop
         showArrows={false}
         showThumbs={false}
         showStatus={false}
-        // renderIndicator={customIndicator}
+        renderIndicator={() => <></>}
         transitionTime={1000}
+        onChange={handleChange}
       >
         {children}
       </Carousel>

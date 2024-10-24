@@ -15,7 +15,10 @@ const NeedsComponent = () => {
   }
 
   return (
-    <div className="w-[93%] ml-auto flex flex-col md:flex-row items-center gap-20 justify-between md:mt-5 ">
+    <div
+      className="w-[93%] ml-auto flex flex-col md:flex-row items-center gap-20 justify-between md:mt-5 "
+      id="grow"
+    >
       <div className="flex flex-col md:w-[30%] w-[90%]">
         <p className="text-[2.5rem]">Let’s talk about</p>
         <p className="md:text-[3.5rem] text-[3rem] font-bold">Your Needs</p>

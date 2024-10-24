@@ -18,7 +18,10 @@ const Blogs = () => {
   }
 
   return (
-    <div className="flex flex-col gap-5 mx-auto sm:mt-4  pb-14 w-[100%] mt-5">
+    <div
+      className="flex flex-col gap-5 mx-auto sm:mt-4   w-[100%] mt-5"
+      id="prices"
+    >
       <div className="flex flex-col sm:flex-row justify-between items-center w-[90%] mx-auto">
         <div className="flex flex-col gap-2 w-[100%] sm:w-[40%] text-center mx-auto">
           <p className="text-[2.5rem] sm:text-[3rem] md:text-[3.5rem] text-black font-bold">

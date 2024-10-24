@@ -2,12 +2,12 @@ export const nav_links = [
   {
     id: 1,
     label: "Build",
-    redirect: "/build",
+    redirect: "build",
   },
-  { id: 2, label: "Engage", redirect: "/engage" },
-  { id: 3, label: "Grow", redirect: "/grow" },
-  { id: 4, label: "Resources", redirect: "/resources" },
-  { id: 5, label: "Prices", redirect: "/prices" },
+  { id: 2, label: "Engage", redirect: "engage" },
+  { id: 3, label: "Grow", redirect: "grow" },
+  { id: 4, label: "Resources", redirect: "resources" },
+  { id: 5, label: "Prices", redirect: "prices" },
 ];
 
 export const targets = [
@@ -103,6 +103,16 @@ export const need_slider_data = [
   },
 ];
 
+export const interactive_section_data = [
+  {
+    id: 1,
+    img: "https://assets.website-files.com/617fa48948c7ab24b715140e/6183bb01e5841050e8e31f3b_hero_person-3.webp",
+  },
+  {
+    id: 1,
+    img: "https://assets.website-files.com/617fa48948c7ab24b715140e/6183bce3e584104be2e330e0_hero_person-2.webp",
+  },
+];
 export const story_data = [
   {
     id: 1,
