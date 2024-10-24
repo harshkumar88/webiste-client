@@ -6,6 +6,7 @@ export default {
     extend: {
       screens: {
         // Custom breakpoints
+        xsm: "620px",
         sm: "720px",
         md: "900px", // Medium breakpoint (you can adjust the value as needed)
         lg: "1280px",

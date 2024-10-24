@@ -552,7 +552,6 @@ export const footerLinks = [
       { name: "Ideation", link: "#" },
       { name: "Wireframing", link: "#" },
       { name: "Research", link: "#" },
-      { name: "Ideation", link: "#" },
     ],
   },
   {

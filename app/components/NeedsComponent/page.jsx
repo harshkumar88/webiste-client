@@ -26,22 +26,20 @@ const NeedsComponent = () => {
         </p>
       </div>
       <div
-        className="md:w-[70%] w-[100%] bg-yellow_light   flex justify-end overflow-x-auto md:p-0 "
+        className="md:w-[70%] w-[100%] bg-yellow_light   overflow-x-auto md:p-0 "
         style={{ borderRadius: "50px 0 0 50px" }}
       >
-        <div className="my-auto md:ps-10 ps-4 py-7 w-[100%] md:w-auto">
-          <Slider
-            checkScroll={checkScroll}
-            cardRef={cardRef}
-            style={
-              "flex sm:gap-7 gap-4 overflow-x-auto mx-auto w-[100%]  remove_scrollbar"
-            }
-          >
-            {need_slider_data.map((item, idx) => (
-              <Card key={idx} item={item} />
-            ))}
-          </Slider>
-        </div>
+        <Slider
+          checkScroll={checkScroll}
+          cardRef={cardRef}
+          style={
+            "flex  mx-auto sm:gap-7 gap-4 overflow-x-auto remove_scrollbar me-0 w-[100%] py-7 sm:ps-10 ps-4 pe-3 "
+          }
+        >
+          {need_slider_data.map((item, idx) => (
+            <Card key={idx} item={item} />
+          ))}
+        </Slider>
       </div>
     </div>
   );

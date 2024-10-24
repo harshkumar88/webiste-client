@@ -19,15 +19,15 @@ export const meta: MetaFunction = () => {
 export default function Index() {
   return (
     <section className="flex flex-col gap-16  overflow-hidden">
-      {/* <Header /> */}
-      {/* <TrustedTargets /> */}
-      {/* <NeedsComponent /> */}
-      {/* <StateMent /> */}
+      <Header />
+      <TrustedTargets />
+      <NeedsComponent />
+      <StateMent />
       <Story />
-      {/* <CaseStudy /> */}
-      {/* <Testimonials /> */}
-      {/* <Blogs /> */}
-      {/* <Footer /> */}
+      <CaseStudy />
+      <Testimonials />
+      <Blogs />
+      <Footer />
     </section>
   );
 }

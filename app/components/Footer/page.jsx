@@ -6,7 +6,7 @@ const Footer = () => (
     className={`${styles.flexCenter} ${styles.paddingY} flex-col  px-10 mx-auto bg-green_gradient w-[100%]`}
   >
     <div
-      className={`${styles.flexStart} md:flex-row flex-col mb-8 mx-auto w-[80vw] `}
+      className={`${styles.flexStart} md:flex-row flex-col mb-8 mx-auto sm:w-[80vw] w-[90vw] `}
     >
       <div className="flex-[1] w-full flex flex-row justify-between flex-wrap md:mt-0 mt-10">
         {footerLinks.map((footerlink) => (
@@ -34,13 +34,13 @@ const Footer = () => (
       </div>
     </div>
 
-    <div className=" flex justify-between items-center md:flex-row flex-col pt-6 border-t-[1px]  mx-auto w-[85vw] border-t-[#3F3E45]">
-      <p className="font-poppins font-normal  text-[18px] leading-[27px] text-white w-[25%]">
+    <div className=" flex justify-between  sm:flex-row flex-col gap-5 pt-6 border-t-[1px]  mx-auto sm:w-[90%] w-[100%] border-t-[#3F3E45]">
+      <p className="font-poppins font-normal  text-[18px] leading-[27px] text-white sm:w-[25%] w-[100%] text-center sm:text-left">
         A interactive training platform to upskill your workforce
       </p>
 
-      <div>
-        <p className="font-poppins font-normal text-center text-[18px] leading-[27px] text-white">
+      <div className="flex flex-col sm:gap-0 gap-4">
+        <p className="font-poppins font-normal text-center sm:text-[18px] text-[16px] leading-[27px] text-white">
           <span>About us</span> | <span>Privacy Policy</span> |{" "}
           <span>Terms Of Use</span>
         </p>

@@ -28,7 +28,7 @@ const Story = () => {
             create interesting,
           </p>
         </div>
-        <div className="flex gap-6 justify-end w-[50%] me-10 mt-3">
+        <div className="flex gap-6 sm:justify-end justify-start w-[50%] me-10 mt-3">
           <IoMdArrowBack
             size={40}
             className={`cursor-pointer ${
@@ -49,7 +49,7 @@ const Story = () => {
         checkScroll={checkScroll}
         cardRef={cardRef}
         style={
-          " overflow-x-auto mt-20 flex md:gap-10 gap-2 sm:w-[100%] w-[95vw] mx-auto remove_scrollbar"
+          " overflow-x-auto md:mt-2 lg:mt-0 xl:mt-0 flex md:gap-10 gap-2 sm:w-[100%] w-[95vw] mx-auto remove_scrollbar"
         }
       >
         {story_data?.map((item, idx) => {
