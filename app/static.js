@@ -112,6 +112,18 @@ export const interactive_section_data = [
     id: 1,
     img: "https://assets.website-files.com/617fa48948c7ab24b715140e/6183bce3e584104be2e330e0_hero_person-2.webp",
   },
+  {
+    id: 1,
+    img: "https://assets.website-files.com/617fa48948c7ab24b715140e/6183bce3e584104be2e330e0_hero_person-2.webp",
+  },
+  {
+    id: 1,
+    img: "https://assets.website-files.com/617fa48948c7ab24b715140e/6183bce3e584104be2e330e0_hero_person-2.webp",
+  },
+  {
+    id: 1,
+    img: "https://assets.website-files.com/617fa48948c7ab24b715140e/6183bce3e584104be2e330e0_hero_person-2.webp",
+  },
 ];
 export const story_data = [
   {

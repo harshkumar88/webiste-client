@@ -8,3 +8,25 @@
 .custom-clip {
   clip-path: path("M0,0 C0,60 40,60 60,60 H90 C100,60 100,100 100,100 V0 Z");
 }
+.highlight_text_bottom {
+  background: linear-gradient(
+    to bottom,
+    white 60%,
+    #cfff92 60%,
+    #cfff92 90%,
+    white 90%
+  );
+  width: fit-content;
+}
+
+.highlight_text_top {
+  background: linear-gradient(
+    to bottom,
+    white 20%,
+    #cfff92 20%,
+    #cfff92 55%,
+    white 55%,
+    white 100%
+  );
+  width: fit-content;
+}

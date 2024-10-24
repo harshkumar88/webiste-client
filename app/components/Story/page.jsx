@@ -21,7 +21,9 @@ const Story = () => {
     <div className="flex flex-col gap-5 md:w-[85%] mx-auto sm:mt-4">
       <div className="flex justify-between items-center  md:flex-row flex-col w-[100%] mx-auto">
         <div className="flex flex-col gap-2 md:w-[35%] w-[85%]">
-          <p className="text-[3.5rem] font-bold">Pick a Story!</p>
+          <p className="sm:text-[3.5rem] text-[3.2rem] font-bold highlight_text_bottom">
+            Pick a Story!
+          </p>
           <p className="text-[1.1rem]">
             Say NO to boring videos and create interesting, interactive,
             creative videos that boost performance. Say NO to boring videos and

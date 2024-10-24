@@ -2,6 +2,7 @@ import React from "react";
 import CardZoomer from "../../../CommonComponents/CardZoomer/page";
 import { card_zoomer_content } from "../../../../static";
 import Button from "../../../CommonComponents/Button";
+import CustomCard from "./card";
 
 const ContentBox = () => {
   return (
@@ -28,8 +29,14 @@ const ContentBox = () => {
           <p className="text-white  mx-auto ">No credit card required</p>
         </div>
       </div>
-      <div className="md:w-[50%] w-[100%] hidden sm:block">
+      <div className="md:w-[50%] w-[100%]  sm:block hidden ">
         <CardZoomer content={card_zoomer_content} />
+      </div>
+
+      <div className="flex  items-start  gap-5 ps-4  sm:hidden overflow-x-auto remove_scrollbar w-[100%] ">
+        {card_zoomer_content.map((card) => (
+          <CustomCard key={card.id} card={card} />
+        ))}
       </div>
     </div>
   );

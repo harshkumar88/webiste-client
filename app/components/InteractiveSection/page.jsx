@@ -20,9 +20,11 @@ const InteractiveSection = () => {
     <div className="flex flex-col" id="build">
       <div className="w-[90%] ml-auto flex flex-col md:flex-row items-center gap-10  md:mt-5 ">
         <div className="flex flex-col md:w-[25%] w-[90%]">
-          <p className="md:text-[3rem] text-[3rem] font-bold">Interactive</p>
-          <p className="md:text-[3rem] text-[3rem] font-bold">Videos</p>
-          <p className="text-[1rem] mt-4">
+          <p className="md:text-[3.4rem] text-[3rem] font-bold highlight_text_top">
+            Interactive
+          </p>
+          <p className="md:text-[3.4rem] text-[3rem] font-bold">Videos</p>
+          <p className="text-[1.4rem] mt-4">
             Create videos that perform using advanced tools and techniques that
             grab attention.
           </p>
@@ -46,13 +48,15 @@ const InteractiveSection = () => {
           </CardCarousel>
           <div className="relative w-full">
             <div className="flex flex-col w-[85%] mt-[-13%] me-0 mx-auto bg-white z-10 shadow-lg rounded-tl-[50px] p-6">
-              <p>
-                <span className="font-bold text-[1.2rem]">
+              <p className=" flex items-center gap-2 text-[1.2rem]">
+                <span className="font-bold text-[1.7rem]">
                   One chat experience
                 </span>{" "}
                 - Help people.
               </p>
-              <p>Navigate through difficult parts of your video</p>
+              <p className="text-[1.1rem]">
+                Navigate through difficult parts of your video
+              </p>
             </div>
           </div>
         </div>{" "}

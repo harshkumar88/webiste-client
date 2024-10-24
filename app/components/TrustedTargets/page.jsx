@@ -6,8 +6,9 @@ const TrustedTargets = () => {
       className=" sm:w-[85%] w-[90%] mx-auto flex  flex-col items-center gap-5"
       id="engage"
     >
-      <p className="font-bold sm:text-[3rem] text-[1.5rem] text-center text-green_gradient">
-        Trusted by well known companies
+      <p className="font-bold sm:text-[3rem] text-[2rem] text-center text-green_gradient">
+        <span className="highlight_text_bottom">Trusted</span> by well known
+        companies
       </p>
       <div className="flex gap-7 overflow-x-auto remove_scrollbar w-[90%]">
         {targets.map((item, idx) => {
@@ -15,9 +16,8 @@ const TrustedTargets = () => {
             <img
               src={item.img}
               key={idx}
-              height={100}
-              width={200}
-              style={{ width: "100%", height: "auto" }}
+              className="object-contain sm:w-[200px] w-[120px]"
+              // style={{ width: "100%", height: "auto" }}
               alt="img"
             />
           );

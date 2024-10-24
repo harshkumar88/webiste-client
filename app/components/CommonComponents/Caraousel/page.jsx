@@ -42,7 +42,7 @@ const CardCarousel = ({ children, carouselRef, handleChange }) => {
         autoPlay
         // swipeable={true}
         // emulateTouch
-        // swipeScrollTolerance={0}
+        swipeScrollTolerance={1000000}
         infiniteLoop
         showArrows={false}
         showThumbs={false}

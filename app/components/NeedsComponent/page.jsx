@@ -16,12 +16,14 @@ const NeedsComponent = () => {
 
   return (
     <div
-      className="w-[93%] ml-auto flex flex-col md:flex-row items-center gap-20 justify-between md:mt-5 "
+      className="w-[93%] ml-auto flex flex-col md:flex-row items-center sm:gap-20 gap-10 justify-between md:mt-5 "
       id="grow"
     >
       <div className="flex flex-col md:w-[30%] w-[90%]">
         <p className="text-[2.5rem]">Let’s talk about</p>
-        <p className="md:text-[3.5rem] text-[3rem] font-bold">Your Needs</p>
+        <p className="md:text-[3.5rem] text-[3rem] font-bold">
+          Your <span className="highlight_text_bottom">Needs</span>
+        </p>
         <p className="text-[1rem] mt-4">
           Say NO to boring videos and create interesting, interactive, creative
           videos that boost performance. Say NO to boring videos and create
