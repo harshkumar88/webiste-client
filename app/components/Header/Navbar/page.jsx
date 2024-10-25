@@ -1,7 +1,6 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import Button from "../../CommonComponents/Button";
 import NavMenu from "../../../assets/menu";
-import { Link } from "@remix-run/react";
 import { nav_links } from "../../../static";
 
 const Navbar = () => {

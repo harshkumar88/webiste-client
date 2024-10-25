@@ -1,6 +1,3 @@
-"use client";
-import React from "react";
-
 const Button = (props) => {
   const { btn_type, content, callbackfn, btn_styles } = props;
   const handleCall = async () => {

@@ -1,5 +1,3 @@
-"use client";
-import React, { useRef, useState } from "react";
 import "react-responsive-carousel/lib/styles/carousel.min.css"; // Default styles
 import { Carousel } from "react-responsive-carousel";
 import styles from "./slider.module.css"; // Import custom styles
@@ -16,22 +14,6 @@ const CardCarousel = ({ children, carouselRef, handleChange }) => {
     if (carouselRef.current) {
       carouselRef.current.moveTo(carouselRef.current.state.selectedItem + 1); // Navigate to the next slide
     }
-  };
-
-  // Custom Indicator Component
-  const customIndicator = (onClickHandler, isSelected, index, label) => {
-    const dotClass = isSelected ? styles.activeDot : styles.inactiveDot;
-    return (
-      <li
-        className={dotClass}
-        onClick={onClickHandler}
-        onKeyDown={onClickHandler}
-        value={index}
-        role="button"
-        tabIndex={0}
-        aria-label={`${label} ${index + 1}`}
-      />
-    );
   };
 
   return (
