@@ -1,7 +1,7 @@
-import React, { useRef, useState } from "react";
+import { useRef, useState } from "react";
 import Slider from "../CommonComponents/Slider/page";
 import { need_slider_data } from "../../static";
-import Card from "./card";
+import NeedsCard from "../Cards/NeedsCard";
 
 const NeedsComponent = () => {
   let [left, setLeft] = useState(false);
@@ -42,7 +42,7 @@ const NeedsComponent = () => {
           }
         >
           {need_slider_data.map((item, idx) => (
-            <Card key={idx} item={item} />
+            <NeedsCard key={idx} item={item} />
           ))}
         </Slider>
       </div>

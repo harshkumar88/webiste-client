@@ -1,5 +1,5 @@
 import { interactive_section_data } from "../../static";
-import Card from "./card";
+import InteractiveSectionCard from "../Cards/InteractiveSectionCard";
 import Button from "../CommonComponents/Button";
 import CardCarousel from "../CommonComponents/Caraousel/page";
 import { useRef, useState } from "react";
@@ -43,7 +43,7 @@ const InteractiveSection = () => {
         >
           <CardCarousel carouselRef={carouselRef} handleChange={handleChange}>
             {interactive_section_data.map((item, idx) => (
-              <Card key={idx} item={item} />
+              <InteractiveSectionCard key={idx} item={item} />
             ))}
           </CardCarousel>
           <div className="relative w-full">

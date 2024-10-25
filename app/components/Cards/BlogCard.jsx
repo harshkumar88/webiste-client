@@ -1,4 +1,4 @@
-const CustomCard = ({ item }) => {
+const BlogCard = ({ item }) => {
   return (
     <div className="w-[70%] sm:w-[25%] md:w-[16%] flex-shrink-0  rounded-3xl  flex flex-col gap-3  overflow-hidden">
       <img
@@ -21,4 +21,4 @@ const CustomCard = ({ item }) => {
   );
 };
 
-export default CustomCard;
+export default BlogCard;

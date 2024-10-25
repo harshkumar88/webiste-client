@@ -1,10 +1,9 @@
 import { slideLeft, slideRight } from "../../Handlers/commonhandlers";
 import { useRef, useState } from "react";
-import { IoMdArrowBack } from "react-icons/io";
-import { IoMdArrowForward } from "react-icons/io";
+
 import { blog_data } from "../../static";
 import Slider from "../CommonComponents/Slider/page";
-import CustomCard from "./card";
+import BlogCard from "../Cards/BlogCard";
 
 const Blogs = () => {
   let [left, setLeft] = useState(false);
@@ -56,7 +55,7 @@ const Blogs = () => {
         style="overflow-x-auto mt-8 flex md:gap-10 gap-4 w-[90%]  mx-auto remove_scrollbar"
       >
         {blog_data?.map((item, idx) => {
-          return <CustomCard key={idx} item={item} />;
+          return <BlogCard key={idx} item={item} />;
         })}
       </Slider>
     </div>

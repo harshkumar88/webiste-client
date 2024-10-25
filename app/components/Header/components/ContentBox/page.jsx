@@ -1,8 +1,7 @@
-import React from "react";
 import CardZoomer from "../../../CommonComponents/CardZoomer/page";
 import { card_zoomer_content } from "../../../../static";
 import Button from "../../../CommonComponents/Button";
-import CustomCard from "./card";
+import ContentBoxCard from "../../../Cards/ContentBoxCard";
 
 const ContentBox = () => {
   return (
@@ -35,7 +34,7 @@ const ContentBox = () => {
 
       <div className="flex  items-start  gap-5 ps-4  sm:hidden overflow-x-auto remove_scrollbar w-[100%] ">
         {card_zoomer_content.map((card) => (
-          <CustomCard key={card.id} card={card} />
+          <ContentBoxCard key={card.id} card={card} />
         ))}
       </div>
     </div>

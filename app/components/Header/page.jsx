@@ -1,5 +1,5 @@
-import Navbar from "./Navbar/page";
 import ContentBox from "./components/ContentBox/page";
+import Navbar from "./components/Navbar/page";
 
 const Header = () => {
   return (

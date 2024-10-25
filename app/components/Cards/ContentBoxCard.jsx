@@ -1,6 +1,4 @@
-import React from "react";
-
-const CustomCard = ({ card }) => {
+const ContentBoxCard = ({ card }) => {
   return (
     <div
       className={`flex  flex-shrink-0 flex-col items-center justify-center border-none transition-all ease-in-out duration-500  cursor-pointer relative overflow-hidden ${"w-[90%] h-[300px]"} `}
@@ -22,4 +20,4 @@ const CustomCard = ({ card }) => {
   );
 };
 
-export default CustomCard;
+export default ContentBoxCard;

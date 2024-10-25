@@ -1,4 +1,4 @@
-const CustomCard = ({ item }) => {
+const CaseStudyCard = ({ item }) => {
   return (
     <div className="w-[90%] sm:w-[48%] md:w-[34%] lg:w-[24%] flex-shrink-0 border border-yellow_light text-white rounded-3xl p-6 sm:p-8 shadow-lg flex flex-col gap-6 relative overflow-hidden">
       {/* Main Image */}
@@ -29,4 +29,4 @@ const CustomCard = ({ item }) => {
   );
 };
 
-export default CustomCard;
+export default CaseStudyCard;

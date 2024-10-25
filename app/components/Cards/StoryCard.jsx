@@ -1,6 +1,4 @@
-import React from "react";
-
-const Card = ({ item }) => {
+const StoryCard = ({ item }) => {
   return (
     <div className="w-[75%] flex-shrink-0 lg:w-[30%] xl:w-[23%] md:w-[40%] sm:w-[40%] rounded-[30px] xl:min-h-[50vh] lg:min-h-[56vh] md:min-h-[56vh]  min-h-[56vh] flex flex-col justify-end ">
       <div className="relative w-[90%] md:w-[100%] rounded-[30px]">
@@ -25,4 +23,4 @@ const Card = ({ item }) => {
   );
 };
 
-export default Card;
+export default StoryCard;

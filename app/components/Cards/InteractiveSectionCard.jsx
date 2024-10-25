@@ -1,4 +1,4 @@
-const Card = ({ item }) => {
+const InteractiveSectionCard = ({ item }) => {
   return (
     <div className="bg-white flex-shrink-0  w-[100%] flex flex-col gap-2  shadow-lg z-0 ">
       <div className="w-[100%] ">
@@ -8,4 +8,4 @@ const Card = ({ item }) => {
   );
 };
 
-export default Card;
+export default InteractiveSectionCard;

@@ -4,7 +4,7 @@ import { IoMdArrowBack } from "react-icons/io";
 import { IoMdArrowForward } from "react-icons/io";
 import { story_data } from "../../static";
 import Slider from "../CommonComponents/Slider/page";
-import Card from "./card";
+import StoryCard from "../Cards/StoryCard";
 
 const Story = () => {
   let [left, setLeft] = useState(false);
@@ -55,7 +55,7 @@ const Story = () => {
         }
       >
         {story_data?.map((item, idx) => {
-          return <Card key={idx} item={item} />;
+          return <StoryCard key={idx} item={item} />;
         })}
       </Slider>
     </div>

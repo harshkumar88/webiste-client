@@ -1,7 +1,7 @@
 import type { MetaFunction } from "@remix-run/node";
 import Header from "../components/Header/page";
 import TrustedTargets from "../components/TrustedTargets/page";
-import NeedsComponent from "../components/NeedsComponent/page";
+import NeedsComponent from "../components/Needs/page";
 import StateMent from "../components/Statement/page";
 import Story from "../components/Story/page";
 import CaseStudy from "../components/CaseStudy/page";

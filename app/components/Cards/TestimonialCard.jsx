@@ -1,4 +1,4 @@
-const CustomCard = ({ item }) => {
+const TestimonialCard = ({ item }) => {
   return (
     <div className="w-[100%] sm:w-[50%] md:w-[50%] lg:w-[30%] xl:w-[20%] flex-shrink-0 text-black rounded-3xl p-6 sm:p-8 shadow-lg z-10 flex flex-col gap-6 relative overflow-hidden bg-white">
       {" "}
@@ -29,4 +29,4 @@ const CustomCard = ({ item }) => {
   );
 };
 
-export default CustomCard;
+export default TestimonialCard;

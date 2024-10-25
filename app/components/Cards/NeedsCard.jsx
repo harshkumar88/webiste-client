@@ -1,4 +1,4 @@
-const Card = ({ item }) => {
+const NeedsCard = ({ item }) => {
   return (
     <div className="bg-white flex-shrink-0 lg:w-[35%] md:w-[50%] xsm:w-[50%] sm:w-[60%] w-[90%] flex flex-col gap-2 rounded-2xl shadow-md">
       <div className="p-4 px-6">
@@ -16,4 +16,4 @@ const Card = ({ item }) => {
   );
 };
 
-export default Card;
+export default NeedsCard;

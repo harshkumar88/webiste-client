@@ -4,7 +4,7 @@ import { IoMdArrowBack } from "react-icons/io";
 import { IoMdArrowForward } from "react-icons/io";
 import { case_study_data } from "../../static";
 import Slider from "../CommonComponents/Slider/page";
-import CustomCard from "./card";
+import CaseStudyCard from "../Cards/CaseStudyCard";
 
 const CaseStudy = () => {
   let [left, setLeft] = useState(false);
@@ -53,7 +53,7 @@ const CaseStudy = () => {
         style="overflow-x-auto mt-8 flex md:gap-10 gap-4 w-[92%] mx-auto remove_scrollbar pe-5"
       >
         {case_study_data?.map((item, idx) => {
-          return <CustomCard key={idx} item={item} />;
+          return <CaseStudyCard key={idx} item={item} />;
         })}
       </Slider>
     </div>
