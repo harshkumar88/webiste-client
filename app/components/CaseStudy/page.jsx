@@ -30,7 +30,7 @@ const CaseStudy = () => {
             dolor sit amet.
           </p>
         </div>
-        <div className="flex gap-4 justify-start sm:justify-end w-full sm:w-[50%] mt-3">
+        <div className="flex gap-4 justify-end w-full sm:w-[50%] mt-3">
           <IoMdArrowBack
             size={30}
             className={`cursor-pointer text-white ${

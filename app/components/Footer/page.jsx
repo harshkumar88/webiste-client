@@ -3,7 +3,7 @@ import { footerLinks } from "../../static";
 
 const Footer = () => (
   <section
-    className={`${styles.flexCenter} ${styles.paddingY} flex-col  px-10 mx-auto bg-green_gradient w-[100%]`}
+    className={`${styles.flexCenter} ${styles.paddingY} flex-col  px-10 mx-auto bg-green_gradient w-[100%] rounded-t-3xl`}
   >
     <div
       className={`${styles.flexStart} md:flex-row flex-col mb-8 mx-auto sm:w-[80vw] w-[90vw] `}
@@ -34,8 +34,8 @@ const Footer = () => (
       </div>
     </div>
 
-    <div className=" flex justify-between  sm:flex-row flex-col gap-5 pt-6 border-t-[1px]  mx-auto sm:w-[90%] w-[100%] border-t-[#3F3E45]">
-      <p className="font-poppins font-normal  text-[18px] leading-[27px] text-white sm:w-[25%] w-[100%] text-center sm:text-left">
+    <div className=" flex justify-between  md:items-start items-center md:flex-row flex-col gap-5 pt-6 border-t-[1px]  mx-auto sm:w-[90%] w-[100%] border-t-[#3F3E45]">
+      <p className="font-poppins font-normal  text-[18px] leading-[27px] text-white md:w-[25%] w-[100%] text-center md:text-left">
         A interactive training platform to upskill your workforce
       </p>
 

@@ -1,6 +1,6 @@
 const StoryCard = ({ item }) => {
   return (
-    <div className="w-[75%] flex-shrink-0 lg:w-[30%] xl:w-[23%] md:w-[40%] sm:w-[40%] rounded-[30px] xl:min-h-[50vh] lg:min-h-[56vh] md:min-h-[56vh]  min-h-[56vh] flex flex-col justify-end ">
+    <div className="w-[75%] flex-shrink-0 lg:w-[30%] xl:w-[23%] md:w-[40%] sm:w-[40%] rounded-[30px] xl:min-h-[50vh] lg:min-h-[56vh] md:min-h-[56vh]  sm:min-h-[42vh] min-h-[53vh] flex flex-col justify-end ">
       <div className="relative w-[90%] md:w-[100%] rounded-[30px]">
         <div className="bg-yellow_light w-full h-[150px] rounded-t-[30px]"></div>
 
@@ -13,7 +13,7 @@ const StoryCard = ({ item }) => {
         <div className="bg-dim_yellow -mt-[80px] p-6 rounded-[30px] flex flex-col   z-10 relative">
           <p className="md:text-[2rem]">{item.title}</p>
           <p className="md:text-[2.8rem] font-bold">{item.sub_title}</p>
-          <p className=" md:text-[1.6rem] text-[1.5rem] font-bold">
+          <p className=" md:text-[1.6rem] text-[1.3rem] font-bold">
             {item.details}
           </p>
           <p className=" mt-2 md:text-[1.2rem]">{item.sub_details}</p>

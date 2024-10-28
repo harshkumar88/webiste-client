@@ -18,8 +18,8 @@ const InteractiveSection = () => {
   };
   return (
     <div className="flex flex-col" id="build">
-      <div className="w-[90%] ml-auto flex flex-col md:flex-row items-center gap-10  md:mt-5 ">
-        <div className="flex flex-col md:w-[25%] w-[90%]">
+      <div className="w-[87%] ml-auto flex flex-col md:flex-row items-center sm:items-start gap-10  md:mt-5 ">
+        <div className="flex flex-col md:w-[25%]  sm:w-[85%] w-[90%]">
           <p className="md:text-[3.4rem] text-[3rem] font-bold highlight_text_top">
             Interactive
           </p>
@@ -38,7 +38,7 @@ const InteractiveSection = () => {
           />
         </div>
         <div
-          className="md:w-[35%] sm:w-[50%] w-[100%]  overflow-x-auto md:p-0 mx-auto  "
+          className="md:w-[35%] sm:w-[75%] w-[90%]   overflow-x-auto md:p-0  md:mx-auto  "
           style={{ borderRadius: "50px  " }}
         >
           <CardCarousel carouselRef={carouselRef} handleChange={handleChange}>
