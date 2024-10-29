@@ -47,7 +47,7 @@ const InteractiveSection = () => {
             ))}
           </CardCarousel>
           <div className="relative w-full">
-            <div className="flex flex-col w-[85%] mt-[-13%] me-0 mx-auto bg-white z-10 shadow-lg rounded-tl-[50px] p-6">
+            <div className="flex flex-col w-[85%] mt-[-15%] me-0 mx-auto bg-white z-10 shadow-lg rounded-tl-[50px] p-6">
               <p className=" flex items-center gap-2 text-[1.2rem]">
                 <span className="font-bold text-[1.7rem]">
                   One chat experience
