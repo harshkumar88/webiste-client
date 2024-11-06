@@ -22,10 +22,8 @@ const CardCarousel = ({ children, carouselRef, handleChange }) => {
         ref={carouselRef}
         className={styles.customCarousel}
         autoPlay
-        // swipeable={true}
-        // emulateTouch
-        swipeScrollTolerance={1000000}
         infiniteLoop
+        emulateTouch={false}
         showArrows={false}
         showThumbs={false}
         showStatus={false}

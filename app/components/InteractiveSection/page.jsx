@@ -20,13 +20,14 @@ const InteractiveSection = () => {
     <div className="flex flex-col" id="build">
       <div className="w-[87%] ml-auto flex flex-col md:flex-row items-center sm:items-start gap-10  md:mt-5 ">
         <div className="flex flex-col md:w-[25%]  sm:w-[85%] w-[90%]">
-          <p className="md:text-[3.4rem] text-[3rem] font-bold highlight_text_top">
-            Interactive
+          <p className="md:text-[3rem] text-[3rem] font-bold ">
+            <span className="highlight_text_bottom">Interactive</span> Videos
           </p>
-          <p className="md:text-[3.4rem] text-[3rem] font-bold">Videos</p>
+          {/* <p className="md:text-[3.4rem] text-[3rem] font-bold">Videos</p> */}
           <p className="text-[1.4rem] mt-4">
             Create videos that perform using advanced tools and techniques that
-            grab attention.
+            grab attention. Create videos that perform using advanced tools and
+            techniques that grab attention. Create videos that perform using.
           </p>
 
           <Button
@@ -38,7 +39,7 @@ const InteractiveSection = () => {
           />
         </div>
         <div
-          className="md:w-[35%] sm:w-[75%] w-[90%]   overflow-x-auto md:p-0  md:mx-auto  "
+          className="md:w-[32%] sm:w-[75%] w-[95%]   overflow-x-auto md:p-0  md:mx-auto  "
           style={{ borderRadius: "50px  " }}
         >
           <CardCarousel carouselRef={carouselRef} handleChange={handleChange}>
@@ -49,12 +50,12 @@ const InteractiveSection = () => {
           <div className="relative w-full">
             <div className="flex flex-col w-[85%] mt-[-15%] me-0 mx-auto bg-white z-10 shadow-lg rounded-tl-[50px] p-6">
               <p className=" flex items-center gap-2 text-[1.2rem]">
-                <span className="font-bold text-[1.7rem]">
+                <span className="font-bold sm:text-[1.7rem]">
                   One chat experience
                 </span>{" "}
                 - Help people.
               </p>
-              <p className="text-[1.1rem]">
+              <p className="sm:text-[1.1rem]">
                 Navigate through difficult parts of your video
               </p>
             </div>
@@ -62,7 +63,7 @@ const InteractiveSection = () => {
         </div>{" "}
       </div>{" "}
       {/* Custom Dots */}
-      <div className="flex justify-center mt-5 space-x-2">
+      <div className="flex justify-center sm:mt-5 mt-10 space-x-2">
         {interactive_section_data.map((_, index) => (
           <span
             key={index}

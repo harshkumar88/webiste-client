@@ -1,6 +1,6 @@
 const TestimonialCard = ({ item }) => {
   return (
-    <div className="w-[100%] sm:w-[50%] md:w-[50%] lg:w-[30%] xl:w-[20%] flex-shrink-0 text-black rounded-3xl p-6 sm:p-8 shadow-lg z-10 flex flex-col gap-6 relative overflow-hidden bg-white">
+    <div className="w-[100%] sm:w-[50%] md:w-[40%] lg:w-[30%] xl:w-[20%] flex-shrink-0 text-black rounded-3xl p-6 sm:p-8 shadow-lg z-10 flex flex-col gap-6 relative overflow-hidden bg-white">
       {" "}
       {/* Main Image */}
       <img
@@ -9,7 +9,7 @@ const TestimonialCard = ({ item }) => {
         className="w-[50%]  object-cover "
       />
       {/* Details Text */}
-      <p className="text-[0.9rem] sm:text-[1rem] leading-relaxed">
+      <p className="text-[0.9rem] sm:text-[1.1rem] leading-relaxed">
         {item.details}
       </p>
       {/* Profile Section */}

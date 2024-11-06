@@ -18,8 +18,8 @@ const Testimonials = () => {
   }
 
   return (
-    <div className="flex flex-col gap-5 mx-auto  pb-14 px-4 w-[100%] lg:w-[95%] mb-20 ">
-      <div className="flex flex-col md:flex-row justify-between items-center w-[90%] mt-8 mx-auto">
+    <div className="flex flex-col gap-5 mx-auto  pb-20 px-4 w-[100%] lg:w-[95%] mb-20 ">
+      <div className="flex flex-col md:flex-row justify-between items-center w-[95%] mt-8 mx-auto">
         <div className="flex flex-col gap-2 w-[100%] sm:w-[95%]">
           <p className="text-[2.5rem] sm:text-[3rem] md:text-[3.5rem] text-black font-bold">
             Because they love us
@@ -30,16 +30,16 @@ const Testimonials = () => {
             commodo.
           </p>
         </div>
-        <div className="flex gap-4 justify-start sm:justify-end w-full sm:w-[90%] mt-3">
+        <div className="flex gap-4 justify-end w-full sm:w-[90%] mt-3 pe-[15%]">
           <IoMdArrowBack
-            size={30}
+            size={40}
             className={`cursor-pointer text-black ${
               !left ? "opacity-50 cursor-not-allowed" : ""
             } border border-black transition duration-300 rounded-full p-1`}
             onClick={() => slideLeft(left, cardRef)}
           />
           <IoMdArrowForward
-            size={30}
+            size={40}
             className={`cursor-pointer text-black ${
               !right ? "opacity-50 cursor-not-allowed" : ""
             } border border-black transition duration-300 rounded-full p-1`}

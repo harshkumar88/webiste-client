@@ -26,19 +26,19 @@ const NeedsComponent = () => {
         </p>
         <p className="text-[1rem] mt-4">
           Say NO to boring videos and create interesting, interactive, creative
-          videos that boost performance. Say NO to boring videos and create
+          videos that boost performance. Say NO to boring videos and create
           interesting, interactive, creative videos that boost performance.
         </p>
       </div>
       <div
-        className="md:w-[70%] w-[100%] bg-yellow_light   overflow-x-auto md:p-0 "
+        className="md:w-[60%] w-[100%] bg-yellow_light   overflow-x-auto md:p-0 "
         style={{ borderRadius: "50px 0 0 50px" }}
       >
         <Slider
           checkScroll={checkScroll}
           cardRef={cardRef}
           style={
-            "flex  mx-auto sm:gap-7 gap-4 overflow-x-auto remove_scrollbar me-0 w-[100%] py-7 sm:ps-10 ps-4 pe-3 "
+            "flex  mx-auto sm:gap-7 gap-4 overflow-x-auto remove_scrollbar me-0 w-[99%] py-7 sm:ps-10 ps-4 pe-3 "
           }
         >
           {need_slider_data.map((item, idx) => (

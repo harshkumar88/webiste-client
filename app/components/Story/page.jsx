@@ -18,31 +18,31 @@ const Story = () => {
   }
 
   return (
-    <div className="flex flex-col gap-5 md:w-[85%] mx-auto sm:mt-4">
-      <div className="flex justify-between items-center  md:flex-row flex-col w-[100%] mx-auto">
-        <div className="flex flex-col gap-2 md:w-[35%] w-[88%]">
-          <p className="sm:text-[3.5rem] text-[3.2rem] font-bold highlight_text_bottom">
+    <div className="flex flex-col gap-5 mx-auto sm:mt-10 mt-5 bg-green_gradient pt-5 pb-14 px-4 w-[100%]">
+      <div className="flex flex-col sm:flex-row justify-between items-center w-[90%] mt-8 mx-auto">
+        <div className="flex flex-col gap-2 w-[100%] sm:w-[70%] md:w-[90%] lg:w-[35%]">
+          <p className="text-[2.5rem] sm:text-[3rem] md:text-[3.5rem] text-white font-bold">
             Pick a Story!
           </p>
-          <p className="text-[1.1rem] sm:w-[90%]">
+          <p className="text-[0.9rem] sm:text-[1rem] md:text-[1.1rem] text-white sm:w-[90%] w-[100%]">
             Say NO to boring videos and create interesting, interactive,
             creative videos that boost performance. Say NO to boring videos and
             create interesting,
           </p>
         </div>
-        <div className="flex gap-6 sm:justify-end justify-end sm:w-[50%] w-[80%]  sm:me-10 me-10 mt-3">
+        <div className="flex gap-4 justify-end w-full sm:w-[50%] mt-3 pe-[15%] ">
           <IoMdArrowBack
             size={40}
-            className={`cursor-pointer ${
+            className={`cursor-pointer text-white ${
               !left ? "opacity-50 cursor-not-allowed" : ""
-            } border border-gray-500 transition duration-300 rounded-full p-1`}
+            } border border-white transition duration-300 rounded-full p-1`}
             onClick={() => slideLeft(left, cardRef)}
           />
           <IoMdArrowForward
             size={40}
-            className={`cursor-pointer ${
+            className={`cursor-pointer text-white ${
               !right ? "opacity-50 cursor-not-allowed" : ""
-            } border border-gray-500 transition duration-300 rounded-full p-1`}
+            } border border-white transition duration-300 rounded-full p-1`}
             onClick={() => slideRight(right, cardRef)}
           />
         </div>
@@ -51,7 +51,7 @@ const Story = () => {
         checkScroll={checkScroll}
         cardRef={cardRef}
         style={
-          " overflow-x-auto md:mt-2 lg:mt-0 xl:mt-0 flex md:gap-10 gap-2 sm:w-[90%] w-[95vw] mx-auto remove_scrollbar"
+          " overflow-x-auto md:mt-3 lg:mt-0 xl:mt-4 flex md:gap-10 gap-2 sm:w-[90%] w-[95vw] mx-auto remove_scrollbar"
         }
       >
         {story_data?.map((item, idx) => {

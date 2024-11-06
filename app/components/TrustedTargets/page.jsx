@@ -6,7 +6,7 @@ const TrustedTargets = () => {
       className=" sm:w-[85%] w-[90%] mx-auto flex  flex-col items-center gap-5"
       id="engage"
     >
-      <p className="font-bold sm:text-[3rem] text-[2rem] text-center text-green_gradient">
+      <p className="font-bold sm:text-[3rem] text-[1.8rem] text-center text-green_gradient">
         <span className="highlight_text_bottom">Trusted</span> by well known
         companies
       </p>

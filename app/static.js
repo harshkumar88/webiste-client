@@ -82,24 +82,24 @@ export const card_zoomer_content = [
 export const need_slider_data = [
   {
     id: 1,
-    title: "Entrepreneur",
+    title: "L&D Professional",
     details:
-      "Help people navigate throughdifficult stages Help people navigate through",
-    img: "https://assets.website-files.com/617fa48948c7ab24b715140e/6183bce7320d030e82c15028_hero_person-1.webp",
+      "Help people navigate through difficult stages Help people navigate through",
+    img: "/NeedComponent/img4.png",
   },
   {
     id: 2,
-    title: "Student",
+    title: "L&D Professional",
     details:
-      "Help people navigate throughdifficult stages Help people navigate through",
-    img: "https://assets.website-files.com/617fa48948c7ab24b715140e/6183bce3e584104be2e330e0_hero_person-2.webp",
+      "Help people navigate through difficult stages Help people navigate through",
+    img: "/NeedComponent/img4.png",
   },
   {
     id: 3,
-    title: "Entrepreneur",
+    title: "L&D Professional",
     details:
-      "Help people navigate throughdifficult stages Help people navigate through",
-    img: "https://assets.website-files.com/617fa48948c7ab24b715140e/6183bb01e5841050e8e31f3b_hero_person-3.webp",
+      "Help people navigate through difficult stages Help people navigate through",
+    img: "/NeedComponent/img4.png",
   },
 ];
 
@@ -137,7 +137,7 @@ export const story_data = [
   {
     id: 2,
     title: "Now",
-    sub_title: "BOOST",
+    sub_title: "ENGAGE",
     details: "Training Completion Rate",
     sub_details: "By Building Interactive Videos To Engage Employees",
     img: "/Story/img.png",
@@ -153,7 +153,7 @@ export const story_data = [
   {
     id: 4,
     title: "Now",
-    sub_title: "BOOST",
+    sub_title: "ENGAGE",
     details: "Training Completion Rate",
     sub_details: "By Building Interactive Videos To Engage Employees",
     img: "/Story/img.png",

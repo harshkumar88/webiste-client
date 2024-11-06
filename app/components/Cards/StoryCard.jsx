@@ -1,6 +1,6 @@
 const StoryCard = ({ item }) => {
   return (
-    <div className="w-[75%] flex-shrink-0 lg:w-[30%] xl:w-[23%] md:w-[40%] sm:w-[40%] rounded-[30px] xl:min-h-[50vh] lg:min-h-[56vh] md:min-h-[56vh]  sm:min-h-[42vh] min-h-[53vh] flex flex-col justify-end ">
+    <div className="w-[75%] flex-shrink-0 lg:w-[30%] xl:w-[22%] md:w-[40%] sm:w-[40%] rounded-[30px] xl:min-h-[50vh] lg:min-h-[56vh] md:min-h-[56vh]  sm:min-h-[42vh] min-h-[53vh] flex flex-col justify-end ">
       <div className="relative w-[90%] md:w-[100%] rounded-[30px]">
         <div className="bg-yellow_light w-full h-[150px] rounded-t-[30px]"></div>
 
