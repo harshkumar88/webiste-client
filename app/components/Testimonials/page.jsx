@@ -18,46 +18,52 @@ const Testimonials = () => {
   }
 
   return (
-    <div className="flex flex-col gap-5 mx-auto  pb-20 px-4 w-[100%] lg:w-[95%] mb-20 ">
-      <div className="flex flex-col md:flex-row justify-between items-center w-[95%] mt-8 mx-auto">
-        <div className="flex flex-col gap-2 w-[100%] sm:w-[95%]">
-          <p className="text-[2.5rem] sm:text-[3rem] md:text-[3.5rem] text-black font-bold">
-            Because they love us
-          </p>
-          <p className="text-[0.9rem] sm:text-[1rem] md:text-[1.1rem] text-black sm:w-[90%] w-[100%]">
-            Dui euismod iaculis libero, aliquet vitae et elementum porttitor.
-            Eleifend mi tristique condimentum congue fusce nunc, donec magnis
-            commodo.
-          </p>
+    <div className="w-[100%] mb-20 sm:h-[630px] h-[550px] pb-20">
+      <div className="flex flex-col gap-5 mx-auto   px-4 h-[400px] bg-yellow_light">
+        <div className="flex flex-col md:flex-row justify-between items-center w-[90%] mt-8 mx-auto ">
+          <div className="flex flex-col gap-2 w-[100%] sm:w-[95%]">
+            <p className="text-[1.8rem] sm:text-[3rem] md:text-[2.3rem] lg:text-[3.5rem] text-green_gradient font-bold sm:text-start text-center">
+              Because They{" "}
+              <span className="text-yellow_light bg-green_gradient px-2 ">
+                Love
+              </span>{" "}
+              Us
+            </p>
+            <p className="text-[0.9rem] sm:text-[1rem] md:text-[1.1rem] text-black sm:w-[90%] w-[100%] sm:text-start text-center">
+              Dui euismod iaculis libero, aliquet vitae et elementum porttitor.
+              Eleifend mi tristique condimentum congue fusce nunc, donec magnis
+              commodo.
+            </p>
+          </div>
+          <div className="sm:flex  hidden gap-4 justify-end w-full sm:w-[90%] mt-3 pe-[15%]">
+            <IoMdArrowBack
+              size={40}
+              className={`cursor-pointer text-black ${
+                !left ? "opacity-50 cursor-not-allowed" : ""
+              } border border-black transition duration-300 rounded-full p-1`}
+              onClick={() => slideLeft(left, cardRef)}
+            />
+            <IoMdArrowForward
+              size={40}
+              className={`cursor-pointer text-black ${
+                !right ? "opacity-50 cursor-not-allowed" : ""
+              } border border-black transition duration-300 rounded-full p-1`}
+              onClick={() => slideRight(right, cardRef)}
+            />
+          </div>
         </div>
-        <div className="flex gap-4 justify-end w-full sm:w-[90%] mt-3 pe-[15%]">
-          <IoMdArrowBack
-            size={40}
-            className={`cursor-pointer text-black ${
-              !left ? "opacity-50 cursor-not-allowed" : ""
-            } border border-black transition duration-300 rounded-full p-1`}
-            onClick={() => slideLeft(left, cardRef)}
-          />
-          <IoMdArrowForward
-            size={40}
-            className={`cursor-pointer text-black ${
-              !right ? "opacity-50 cursor-not-allowed" : ""
-            } border border-black transition duration-300 rounded-full p-1`}
-            onClick={() => slideRight(right, cardRef)}
-          />
+        <div className=" w-[100%] px-4 relative">
+          <div className=" h-[30vh] w-[100%]"></div>
+          <Slider
+            checkScroll={checkScroll}
+            cardRef={cardRef}
+            style="overflow-x-auto mt-8 flex md:gap-10 gap-4 sm:w-[90vw] w-[90vw] mx-auto  remove_scrollbar absolute top-0 sm:left-16 z-0 pb-4 pe-10"
+          >
+            {testimonials_data?.map((item, idx) => {
+              return <TestimonialCard key={idx} item={item} />;
+            })}
+          </Slider>
         </div>
-      </div>
-      <div className=" mt-5 w-[100%] px-4 relative">
-        <div className="bg-yellow_light h-[30vh] w-[100%]"></div>
-        <Slider
-          checkScroll={checkScroll}
-          cardRef={cardRef}
-          style="overflow-x-auto mt-8 flex md:gap-10 gap-4 sm:w-[90vw] w-[90vw] mx-auto remove_scrollbar absolute top-0 left-10 z-0 pb-4 pe-10"
-        >
-          {testimonials_data?.map((item, idx) => {
-            return <TestimonialCard key={idx} item={item} />;
-          })}
-        </Slider>
       </div>
     </div>
   );

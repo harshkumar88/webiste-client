@@ -21,16 +21,16 @@ const Story = () => {
     <div className="flex flex-col gap-5 mx-auto sm:mt-10 mt-5 bg-green_gradient pt-5 pb-14 px-4 w-[100%]">
       <div className="flex flex-col sm:flex-row justify-between items-center w-[90%] mt-8 mx-auto">
         <div className="flex flex-col gap-2 w-[100%] sm:w-[70%] md:w-[90%] lg:w-[35%]">
-          <p className="text-[2.5rem] sm:text-[3rem] md:text-[3.5rem] text-white font-bold">
+          <p className="text-[2.5rem] sm:text-[3rem] md:text-[3.5rem] text-white font-bold sm:text-start text-center">
             Pick a Story!
           </p>
-          <p className="text-[0.9rem] sm:text-[1rem] md:text-[1.1rem] text-white sm:w-[90%] w-[100%]">
+          <p className="text-[0.9rem] sm:text-[1rem] md:text-[1.1rem] text-white sm:w-[90%] w-[100%] sm:text-start text-center">
             Say NO to boring videos and create interesting, interactive,
             creative videos that boost performance. Say NO to boring videos and
             create interesting,
           </p>
         </div>
-        <div className="flex gap-4 justify-end w-full sm:w-[50%] mt-3 pe-[15%] ">
+        <div className="sm:flex hidden gap-4 justify-end w-full sm:w-[50%] mt-3 pe-[15%]  ">
           <IoMdArrowBack
             size={40}
             className={`cursor-pointer text-white ${

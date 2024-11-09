@@ -18,28 +18,33 @@ const InteractiveSection = () => {
   };
   return (
     <div className="flex flex-col" id="build">
-      <div className="w-[87%] ml-auto flex flex-col md:flex-row items-center sm:items-start gap-10  md:mt-5 ">
-        <div className="flex flex-col md:w-[25%]  sm:w-[85%] w-[90%]">
-          <p className="md:text-[3rem] text-[3rem] font-bold ">
-            <span className="highlight_text_bottom">Interactive</span> Videos
+      <div className="lg:w-[87%] md:w-[93%] sm:w-[85%] w-[100%] ml-auto flex flex-col md:flex-row items-center sm:items-start gap-10  md:mt-5 ">
+        <div className="flex flex-col md:w-[35%] lg:w-[25%]  sm:w-[85%] w-[100%]">
+          <p className="md:text-[3rem] text-[2rem] font-bold md:block flex gap-3 sm:text-start sm:justify-start justify-center ">
+            <span className="">Interactive</span>
+            <span className=" w-fit font-bold block md:hidden bg-yellow_light">
+              Videos
+            </span>
           </p>
-          {/* <p className="md:text-[3.4rem] text-[3rem] font-bold">Videos</p> */}
-          <p className="text-[1.4rem] mt-4">
+          <p className="md:text-[3rem] text-[2.5rem]  w-fit font-bold md:block hidden bg-yellow_light">
+            Videos
+          </p>
+          <p className="text-[1.4rem] mt-4 sm:text-start text-center mx-auto sm:w-[100%] w-[90%]  sm:h-auto h-[9vh] overflow-hidden">
             Create videos that perform using advanced tools and techniques that
             grab attention. Create videos that perform using advanced tools and
             techniques that grab attention. Create videos that perform using.
           </p>
 
-          <Button
+          {/* <Button
             btn_type="button"
             content="Know More"
             btn_styles={
               "bg-green_gradient text-yellow_light w-[200px] border border-gray-300 rounded-full px-5 py-2 lg:text-[1.4rem] md:text-[1.2rem] text-[1rem] mt-5"
             }
-          />
+          /> */}
         </div>
         <div
-          className="md:w-[32%] sm:w-[75%] w-[95%]   overflow-x-auto md:p-0  md:mx-auto  "
+          className="md:w-[32%] sm:w-[75%] w-[90%]   overflow-x-auto md:p-0  md:mx-auto  "
           style={{ borderRadius: "50px  " }}
         >
           <CardCarousel carouselRef={carouselRef} handleChange={handleChange}>
@@ -53,10 +58,9 @@ const InteractiveSection = () => {
                 <span className="font-bold sm:text-[1.7rem]">
                   One chat experience
                 </span>{" "}
-                - Help people.
               </p>
               <p className="sm:text-[1.1rem]">
-                Navigate through difficult parts of your video
+                Help people navigate through difficult parts of your video
               </p>
             </div>
           </div>

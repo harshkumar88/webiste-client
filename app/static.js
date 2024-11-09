@@ -130,40 +130,63 @@ export const story_data = [
     id: 1,
     title: "Now",
     sub_title: "BOOST",
-    details: "Training Completion Rate",
-    sub_details: "By Building Interactive Videos To Engage Employees",
+    details: "L&D Professional",
+    sub_details:
+      "Help people navigate through difficult stages Help people navigate through",
     img: "/Story/img.png",
   },
   {
     id: 2,
     title: "Now",
     sub_title: "ENGAGE",
-    details: "Training Completion Rate",
-    sub_details: "By Building Interactive Videos To Engage Employees",
+    details: "L&D Professional",
+    sub_details:
+      "Help people navigate through difficult stages Help people navigate through",
     img: "/Story/img.png",
   },
   {
     id: 3,
     title: "Now",
     sub_title: "BOOST",
-    details: "Training Completion Rate",
-    sub_details: "By Building Interactive Videos To Engage Employees",
+    details: "L&D Professional",
+    sub_details:
+      "Help people navigate through difficult stages Help people navigate through",
     img: "/Story/img.png",
   },
   {
     id: 4,
     title: "Now",
     sub_title: "ENGAGE",
-    details: "Training Completion Rate",
-    sub_details: "By Building Interactive Videos To Engage Employees",
+    details: "L&D Professional",
+    sub_details:
+      "Help people navigate through difficult stages Help people navigate through",
     img: "/Story/img.png",
   },
   {
     id: 5,
     title: "Now",
-    sub_title: "BOOST",
-    details: "Training Completion Rate",
-    sub_details: "By Building Interactive Videos To Engage Employees",
+    sub_title: "ENGAGE",
+    details: "L&D Professional",
+    sub_details:
+      "Help people navigate through difficult stages Help people navigate through",
+    img: "/Story/img.png",
+  },
+  {
+    id: 6,
+    title: "Now",
+    sub_title: "ENGAGE",
+    details: "L&D Professional",
+    sub_details:
+      "Help people navigate through difficult stages Help people navigate through",
+    img: "/Story/img.png",
+  },
+  {
+    id: 7,
+    title: "Now",
+    sub_title: "ENGAGE",
+    details: "L&D Professional",
+    sub_details:
+      "Help people navigate through difficult stages Help people navigate through",
     img: "/Story/img.png",
   },
 ];
@@ -173,8 +196,9 @@ export const case_study_data = [
     id: 1,
     name: "Jane Cooper",
     sub_title: "Company",
+    label: "Artificial Intelligence",
     details:
-      "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur.",
+      "Help people navigate through difficult stages Help people navigate through Help people navigate through difficult stages Help people navigate through",
     img: "/CaseStudy/icon.png",
     img2: "/CaseStudy/icon2.png",
   },
@@ -182,8 +206,9 @@ export const case_study_data = [
     id: 1,
     name: "Jane Cooper",
     sub_title: "Company",
+    label: "Artificial Intelligence",
     details:
-      "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur.",
+      "Help people navigate through difficult stages Help people navigate through Help people navigate through difficult stages Help people navigate through",
     img: "/CaseStudy/icon.png",
     img2: "/CaseStudy/icon2.png",
   },
@@ -191,8 +216,9 @@ export const case_study_data = [
     id: 1,
     name: "Jane Cooper",
     sub_title: "Company",
+    label: "Artificial Intelligence",
     details:
-      "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur.",
+      "Help people navigate through difficult stages Help people navigate through Help people navigate through difficult stages Help people navigate through",
     img: "/CaseStudy/icon.png",
     img2: "/CaseStudy/icon2.png",
   },
@@ -200,8 +226,9 @@ export const case_study_data = [
     id: 1,
     name: "Jane Cooper",
     sub_title: "Company",
+    label: "Artificial Intelligence",
     details:
-      "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur.",
+      "Help people navigate through difficult stages Help people navigate through Help people navigate through difficult stages Help people navigate through",
     img: "/CaseStudy/icon.png",
     img2: "/CaseStudy/icon2.png",
   },
@@ -209,8 +236,9 @@ export const case_study_data = [
     id: 1,
     name: "Jane Cooper",
     sub_title: "Company",
+    label: "Artificial Intelligence",
     details:
-      "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur.",
+      "Help people navigate through difficult stages Help people navigate through Help people navigate through difficult stages Help people navigate through",
     img: "/CaseStudy/icon.png",
     img2: "/CaseStudy/icon2.png",
   },
@@ -218,8 +246,9 @@ export const case_study_data = [
     id: 1,
     name: "Jane Cooper",
     sub_title: "Company",
+    label: "Artificial Intelligence",
     details:
-      "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur.",
+      "Help people navigate through difficult stages Help people navigate through Help people navigate through difficult stages Help people navigate through",
     img: "/CaseStudy/icon.png",
     img2: "/CaseStudy/icon2.png",
   },
@@ -228,51 +257,59 @@ export const case_study_data = [
 export const blog_data = [
   {
     id: 1,
-    date: "24-10-2024",
-    details: "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. ",
-    img: "/Blog/img.png",
+    label: "Artificial Intelligence",
+    details:
+      "Help people navigate through difficult stages Help people navigate through ",
+    img: "/Blog/img1.png",
   },
   {
     id: 2,
-    date: "24-10-2024",
-    details: "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. ",
-    img: "/Blog/img.png",
+    label: "Artificial Intelligence",
+    details:
+      "Help people navigate through difficult stages Help people navigate through ",
+    img: "/Blog/img2.png",
   },
   {
     id: 3,
-    date: "24-10-2024",
-    details: "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. ",
-    img: "/Blog/img.png",
+    label: "Artificial Intelligence",
+    details:
+      "Help people navigate through difficult stages Help people navigate through ",
+    img: "/Blog/img1.png",
   },
   {
     id: 4,
-    date: "24-10-2024",
-    details: "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. ",
-    img: "/Blog/img.png",
+    label: "Artificial Intelligence",
+    details:
+      "Help people navigate through difficult stages Help people navigate through ",
+    img: "/Blog/img2.png",
   },
   {
     id: 5,
-    date: "24-10-2024",
-    details: "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. ",
-    img: "/Blog/img.png",
+    label: "Artificial Intelligence",
+    details:
+      "Help people navigate through difficult stages Help people navigate through ",
+    img: "/Blog/img1.png",
   },
   {
-    id: 5,
-    date: "24-10-2024",
-    details: "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. ",
-    img: "/Blog/img.png",
+    id: 8,
+    label: "Artificial Intelligence",
+    details:
+      "Help people navigate through difficult stages Help people navigate through ",
+    img: "/Blog/img2.png",
   },
   {
-    id: 5,
-    date: "24-10-2024",
-    details: "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. ",
-    img: "/Blog/img.png",
+    id: 6,
+    label: "Artificial Intelligence",
+    details:
+      "Help people navigate through difficult stages Help people navigate through ",
+    img: "/Blog/img1.png",
   },
   {
-    id: 5,
-    date: "24-10-2024",
-    details: "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. ",
-    img: "/Blog/img.png",
+    id: 7,
+    label: "Artificial Intelligence",
+    details:
+      "Help people navigate through difficult stages Help people navigate through ",
+    img: "/Blog/img2.png",
   },
 ];
 

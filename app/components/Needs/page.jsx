@@ -2,6 +2,9 @@ import { useRef, useState } from "react";
 import Slider from "../CommonComponents/Slider/page";
 import { need_slider_data } from "../../static";
 import NeedsCard from "../Cards/NeedsCard";
+import { IoMdArrowBack } from "react-icons/io";
+import { IoMdArrowForward } from "react-icons/io";
+import { slideLeft, slideRight } from "../../Handlers/commonhandlers";
 
 const NeedsComponent = () => {
   let [left, setLeft] = useState(false);
@@ -30,10 +33,27 @@ const NeedsComponent = () => {
           interesting, interactive, creative videos that boost performance.
         </p>
       </div>
+
       <div
-        className="md:w-[60%] w-[100%] bg-yellow_light   overflow-x-auto md:p-0 "
+        className="md:w-[60%] w-[100%] bg-yellow_light   overflow-x-auto md:p-0 relative "
         style={{ borderRadius: "50px 0 0 50px" }}
       >
+        <div className="flex gap-4 justify-between w-full sm:w-[90%] top-[50%] pe-[15%]  absolute left-0">
+          <IoMdArrowBack
+            size={40}
+            className={`cursor-pointer text-black bg-gray-300 ${
+              !left ? "opacity-50 cursor-not-allowed" : ""
+            } border border-gray transition duration-300 rounded-full p-2`}
+            onClick={() => slideLeft(left, cardRef)}
+          />
+          <IoMdArrowForward
+            size={40}
+            className={`cursor-pointer text-black  bg-gray-300 ${
+              !right ? "opacity-50 cursor-not-allowed" : ""
+            } border border-gray transition duration-300 rounded-full p-2`}
+            onClick={() => slideRight(right, cardRef)}
+          />
+        </div>
         <Slider
           checkScroll={checkScroll}
           cardRef={cardRef}

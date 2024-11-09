@@ -39,12 +39,12 @@ const Footer = () => (
         A interactive training platform to upskill your workforce
       </p>
 
-      <div className="flex flex-col sm:gap-0 gap-4">
-        <p className="font-poppins font-normal text-center sm:text-[18px] text-[16px] leading-[27px] text-white">
+      <div className="flex flex-col sm:gap-0 gap-4 ">
+        <p className="font-poppins  text-center sm:text-[18px] text-[16px] leading-[27px] text-white font-bold">
           <span>About us</span> | <span>Privacy Policy</span> |{" "}
           <span>Terms Of Use</span>
         </p>
-        <p className="font-poppins font-normal text-center text-[18px] leading-[27px] text-white">
+        <p className="font-poppins font-bold text-center text-[18px] leading-[27px] text-white">
           © 2022 workryt technologies private limited
         </p>
       </div>

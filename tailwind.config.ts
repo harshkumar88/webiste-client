@@ -17,6 +17,7 @@ export default {
         dimWhite: "rgba(255, 255, 255, 0.7)",
         yellow_light: "#CFFF92",
         dim_yellow: "#E6FFE2",
+        dim_green: "#EEFFEB",
       },
       fontFamily: {
         sans: [
