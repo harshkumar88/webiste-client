@@ -23,7 +23,9 @@ const Navbar = () => {
   return (
     <section className="px-5 py-4 md:w-[85%] w-[95%] mx-auto flex  justify-between items-center">
       <div className="flex gap-7 items-center">
-        <strong className="text-white text-2xl font-bold">Chaabi</strong>
+        <strong className="text-white text-2xl font-bold">
+          Chaab<span className="font-extrabold text-[1.7rem]">i</span>
+        </strong>{" "}
         <div className="gap-5 md:flex hidden ">
           {nav_links?.map((link, idx) => {
             return (

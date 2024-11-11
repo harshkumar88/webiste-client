@@ -1,5 +1,8 @@
 import styles from "../../styles";
 import { footerLinks } from "../../static";
+import { AiOutlineYoutube as Youtube } from "react-icons/ai";
+import { IoLogoInstagram as Instagram } from "react-icons/io5";
+import { GrLinkedinOption as Linkedin } from "react-icons/gr";
 
 const Footer = () => (
   <section
@@ -34,10 +37,21 @@ const Footer = () => (
       </div>
     </div>
 
-    <div className=" flex justify-between  md:items-start items-center md:flex-row flex-col gap-5 pt-6 border-t-[1px]  mx-auto sm:w-[90%] w-[100%] border-t-[#3F3E45]">
+    <div className=" flex justify-between items-center md:flex-row flex-col gap-5 pt-6 border-t-[1px]  mx-auto sm:w-[90%] w-[100%] border-t-[#3F3E45]">
       <p className="font-poppins font-normal  text-[18px] leading-[27px] text-white md:w-[25%] w-[100%] text-center md:text-left">
         A interactive training platform to upskill your workforce
       </p>
+
+      <div className="flex flex-col gap-3 items-center">
+        <strong className="text-white text-2xl font-bold">
+          Chaab<span className="font-extrabold text-[1.7rem]">i</span>
+        </strong>
+        <div className="flex gap-5 items-center">
+          <Youtube className=" text-white text-[2rem] cursor-pointer" />
+          <Instagram className=" text-white text-[1.5rem] cursor-pointer" />
+          <Linkedin className=" text-white text-[1.5rem] cursor-pointer" />
+        </div>
+      </div>
 
       <div className="flex flex-col sm:gap-0 gap-4 ">
         <p className="font-poppins  text-center sm:text-[18px] text-[16px] leading-[27px] text-white font-bold">
