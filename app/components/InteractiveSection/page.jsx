@@ -43,16 +43,12 @@ const InteractiveSection = () => {
             }
           /> */}
         </div>
-        <div
-          className="md:w-[32%] sm:w-[75%] w-[90%]   overflow-x-auto md:p-0  md:mx-auto  "
-          style={{ borderRadius: "50px  " }}
-        >
-          <CardCarousel carouselRef={carouselRef} handleChange={handleChange}>
-            {interactive_section_data.map((item, idx) => (
-              <InteractiveSectionCard key={idx} item={item} />
-            ))}
-          </CardCarousel>
-          <div className="relative w-full">
+        <div className="md:w-[32%] sm:w-[75%] w-[90%]  overflow-x-auto md:p-0  md:mx-auto  ">
+          {interactive_section_data.map((item, idx) => (
+            <InteractiveSectionCard key={idx} item={item} />
+          ))}
+
+          {/* <div className="relative w-full">
             <div className="flex flex-col w-[85%] mt-[-15%] me-0 mx-auto bg-white z-10 shadow-lg rounded-tl-[50px] p-6">
               <p className=" flex items-center gap-2 text-[1.2rem]">
                 <span className="font-bold sm:text-[1.7rem]">
@@ -63,7 +59,7 @@ const InteractiveSection = () => {
                 Help people navigate through difficult parts of your video
               </p>
             </div>
-          </div>
+          </div> */}
         </div>{" "}
       </div>{" "}
       {/* Custom Dots */}

@@ -1,6 +1,6 @@
 const CaseStudyCard = ({ item }) => {
   return (
-    <div className="w-[88%] sm:w-[48%] md:w-[38%] lg:w-[20%] bg-green_gradient flex-shrink-0 border border-yellow_light text-white rounded-[30px] p-6 lg:pt-0 pt-8 sm:p-6 shadow-lg flex flex-col gap-3 sm:gap-0 relative overflow-hidden">
+    <div className="w-[270px] md:w-[280px] xl:w-[300px]  bg-green_gradient flex-shrink-0 border border-yellow_light text-white rounded-3xl  shadow-lg flex flex-col relative gap-3 overflow-hidden px-2 py-6">
       {/* Main Image */}
       {/* <img
         src={item.img}
@@ -8,15 +8,15 @@ const CaseStudyCard = ({ item }) => {
         className="w-20 h-20 object-cover rounded-md"
       /> */}
 
-      <p className="text-[1.4rem] sm:text-[1.6rem] leading-6 font-bold sm:leading-8 sm:p-3">
+      <p className="text-[1.4rem] sm:text-[1.6rem] leading-6 font-bold sm:leading-8 px-4 ">
         {item.label}
       </p>
       {/* Details Text */}
-      <p className="text-[0.9rem] sm:text-[1.1rem] leading-6 sm:leading-8 sm:p-3">
+      <p className="text-[0.9rem] sm:text-[0.9rem] leading-7 px-4">
         {item.details}
       </p>
       {/* Profile Section */}
-      <div className="flex items-center gap-4 mt-2 mb-6 ml-3">
+      <div className="flex items-center gap-4  px-2">
         {/* Secondary Image */}
         <img
           src={item.img2}

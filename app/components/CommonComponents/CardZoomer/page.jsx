@@ -30,10 +30,10 @@ const CardZoomer = (props) => {
       {content.map((card) => (
         <div
           key={card.id}
-          className={`flex flex-col items-center justify-center border-none transition-all ease-in-out duration-500  cursor-pointer relative overflow-hidden ${
-            hoveredCard === card.id ? "w-[60%] h-[570px]" : "w-[20%] h-[570px]"
+          className={`flex flex-col items-center justify-center border-none transition-all ease-in-out duration-700  cursor-pointer relative overflow-hidden ${
+            hoveredCard === card.id ? "w-[65%] h-[570px]" : "w-[16%] h-[570px]"
           } `}
-          style={{ borderRadius: "60px" }}
+          style={{ borderRadius: "70px" }}
           onMouseEnter={() => setHoveredCard(card.id)}
           onMouseLeave={() => handleHoveredCard()}
         >
@@ -50,7 +50,7 @@ const CardZoomer = (props) => {
               {card.title}
             </h2>
           ) : display ? (
-            <div className="absolute bottom-8 left-0 right-0  px-8">
+            <div className="absolute bottom-8 left-0 right-0  px-8 w-[90%]">
               <h2 className="text-[3rem] font-bold text-white">{card.title}</h2>
               <p className="text-white text-[1.1rem]">{card.details}</p>
             </div>

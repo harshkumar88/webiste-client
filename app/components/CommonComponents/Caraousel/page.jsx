@@ -3,7 +3,7 @@ import { Carousel } from "react-responsive-carousel";
 import styles from "./slider.module.css"; // Import custom styles
 import { MdChevronLeft, MdChevronRight } from "react-icons/md";
 
-const CardCarousel = ({ children, carouselRef, handleChange }) => {
+const CardCarousel = ({ children, carouselRef, handleChange, hide }) => {
   const handlePrev = () => {
     if (carouselRef.current) {
       carouselRef.current.moveTo(carouselRef.current.state.selectedItem - 1); // Navigate to the previous slide
@@ -22,6 +22,7 @@ const CardCarousel = ({ children, carouselRef, handleChange }) => {
         ref={carouselRef}
         className={styles.customCarousel}
         autoPlay
+        swipeable={false}
         infiniteLoop
         emulateTouch={false}
         showArrows={false}
@@ -34,18 +35,20 @@ const CardCarousel = ({ children, carouselRef, handleChange }) => {
         {children}
       </Carousel>
 
-      <div className="flex justify-between w-[100%] absolute top-[50%]">
-        <MdChevronLeft
-          size={40}
-          className={`cursor-pointer  hover:border hover:bg-gray-200 transition duration-300 rounded-full p-1`}
-          onClick={handlePrev}
-        />
-        <MdChevronRight
-          size={40}
-          className={`cursor-pointer  hover:border hover:bg-gray-200 transition duration-300 rounded-full p-1`}
-          onClick={handleNext}
-        />
-      </div>
+      {!hide && (
+        <div className="flex justify-between w-[100%] absolute top-[50%]">
+          <MdChevronLeft
+            size={40}
+            className={`cursor-pointer  hover:border hover:bg-gray-200 transition duration-300 rounded-full p-1`}
+            onClick={handlePrev}
+          />
+          <MdChevronRight
+            size={40}
+            className={`cursor-pointer  hover:border hover:bg-gray-200 transition duration-300 rounded-full p-1`}
+            onClick={handleNext}
+          />
+        </div>
+      )}
     </div>
   );
 };

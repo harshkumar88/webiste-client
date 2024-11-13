@@ -9,7 +9,7 @@ import Testimonials from "../components/Testimonials/page";
 import Blogs from "../components/Blogs/page";
 import Footer from "../components/Footer/page";
 import InteractiveSection from "../components/InteractiveSection/page";
-
+import Navbar from "../components/Header/components/Navbar/page";
 export const meta: MetaFunction = () => {
   return [
     { title: "New Remix App" },
@@ -19,17 +19,20 @@ export const meta: MetaFunction = () => {
 
 export default function Index() {
   return (
-    <section className="flex flex-col gap-12 sm:gap-14 overflow-hidden">
+    <section className="flex flex-col  remove_scrollbar">
+      <Navbar />
       <Header />
-      <InteractiveSection />
-      <TrustedTargets />
-      <NeedsComponent />
-      <StateMent />
-      <Story />
-      <Blogs />
-      <CaseStudy />
-      <Testimonials />
-      <Footer />
+      <div className="flex flex-col gap-12 sm:gap-14 mt-10  overflow-hidden">
+        {/* <InteractiveSection /> */}
+        {/* <TrustedTargets /> */}
+        <NeedsComponent />
+        {/* <StateMent /> */}
+        <Story />
+        <Blogs />
+        <CaseStudy />
+        <Testimonials />
+        <Footer />
+      </div>
     </section>
   );
 }

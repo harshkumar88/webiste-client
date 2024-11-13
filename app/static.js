@@ -61,21 +61,21 @@ export const card_zoomer_content = [
     title: "Build",
     details:
       "Advanced training with interactive videos, quizzes, & custom learning journeys.",
-    img: "https://assets.website-files.com/617fa48948c7ab24b715140e/6183bce7320d030e82c15028_hero_person-1.webp",
+    img: "https://s3-alpha-sig.figma.com/img/b199/df36/fd31a99d25f392783bd90d1316fe77fd?Expires=1732492800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=M6k3nah0HX-R6IiE97YFkj30u6rAeb7rX61D0Mh-gBxkJq0igiL9J2N9-kj5XITBz7PFVWE6B4LQdLj5INIbIGrxh3TcmOXKnhinHTizgCdpqWB29TkmzEahxvtO6YHU~Vt2F2XD3zx3LS5Gai73aH57Lexdym6HCktBIfkXw-oI9e3EdMhe4BDkCGwEb9ttOmKPs~L6X7UQ6nR9XbeTu~rGGLdrDLvTDyZJAZiiqpf~wvOS3bpK3RTbFr3wF-8FWh~cZ4jLg~o2OrBfD1J3FuacbIV1os9VmW8xndMm6FlersTO~7BrYsmV7jjih7wk~i7ipBp~KfJy1oojARw0kQ__",
   },
   {
     id: 2,
     title: "Engage",
     details:
       "Advanced training with interactive videos, quizzes, & custom learning journeys.",
-    img: "https://assets.website-files.com/617fa48948c7ab24b715140e/6183bce3e584104be2e330e0_hero_person-2.webp",
+    img: "https://s3-alpha-sig.figma.com/img/8765/c64c/05e0e15ea67f3971afa781305daf2a13?Expires=1732492800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=XXhLp7SvpLkgRLTD0bDwZlWrxXEBD7xuSHXu8rXj-QdWxsbyBNUuAy6DCYCqRdSxGPftWE6twUB1c0r1vnxWD3bRyOd3iB8sBdq6d8P1ZjTT8r7QbZ5k6SSwUqYslnIQG6zQVUzc8Ei6fEvTl8ClE4kl5~za7mzIO4LJhSV3WmgSYZIjR61yelAUzUwasLbm2pe3MT82h6upbhOYcESx7qYsXa01mDF4rbqdGJzhd7xUzZ1TXUZFMo8Kr51FCoYFzQHyVVmmnlwbf398oaQul2rPEBP3QF9xcnTTuQZEwGTJeDScUZXLih35s8d4FjvxE-pFu88S9jECbLyfaVe25w",
   },
   {
     id: 3,
     title: "Grow",
     details:
       "Advanced training with interactive videos, quizzes, & custom learning journeys.",
-    img: "https://assets.website-files.com/617fa48948c7ab24b715140e/6183bb01e5841050e8e31f3b_hero_person-3.webp",
+    img: "https://s3-alpha-sig.figma.com/img/b199/df36/fd31a99d25f392783bd90d1316fe77fd?Expires=1732492800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=M6k3nah0HX-R6IiE97YFkj30u6rAeb7rX61D0Mh-gBxkJq0igiL9J2N9-kj5XITBz7PFVWE6B4LQdLj5INIbIGrxh3TcmOXKnhinHTizgCdpqWB29TkmzEahxvtO6YHU~Vt2F2XD3zx3LS5Gai73aH57Lexdym6HCktBIfkXw-oI9e3EdMhe4BDkCGwEb9ttOmKPs~L6X7UQ6nR9XbeTu~rGGLdrDLvTDyZJAZiiqpf~wvOS3bpK3RTbFr3wF-8FWh~cZ4jLg~o2OrBfD1J3FuacbIV1os9VmW8xndMm6FlersTO~7BrYsmV7jjih7wk~i7ipBp~KfJy1oojARw0kQ__",
   },
 ];
 
@@ -85,44 +85,44 @@ export const need_slider_data = [
     title: "L&D Professional",
     details:
       "Help people navigate through difficult stages Help people navigate through",
-    img: "/NeedComponent/img4.png",
+    img: "https://s3-alpha-sig.figma.com/img/4f41/4893/ef504d265eee523501f0f1f675d3946f?Expires=1732492800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=TooXwPmcR7bQM7m-ZWNPS4ic-kiLIBqyOaC4nmH7DY~sIE8vQGOVKsNCPzfr8B92PdEDjLFudHrNVqKgGWIU-NFde10E36ie93dPx7exY8I3vhhhVM3iu-jFm1QiWSOxCE4~2~cOeWR49EpsCO-xy07u99IZckzwo3slgH51DJFflRmb7AuA38jpqI6HMD4fYnXlS0tLOFIa3ubkmjggVoT3avUwMgrgGWHjfpYGP~5mF436pezV6dUh92r8j~gQi--L6W-u4A-hMVsBlmLQVM9ilECoickcsn3YtTgShZtpUO1r5iBwi2~E41TM3ZARyBs2uuo4RljxhcCp7kYeGA__",
   },
   {
     id: 2,
     title: "L&D Professional",
     details:
       "Help people navigate through difficult stages Help people navigate through",
-    img: "/NeedComponent/img4.png",
+    img: "https://s3-alpha-sig.figma.com/img/4f41/4893/ef504d265eee523501f0f1f675d3946f?Expires=1732492800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=TooXwPmcR7bQM7m-ZWNPS4ic-kiLIBqyOaC4nmH7DY~sIE8vQGOVKsNCPzfr8B92PdEDjLFudHrNVqKgGWIU-NFde10E36ie93dPx7exY8I3vhhhVM3iu-jFm1QiWSOxCE4~2~cOeWR49EpsCO-xy07u99IZckzwo3slgH51DJFflRmb7AuA38jpqI6HMD4fYnXlS0tLOFIa3ubkmjggVoT3avUwMgrgGWHjfpYGP~5mF436pezV6dUh92r8j~gQi--L6W-u4A-hMVsBlmLQVM9ilECoickcsn3YtTgShZtpUO1r5iBwi2~E41TM3ZARyBs2uuo4RljxhcCp7kYeGA__",
   },
   {
     id: 3,
     title: "L&D Professional",
     details:
       "Help people navigate through difficult stages Help people navigate through",
-    img: "/NeedComponent/img4.png",
+    img: "https://s3-alpha-sig.figma.com/img/4f41/4893/ef504d265eee523501f0f1f675d3946f?Expires=1732492800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=TooXwPmcR7bQM7m-ZWNPS4ic-kiLIBqyOaC4nmH7DY~sIE8vQGOVKsNCPzfr8B92PdEDjLFudHrNVqKgGWIU-NFde10E36ie93dPx7exY8I3vhhhVM3iu-jFm1QiWSOxCE4~2~cOeWR49EpsCO-xy07u99IZckzwo3slgH51DJFflRmb7AuA38jpqI6HMD4fYnXlS0tLOFIa3ubkmjggVoT3avUwMgrgGWHjfpYGP~5mF436pezV6dUh92r8j~gQi--L6W-u4A-hMVsBlmLQVM9ilECoickcsn3YtTgShZtpUO1r5iBwi2~E41TM3ZARyBs2uuo4RljxhcCp7kYeGA__",
   },
 ];
 
 export const interactive_section_data = [
   {
     id: 1,
-    img: "https://assets.website-files.com/617fa48948c7ab24b715140e/6183bb01e5841050e8e31f3b_hero_person-3.webp",
+    img: "/public/Interactive/img.png",
   },
   {
     id: 1,
-    img: "https://assets.website-files.com/617fa48948c7ab24b715140e/6183bce3e584104be2e330e0_hero_person-2.webp",
+    img: "/public/Interactive/img.png",
   },
   {
     id: 1,
-    img: "https://assets.website-files.com/617fa48948c7ab24b715140e/6183bce3e584104be2e330e0_hero_person-2.webp",
+    img: "/public/Interactive/img.png",
   },
   {
     id: 1,
-    img: "https://assets.website-files.com/617fa48948c7ab24b715140e/6183bce3e584104be2e330e0_hero_person-2.webp",
+    img: "/public/Interactive/img.png",
   },
   {
     id: 1,
-    img: "https://assets.website-files.com/617fa48948c7ab24b715140e/6183bce3e584104be2e330e0_hero_person-2.webp",
+    img: "/public/Interactive/img.png",
   },
 ];
 export const story_data = [
@@ -311,6 +311,27 @@ export const blog_data = [
       "Help people navigate through difficult stages Help people navigate through ",
     img: "/Blog/img2.png",
   },
+  {
+    id: 9,
+    label: "Artificial Intelligence",
+    details:
+      "Help people navigate through difficult stages Help people navigate through ",
+    img: "/Blog/img2.png",
+  },
+  {
+    id: 10,
+    label: "Artificial Intelligence",
+    details:
+      "Help people navigate through difficult stages Help people navigate through ",
+    img: "/Blog/img2.png",
+  },
+  {
+    id: 7,
+    label: "Artificial Intelligence",
+    details:
+      "Help people navigate through difficult stages Help people navigate through ",
+    img: "/Blog/img2.png",
+  },
 ];
 
 export const testimonials_data = [
@@ -352,6 +373,60 @@ export const testimonials_data = [
   },
   {
     id: 5,
+    details:
+      "This platform revolutionized our training program. Our team loves the interactive features. This platform revolutionized our training program. Our team loves the interactive features.",
+    img1: "/Testimonials/img.png",
+    img2: "Testimonials/img1.png",
+    name: "Tushar",
+    designation: "Software Engineer",
+  },
+  {
+    id: 5,
+    details:
+      "This platform revolutionized our training program. Our team loves the interactive features. This platform revolutionized our training program. Our team loves the interactive features.",
+    img1: "/Testimonials/img.png",
+    img2: "Testimonials/img1.png",
+    name: "Tushar",
+    designation: "Software Engineer",
+  },
+  {
+    id: 6,
+    details:
+      "This platform revolutionized our training program. Our team loves the interactive features. This platform revolutionized our training program. Our team loves the interactive features.",
+    img1: "/Testimonials/img.png",
+    img2: "Testimonials/img1.png",
+    name: "Tushar",
+    designation: "Software Engineer",
+  },
+  {
+    id: 7,
+    details:
+      "This platform revolutionized our training program. Our team loves the interactive features. This platform revolutionized our training program. Our team loves the interactive features.",
+    img1: "/Testimonials/img.png",
+    img2: "Testimonials/img1.png",
+    name: "Tushar",
+    designation: "Software Engineer",
+  },
+  {
+    id: 8,
+    details:
+      "This platform revolutionized our training program. Our team loves the interactive features. This platform revolutionized our training program. Our team loves the interactive features.",
+    img1: "/Testimonials/img.png",
+    img2: "Testimonials/img1.png",
+    name: "Tushar",
+    designation: "Software Engineer",
+  },
+  {
+    id: 9,
+    details:
+      "This platform revolutionized our training program. Our team loves the interactive features. This platform revolutionized our training program. Our team loves the interactive features.",
+    img1: "/Testimonials/img.png",
+    img2: "Testimonials/img1.png",
+    name: "Tushar",
+    designation: "Software Engineer",
+  },
+  {
+    id: 10,
     details:
       "This platform revolutionized our training program. Our team loves the interactive features. This platform revolutionized our training program. Our team loves the interactive features.",
     img1: "/Testimonials/img.png",

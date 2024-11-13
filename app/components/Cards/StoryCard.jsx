@@ -1,7 +1,7 @@
 const StoryCard = ({ item }) => {
   return (
-    <div className="w-[75%] flex-shrink-0 lg:w-[30%] xl:w-[18%] md:w-[30%] sm:w-[40%] rounded-[30px] h-[400px] flex flex-col justify-end ">
-      <div className="relative w-[90%] md:w-[100%] rounded-[30px]">
+    <div className="flex-shrink-0 md:w-[280px] xl:w-[300px] w-[270px]  rounded-[30px] h-[400px] flex flex-col justify-end ">
+      <div className="relative w-[100%] rounded-[30px]">
         <div className="bg-yellow_light w-full h-[150px] rounded-t-[30px]"></div>
 
         <img
