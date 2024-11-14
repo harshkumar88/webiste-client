@@ -47,7 +47,7 @@ const Navbar = () => {
       }`}
     >
       <div
-        className={`px-5 py-4 md:w-[85%] w-[100%] mx-auto flex  justify-between items-center `}
+        className={`px-5 py-2 md:w-[85%] w-[100%] mx-auto flex  justify-between items-center `}
       >
         <div className="flex gap-3 items-center">
           <div className="xsm:hidden block" onClick={() => setToggle(!toggle)}>
@@ -83,7 +83,7 @@ const Navbar = () => {
             btn_type="button"
             content="Log In"
             callbackfn={handleLogin}
-            btn_styles={` border border-gray-300 rounded-full sm:px-6 sm:py-2 text-[1rem] sm:block hidden ${
+            btn_styles={` border border-gray-300 rounded-full sm:px-6 sm:py-1 text-[1rem] sm:block hidden ${
               scroll ? "bg-green_gradient  text-white" : "text-white"
             }`}
           />
@@ -92,7 +92,7 @@ const Navbar = () => {
             content="Try Chaabi for Free"
             callbackfn={handleLogin}
             btn_styles={
-              "bg-yellow_light text-green_gradient border border-gray-300 rounded-full xsm:px-4 xsm:py-2  px-3 py-1"
+              "bg-yellow_light text-green_gradient border border-gray-300 rounded-full xsm:px-4 xsm:py-1  px-3 py-1"
             }
           />
           <div
