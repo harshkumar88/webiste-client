@@ -19,22 +19,22 @@ const ContentBox = () => {
 
   return (
     <div className="flex justify-between flex-col lg:flex-row  lg:gap-0  gap-8 items-center md:w-[90%] w-[95%] mx-auto sm:px-4 px-2 pb-5 ">
-      <div className="xl:w-[40%]  lg:w-[50%] w-[100%] px-6 lg:block hidden ">
+      <div className=" lg:w-[50%] w-[100%] px-6 lg:block hidden ">
         <p className="xl:text-[4.5rem] lg:text-[4rem] md:text-[3.5rem] sm:text-[3.8rem] text-[3rem] font-bold text-white">
           Your Hub
         </p>
-        <p className="xl:text-[4.5rem] lg:text-[4rem] md:text-[3.5rem]  sm:text-[3.8rem] text-[2.5rem]  font-bold text-white">
+        <p className="xl:text-[4.5rem] lg:text-[3.9rem] md:text-[3.5rem]  sm:text-[3.8rem] text-[2.5rem]  font-bold text-white">
           For{" "}
           <span className="bg-yellow_light text-green_gradient ">
             Unlocking
           </span>
         </p>
-        <p className="xl:text-[4.5rem] lg:text-[4rem] md:text-[3.5rem]  sm:text-[3.8rem] text-[2.5rem]  font-bold text-white">
+        <p className="xl:text-[4.5rem] lg:text-[3.9rem] md:text-[3.5rem]  sm:text-[3.8rem] text-[2.5rem]  font-bold text-white">
           True Potential
         </p>
       </div>
-      <div className="xl:w-[40%]  w-[100%]  text-center lg:hidden block">
-        <p className="xl:text-[4.5rem] lg:text-[4rem] md:text-[3.5rem] sm:text-[3.8rem] text-[3rem] font-bold text-white">
+      <div className=" w-[100%]  text-center lg:hidden block">
+        <p className="xl:text-[4.5rem] lg:text-[3.9rem] md:text-[3.5rem] sm:text-[3.8rem] text-[3rem] font-bold text-white">
           Your Hub For{" "}
           <span className="bg-yellow_light text-green_gradient ">
             Unlocking
@@ -42,7 +42,7 @@ const ContentBox = () => {
           True Potential
         </p>
       </div>
-      <div className="xl:w-[60%] lg:w-[50%] w-[100%]  md:block hidden me-15">
+      <div className=" lg:w-[70%] w-[100%]  md:block hidden me-15">
         <CardZoomer content={card_zoomer_content} />
       </div>
       <div

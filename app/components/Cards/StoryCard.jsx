@@ -1,6 +1,6 @@
 const StoryCard = ({ item }) => {
   return (
-    <div className="flex-shrink-0 md:w-[280px] xl:w-[300px] w-[270px]  rounded-[30px] h-[400px] flex flex-col justify-end ">
+    <div className="flex-shrink-0  xl:w-[280px] xsm:w-[270px] w-[250px]  rounded-[30px] h-[400px] flex flex-col justify-end ">
       <div className="relative w-[100%] rounded-[30px]">
         <div className="bg-yellow_light w-full h-[150px] rounded-t-[30px]"></div>
 

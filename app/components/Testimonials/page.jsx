@@ -52,12 +52,12 @@ const Testimonials = () => {
             />
           </div>
         </div>
-        <div className=" w-[92%] px-4 relative mx-auto ">
+        <div className=" xsm:w-[92%] w-[100%] xsm:px-4 relative mx-auto ">
           <div className=" h-[30vh] w-[100%]"></div>
           <Slider
             checkScroll={checkScroll}
             cardRef={cardRef}
-            style="overflow-x-auto mt-8 flex md:gap-10 gap-6 w-[98%] mx-auto  remove_scrollbar absolute top-0  z-0 pb-4 "
+            style="overflow-x-auto mt-8 flex md:gap-10 gap-6 xsm:w-[98%] w-[100%] mx-auto  remove_scrollbar absolute top-0  z-0 pb-4 "
           >
             {testimonials_data?.map((item, idx) => {
               return <TestimonialCard key={idx} item={item} />;

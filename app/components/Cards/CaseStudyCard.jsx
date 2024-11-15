@@ -1,6 +1,6 @@
 const CaseStudyCard = ({ item }) => {
   return (
-    <div className="w-[270px] md:w-[280px] xl:w-[300px]  bg-green_gradient flex-shrink-0 border border-yellow_light text-white rounded-3xl  shadow-lg flex flex-col relative gap-3 overflow-hidden px-2 py-6">
+    <div className="xl:w-[280px] xsm:w-[270px] w-[250px] bg-green_gradient flex-shrink-0 border border-yellow_light text-white rounded-3xl  shadow-lg flex flex-col relative gap-3 overflow-hidden px-2 py-6">
       {/* Main Image */}
       {/* <img
         src={item.img}
@@ -12,7 +12,7 @@ const CaseStudyCard = ({ item }) => {
         {item.label}
       </p>
       {/* Details Text */}
-      <p className="text-[0.9rem] sm:text-[0.9rem] leading-7 px-4">
+      <p className="text-[0.82rem] sm:text-[0.9rem] leading-7 px-4">
         {item.details}
       </p>
       {/* Profile Section */}

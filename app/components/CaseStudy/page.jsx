@@ -56,7 +56,7 @@ const CaseStudy = () => {
       <Slider
         checkScroll={checkScroll}
         cardRef={cardRef}
-        style="overflow-x-auto mt-8 flex md:gap-10 gap-6 w-[90%] mx-auto remove_scrollbar"
+        style="overflow-x-auto mt-8 flex md:gap-10 gap-6 xsm:w-[90%] w-[100%] mx-auto remove_scrollbar"
       >
         {case_study_data?.map((item, idx) => {
           return <CaseStudyCard key={idx} item={item} />;

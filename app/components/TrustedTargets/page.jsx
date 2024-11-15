@@ -3,11 +3,11 @@ import { targets } from "../../static";
 const TrustedTargets = () => {
   return (
     <div
-      className=" sm:w-[85%] w-[90%] mx-auto flex  flex-col items-center gap-5"
+      className=" md:w-[85%] w-[100%] mx-auto flex  flex-col items-center  md:hidden bg-dim_green py-8 gap-10"
       id="engage"
     >
       <p className="font-bold sm:text-[3rem] text-[2.5rem] text-center text-green_gradient">
-        <span className="highlight_text_bottom">Trusted</span> by
+        <span className="bg-yellow_light">Trusted</span> by
       </p>
       <div className="flex gap-7 overflow-x-auto remove_scrollbar w-[90%]">
         {targets.map((item, idx) => {

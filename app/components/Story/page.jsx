@@ -59,7 +59,7 @@ const Story = () => {
         checkScroll={checkScroll}
         cardRef={cardRef}
         style={
-          " overflow-x-auto md:mt-3 lg:mt-0 xl:mt-4 flex md:gap-10 gap-6  w-[90%] mx-auto remove_scrollbar"
+          " overflow-x-auto md:mt-3 lg:mt-0 xl:mt-4 flex md:gap-10 gap-6  xsm:w-[90%] w-[100%] mx-auto remove_scrollbar"
         }
       >
         {story_data?.map((item, idx) => {

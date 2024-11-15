@@ -6,17 +6,19 @@ import CaseStudy from "../components/CaseStudy/page";
 import Story from "../components/Story/page";
 import NeedsComponent from "../components/Needs/page";
 import Footer from "../components/Footer/page";
+import FAQ from "../components/Faq";
 
 const Home = () => {
   return (
     <section className="flex flex-col  gap-10 remove_scrollbar">
       <Navbar />
-      <div className="flex flex-col gap-10 mb-10">
+      <div className="flex flex-col gap-10 mb-10 mx-auto">
         <FeaturesWrapper content={Feauters_content1} reverse={0} />
         <StateMent remove_color="true" />{" "}
         <FeaturesWrapper content={Feauters_content2} reverse={1} />
       </div>
-      <CaseStudy /> <Story />
+      <CaseStudy />
+      <Story />
       <NeedsComponent />
       <Footer />
     </section>

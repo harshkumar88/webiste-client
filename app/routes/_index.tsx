@@ -24,7 +24,7 @@ export default function Index() {
       <Header />
       <div className="flex flex-col gap-12 sm:gap-14 mt-10  overflow-hidden">
         {/* <InteractiveSection /> */}
-        {/* <TrustedTargets /> */}
+        <TrustedTargets />
         <NeedsComponent />
         {/* <StateMent /> */}
         <Story />

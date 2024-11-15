@@ -61,7 +61,7 @@ const NeedsComponent = () => {
           checkScroll={checkScroll}
           cardRef={cardRef}
           style={
-            "flex  mx-auto sm:gap-7 gap-3 overflow-x-auto remove_scrollbar me-0 w-[99%] py-12 sm:ps-10 ps-4 pe-3 "
+            "flex  mx-auto sm:gap-7 gap-6 overflow-x-auto remove_scrollbar me-0 w-[99%] py-12 sm:ps-10 ps-4 pe-3 "
           }
         >
           {need_slider_data.map((item, idx) => (

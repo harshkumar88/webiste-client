@@ -106,24 +106,24 @@ export const need_slider_data = [
 export const interactive_section_data = [
   {
     id: 1,
-    img: "/public/Interactive/img.png",
+    img: "https://s3-alpha-sig.figma.com/img/7cee/681b/69f23bc30e43b41498b9e5e756d1e7db?Expires=1732492800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=Tkrd6Se3JD37hw935qrsGbnoW1x2nyoIWFGwbb5yS~dRlEwAx4GVuJPRt6l5dKMzzNgSyeKwqcBT35Nhd9jdWXbtWTAG4DQMEBn5wiFMCKpwywdgaPiizRjrAaaBIXbtq~xIotwQLtIu~p0bXcVZoBCcKHXZeZOnXUOca31NPzHNQimD2l2-PBOgBH5Ptvt6YodV~Dd20Ct3GmueJNHBWRNn6HryWstOa3JaXrfTDZTvJPStxDSJiqESf-2f6YNUTf6L464WwlPlDDeKj3FkNmJsXj0vUcAdd4i64GpqqbQX0w7xBfh0NVMt7flufJOQ-LTByP7uND8UAuN1lUBNFQ__",
   },
-  {
-    id: 1,
-    img: "/public/Interactive/img.png",
-  },
-  {
-    id: 1,
-    img: "/public/Interactive/img.png",
-  },
-  {
-    id: 1,
-    img: "/public/Interactive/img.png",
-  },
-  {
-    id: 1,
-    img: "/public/Interactive/img.png",
-  },
+  // {
+  //   id: 1,
+  //   img: "https://s3-alpha-sig.figma.com/img/7cee/681b/69f23bc30e43b41498b9e5e756d1e7db?Expires=1732492800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=Tkrd6Se3JD37hw935qrsGbnoW1x2nyoIWFGwbb5yS~dRlEwAx4GVuJPRt6l5dKMzzNgSyeKwqcBT35Nhd9jdWXbtWTAG4DQMEBn5wiFMCKpwywdgaPiizRjrAaaBIXbtq~xIotwQLtIu~p0bXcVZoBCcKHXZeZOnXUOca31NPzHNQimD2l2-PBOgBH5Ptvt6YodV~Dd20Ct3GmueJNHBWRNn6HryWstOa3JaXrfTDZTvJPStxDSJiqESf-2f6YNUTf6L464WwlPlDDeKj3FkNmJsXj0vUcAdd4i64GpqqbQX0w7xBfh0NVMt7flufJOQ-LTByP7uND8UAuN1lUBNFQ__",
+  // },
+  // {
+  //   id: 1,
+  //   img: "https://s3-alpha-sig.figma.com/img/7cee/681b/69f23bc30e43b41498b9e5e756d1e7db?Expires=1732492800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=Tkrd6Se3JD37hw935qrsGbnoW1x2nyoIWFGwbb5yS~dRlEwAx4GVuJPRt6l5dKMzzNgSyeKwqcBT35Nhd9jdWXbtWTAG4DQMEBn5wiFMCKpwywdgaPiizRjrAaaBIXbtq~xIotwQLtIu~p0bXcVZoBCcKHXZeZOnXUOca31NPzHNQimD2l2-PBOgBH5Ptvt6YodV~Dd20Ct3GmueJNHBWRNn6HryWstOa3JaXrfTDZTvJPStxDSJiqESf-2f6YNUTf6L464WwlPlDDeKj3FkNmJsXj0vUcAdd4i64GpqqbQX0w7xBfh0NVMt7flufJOQ-LTByP7uND8UAuN1lUBNFQ__",
+  // },
+  // {
+  //   id: 1,
+  //   img: "https://s3-alpha-sig.figma.com/img/7cee/681b/69f23bc30e43b41498b9e5e756d1e7db?Expires=1732492800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=Tkrd6Se3JD37hw935qrsGbnoW1x2nyoIWFGwbb5yS~dRlEwAx4GVuJPRt6l5dKMzzNgSyeKwqcBT35Nhd9jdWXbtWTAG4DQMEBn5wiFMCKpwywdgaPiizRjrAaaBIXbtq~xIotwQLtIu~p0bXcVZoBCcKHXZeZOnXUOca31NPzHNQimD2l2-PBOgBH5Ptvt6YodV~Dd20Ct3GmueJNHBWRNn6HryWstOa3JaXrfTDZTvJPStxDSJiqESf-2f6YNUTf6L464WwlPlDDeKj3FkNmJsXj0vUcAdd4i64GpqqbQX0w7xBfh0NVMt7flufJOQ-LTByP7uND8UAuN1lUBNFQ__",
+  // },
+  // {
+  //   id: 1,
+  //   img: "https://s3-alpha-sig.figma.com/img/7cee/681b/69f23bc30e43b41498b9e5e756d1e7db?Expires=1732492800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=Tkrd6Se3JD37hw935qrsGbnoW1x2nyoIWFGwbb5yS~dRlEwAx4GVuJPRt6l5dKMzzNgSyeKwqcBT35Nhd9jdWXbtWTAG4DQMEBn5wiFMCKpwywdgaPiizRjrAaaBIXbtq~xIotwQLtIu~p0bXcVZoBCcKHXZeZOnXUOca31NPzHNQimD2l2-PBOgBH5Ptvt6YodV~Dd20Ct3GmueJNHBWRNn6HryWstOa3JaXrfTDZTvJPStxDSJiqESf-2f6YNUTf6L464WwlPlDDeKj3FkNmJsXj0vUcAdd4i64GpqqbQX0w7xBfh0NVMt7flufJOQ-LTByP7uND8UAuN1lUBNFQ__",
+  // },
 ];
 export const story_data = [
   {
@@ -743,7 +743,7 @@ export const Feauters_content1 = [
 
 export const Feauters_content2 = [
   {
-    img1: "/public/BgCut/left.png",
+    img1: "/public/BgCut/right.png",
 
     img2: "/public/BgScreen/screen.png",
     title: "Live Edits",
@@ -757,5 +757,72 @@ export const Feauters_content2 = [
     title: "Chapters",
     details:
       "Make your content more accessible with timestamps. Allow viewers to jump to the parts they care about, bypassing sections they don’t need. Simplify navigation and create a personalized, efficient viewing experience that enables interactivity.",
+  },
+];
+
+export const test_content1 = [
+  {
+    img: "https://s3-alpha-sig.figma.com/img/fc66/1ab7/d76b9b5f67463fb89a08ae0c254fd7d4?Expires=1732492800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=h7W-cUnV98-ObyUH6TXLJkpEBjObcdf9W0kKT2lxUgV-zw4AzXBZPc~9BJi5wDtgRDliQY~bfQMkKDvrx-fzCMYz0w6itHGRlu3O7nDdd6X-NagLam~tk6AopouOzEMl3eIUBAVM3Gbbbg8OlpOsSTVJ9i-UJzrkEAswj5-77S5oGrHnolQkC1I2oBM3w9cyaJbC-7B2hGhbgo5JzN879D1jsm5Er6F6k04tbt2YUErpkRFcULLSPvsgB8uImwNAiyYzx5dbCJgAglv1HpkFz1SL6B6BxVlIKFy5Ds0yWTOeYLE3cz4sb8wbY0VLjQzxIimEKN4mfVV2X0l2gHXW0w__",
+    switch: true,
+    title: "L&D Professional",
+    details:
+      "“Active learning creates ownership of the knowledge, while passive learning only creates memory.” “Active learning creates ownership of the knowledge, while passive learning only creates memory.”“Active learning creates ownership of the knowledge, while passive learning only creates memory.”",
+  },
+  {
+    img: "https://s3-alpha-sig.figma.com/img/fc66/1ab7/d76b9b5f67463fb89a08ae0c254fd7d4?Expires=1732492800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=h7W-cUnV98-ObyUH6TXLJkpEBjObcdf9W0kKT2lxUgV-zw4AzXBZPc~9BJi5wDtgRDliQY~bfQMkKDvrx-fzCMYz0w6itHGRlu3O7nDdd6X-NagLam~tk6AopouOzEMl3eIUBAVM3Gbbbg8OlpOsSTVJ9i-UJzrkEAswj5-77S5oGrHnolQkC1I2oBM3w9cyaJbC-7B2hGhbgo5JzN879D1jsm5Er6F6k04tbt2YUErpkRFcULLSPvsgB8uImwNAiyYzx5dbCJgAglv1HpkFz1SL6B6BxVlIKFy5Ds0yWTOeYLE3cz4sb8wbY0VLjQzxIimEKN4mfVV2X0l2gHXW0w__",
+    switch: false,
+    title: "Training Completion Rate",
+    details:
+      "Training Completion can be a massive challenge to overcome especially when you follow traditional training methods. Boring one-sided videos or trainer-led sessions can often make people lose interest. Upgrade your training methods to achieve 95% & above training completion rate with chaabi.",
+  },
+  {
+    img: "https://s3-alpha-sig.figma.com/img/fc66/1ab7/d76b9b5f67463fb89a08ae0c254fd7d4?Expires=1732492800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=h7W-cUnV98-ObyUH6TXLJkpEBjObcdf9W0kKT2lxUgV-zw4AzXBZPc~9BJi5wDtgRDliQY~bfQMkKDvrx-fzCMYz0w6itHGRlu3O7nDdd6X-NagLam~tk6AopouOzEMl3eIUBAVM3Gbbbg8OlpOsSTVJ9i-UJzrkEAswj5-77S5oGrHnolQkC1I2oBM3w9cyaJbC-7B2hGhbgo5JzN879D1jsm5Er6F6k04tbt2YUErpkRFcULLSPvsgB8uImwNAiyYzx5dbCJgAglv1HpkFz1SL6B6BxVlIKFy5Ds0yWTOeYLE3cz4sb8wbY0VLjQzxIimEKN4mfVV2X0l2gHXW0w__",
+    switch: false,
+    title: "Training Completion Rate",
+    details:
+      "Training Completion can be a massive challenge to overcome especially when you follow traditional training methods. Boring one-sided videos or trainer-led sessions can often make people lose interest. Upgrade your training methods to achieve 95% & above training completion rate with chaabi.",
+  },
+  {
+    img: "https://s3-alpha-sig.figma.com/img/fc66/1ab7/d76b9b5f67463fb89a08ae0c254fd7d4?Expires=1732492800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=h7W-cUnV98-ObyUH6TXLJkpEBjObcdf9W0kKT2lxUgV-zw4AzXBZPc~9BJi5wDtgRDliQY~bfQMkKDvrx-fzCMYz0w6itHGRlu3O7nDdd6X-NagLam~tk6AopouOzEMl3eIUBAVM3Gbbbg8OlpOsSTVJ9i-UJzrkEAswj5-77S5oGrHnolQkC1I2oBM3w9cyaJbC-7B2hGhbgo5JzN879D1jsm5Er6F6k04tbt2YUErpkRFcULLSPvsgB8uImwNAiyYzx5dbCJgAglv1HpkFz1SL6B6BxVlIKFy5Ds0yWTOeYLE3cz4sb8wbY0VLjQzxIimEKN4mfVV2X0l2gHXW0w__",
+    switch: false,
+    title: "Training Completion Rate",
+    details:
+      "Training Completion can be a massive challenge to overcome especially when you follow traditional training methods. Boring one-sided videos or trainer-led sessions can often make people lose interest. Upgrade your training methods to achieve 95% & above training completion rate with chaabi.",
+  },
+  {
+    img: "https://s3-alpha-sig.figma.com/img/fc66/1ab7/d76b9b5f67463fb89a08ae0c254fd7d4?Expires=1732492800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=h7W-cUnV98-ObyUH6TXLJkpEBjObcdf9W0kKT2lxUgV-zw4AzXBZPc~9BJi5wDtgRDliQY~bfQMkKDvrx-fzCMYz0w6itHGRlu3O7nDdd6X-NagLam~tk6AopouOzEMl3eIUBAVM3Gbbbg8OlpOsSTVJ9i-UJzrkEAswj5-77S5oGrHnolQkC1I2oBM3w9cyaJbC-7B2hGhbgo5JzN879D1jsm5Er6F6k04tbt2YUErpkRFcULLSPvsgB8uImwNAiyYzx5dbCJgAglv1HpkFz1SL6B6BxVlIKFy5Ds0yWTOeYLE3cz4sb8wbY0VLjQzxIimEKN4mfVV2X0l2gHXW0w__",
+    switch: false,
+    title: "Training Completion Rate",
+    details:
+      "Training Completion can be a massive challenge to overcome especially when you follow traditional training methods. Boring one-sided videos or trainer-led sessions can often make people lose interest. Upgrade your training methods to achieve 95% & above training completion rate with chaabi.",
+  },
+  {
+    img: "https://s3-alpha-sig.figma.com/img/fc66/1ab7/d76b9b5f67463fb89a08ae0c254fd7d4?Expires=1732492800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=h7W-cUnV98-ObyUH6TXLJkpEBjObcdf9W0kKT2lxUgV-zw4AzXBZPc~9BJi5wDtgRDliQY~bfQMkKDvrx-fzCMYz0w6itHGRlu3O7nDdd6X-NagLam~tk6AopouOzEMl3eIUBAVM3Gbbbg8OlpOsSTVJ9i-UJzrkEAswj5-77S5oGrHnolQkC1I2oBM3w9cyaJbC-7B2hGhbgo5JzN879D1jsm5Er6F6k04tbt2YUErpkRFcULLSPvsgB8uImwNAiyYzx5dbCJgAglv1HpkFz1SL6B6BxVlIKFy5Ds0yWTOeYLE3cz4sb8wbY0VLjQzxIimEKN4mfVV2X0l2gHXW0w__",
+    switch: false,
+    title: "Training Completion Rate",
+    details:
+      "Training Completion can be a massive challenge to overcome especially when you follow traditional training methods. Boring one-sided videos or trainer-led sessions can often make people lose interest. Upgrade your training methods to achieve 95% & above training completion rate with chaabi.",
+  },
+];
+export const questionsAnswers = [
+  {
+    question: "What is your return policy?",
+    answer:
+      "Our return policy lasts 30 days. If 30 days have passed since your purchase, unfortunately, we can't offer you a refund or exchange.",
+  },
+  {
+    question: "How do I track my order?",
+    answer:
+      "Once your order is shipped, we will email you the tracking details. You can use the tracking link to see the status of your shipment.",
+  },
+  {
+    question: "Do you ship internationally?",
+    answer:
+      "Yes, we ship to over 50 countries around the world. Shipping costs and delivery times vary depending on the destination.",
+  },
+  {
+    question: "What payment methods do you accept?",
+    answer:
+      "We accept all major credit cards, including Visa, MasterCard, and American Express, as well as PayPal.",
   },
 ];

@@ -1,6 +1,7 @@
 import React from "react";
+import FAQ from "../Faq";
 
-const FeaturesWrapper = ({ content, reverse }) => {
+const ProffesionalWrapper = ({ content, reverse }) => {
   return (
     <div className="flex flex-col gap-20">
       {content?.map((item, idx) => {
@@ -11,21 +12,23 @@ const FeaturesWrapper = ({ content, reverse }) => {
             }`}
             key={idx}
           >
-            <div className="relative md:w-[50%] sm:w-[80%] w-[100%]   ">
-              <img
-                src={item.img1}
-                className="object-cover lg:w-[450px] w-[100%] "
-              />
-              <img
-                src={item.img2}
-                className="absolute md:top-6  sm:top-10 top-5 md:left-10 sm:left-14 left-7 lg:w-[60%]   w-[80%] object-cover "
-              />
-            </div>
+            {item.switch ? (
+              <div className=" md:w-[50%] h-[330px] sm:w-[80%] w-[100%]  rounded-[20px] ">
+                <img
+                  src={item.img}
+                  className="  object-cover w-[50%] h-[100%] mx-auto rounded-[20px]"
+                />
+              </div>
+            ) : (
+              <div className=" md:w-[50%]  sm:w-[80%] w-[100%]  ">
+                <FAQ />
+              </div>
+            )}
             <div className="md:w-[50%] w-[100%]  flex flex-col gap-3 md:text-start text-center ">
               <p className="font-bold sm:text-[2.7rem] xs:text-[2.5rem] text-[2rem] ">
                 {item.title}
               </p>
-              <p className="  w-[100%] xsm:text-[1rem] text-[0.9rem] md:text-justify text-center">
+              <p className=" sm:text-[1rem] w-[85%] xsm:text-[1rem] text-[0.9rem] md:text-justify text-center">
                 {item.details}
               </p>
             </div>
@@ -36,4 +39,4 @@ const FeaturesWrapper = ({ content, reverse }) => {
   );
 };
 
-export default FeaturesWrapper;
+export default ProffesionalWrapper;

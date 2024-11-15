@@ -4,9 +4,13 @@ import { AiOutlineYoutube as Youtube } from "react-icons/ai";
 import { IoLogoInstagram as Instagram } from "react-icons/io5";
 import { GrLinkedinOption as Linkedin } from "react-icons/gr";
 
-const Footer = () => (
+const Footer = ({ rounded }) => (
   <section
-    className={`${styles.flexCenter} ${styles.paddingY} flex-col  px-10 mx-auto bg-green_gradient w-[100%] rounded-t-3xl`}
+    className={`${styles.flexCenter} ${
+      styles.paddingY
+    } flex-col  px-10 mx-auto bg-green_gradient w-[100%] ${
+      !rounded && "rounded-t-3xl"
+    }`}
   >
     <div
       className={`${styles.flexStart} md:flex-row flex-col mb-8 mx-auto sm:w-[80vw] w-[90vw] `}

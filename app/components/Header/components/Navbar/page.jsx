@@ -42,7 +42,7 @@ const Navbar = () => {
     <section
       className={` py-2 sticky top-0  z-50 ${
         scroll
-          ? "bg-white text-green_gradient "
+          ? "bg-white text-green_gradient border border-1 shadow-lg border-b-green_gradient"
           : "text-white bg-green_gradient"
       }`}
     >
