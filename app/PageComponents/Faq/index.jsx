@@ -3,26 +3,19 @@ import { useState, useEffect } from "react";
 import { questionsAnswers } from "../../static";
 import { IoIosArrowDown as DownArrow } from "react-icons/io";
 
-let clear;
 const FAQ = () => {
   const [activeIndex, setActiveIndex] = useState(null);
   const [displayedText, setDisplayedText] = useState(""); // Text that is currently displayed
-  const [typing, setTyping] = useState(false); // To control if typing is in progress
-
-  // Typing effect that streams each character of the answer
 
   useEffect(() => {
     if (activeIndex !== null) {
-      setTyping(true);
       const answerText = questionsAnswers[activeIndex].answer;
       setDisplayedText(answerText); // Reset text
     }
   }, [activeIndex]);
 
   const toggleAccordion = (index) => {
-    clearTimeout(clear);
     setActiveIndex((prev) => (prev === index ? null : index));
-    // setDisplayedText("")
   };
 
   return (

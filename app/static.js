@@ -671,6 +671,7 @@ export const slider_items = [
 
 export const footerLinks = [
   {
+    id: 1,
     title: "Product",
     links: [
       { name: "Pricing", link: "#" },
@@ -680,6 +681,7 @@ export const footerLinks = [
     ],
   },
   {
+    id: 2,
     title: "Solutions",
     links: [
       { name: "Brainstorming", link: "#" },
@@ -689,6 +691,7 @@ export const footerLinks = [
     ],
   },
   {
+    id: 3,
     title: "Resources",
     links: [
       { name: "Help Centre", link: "#" },
@@ -698,6 +701,7 @@ export const footerLinks = [
     ],
   },
   {
+    id: 4,
     title: "Support",
     links: [
       { name: "Contact Us", link: "#" },
@@ -707,6 +711,7 @@ export const footerLinks = [
     ],
   },
   {
+    id: 5,
     title: "Company",
     links: [
       { name: "About", link: "#" },

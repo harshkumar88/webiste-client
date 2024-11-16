@@ -1,19 +1,14 @@
-import { useState } from "react";
 import { IoIosArrowDown as DownArrow } from "react-icons/io";
 
-const LinkCard = ({ footerlink }) => {
-  const [isActive, setActive] = useState(false);
-  const setToggle = () => {
-    setActive(!isActive);
+const LinkCard = ({ footerlink, isActiveIndex, setToggle }) => {
+  const checkToggle = () => {
+    return isActiveIndex == footerlink.id;
   };
   return (
-    <div
-      key={footerlink.title}
-      className={`flex flex-col ss:my-0 my-4 min-w-[120px]`}
-    >
+    <div className={`flex flex-col ss:my-0 my-4 min-w-[120px]`}>
       <div
         className="flex justify-between sm:cursor-default cursor-pointer"
-        onClick={setToggle}
+        onClick={() => setToggle(footerlink.id)}
       >
         <h4 className="font-poppins text-[18px] leading-[27px]  text-white font-semibold">
           {footerlink.title}
@@ -21,7 +16,11 @@ const LinkCard = ({ footerlink }) => {
         <DownArrow className="sm:hidden block text-white" />
       </div>
 
-      <ul className={`list-none mt-4 ${!isActive && "sm:block hidden"}`}>
+      <ul
+        className={`list-none mt-4 ${
+          checkToggle() ? "sm:hidden block" : "hidden sm:block"
+        }`}
+      >
         {footerlink.links.map((link, index) => (
           <li
             key={link.name}

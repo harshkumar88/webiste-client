@@ -1,5 +1,4 @@
 import type { MetaFunction } from "@remix-run/node";
-import Header from "../PageComponents/HeroBanner";
 import TrustedTargets from "../PageComponents/TrustedTargets";
 import NeedsComponent from "../PageComponents/Needs";
 import Story from "../PageComponents/Story";
@@ -9,6 +8,7 @@ import Blogs from "../PageComponents/Blogs";
 import Footer from "../PageComponents/Footer";
 // import InteractiveSection from "../PageComponents/InteractiveSection";
 import Navbar from "../PageComponents/Navbar";
+import HeroBanner from "../PageComponents/HeroBanner";
 
 export const meta: MetaFunction = () => {
   return [
@@ -20,16 +20,16 @@ export const meta: MetaFunction = () => {
 export default function Index() {
   return (
     <section className="flex flex-col  remove_scrollbar">
-      {/* <Navbar />
-      <Header /> */}
+      <Navbar />
+      <HeroBanner />
       <div className="flex flex-col gap-12 sm:gap-14 mt-10  overflow-hidden">
         {/* <InteractiveSection /> */}
-        {/* <TrustedTargets />
+        <TrustedTargets />
         <NeedsComponent />
         <Story />
         <Blogs />
         <CaseStudy />
-        <Testimonials /> */}
+        <Testimonials />
         <Footer rounded={true} />
       </div>
     </section>
