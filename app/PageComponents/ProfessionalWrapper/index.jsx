@@ -1,7 +1,7 @@
 import React from "react";
 import FAQ from "../Faq";
 
-const ProffesionalWrapper = ({ content, reverse }) => {
+const ProfessionalWrapper = ({ content, reverse }) => {
   return (
     <div className="flex flex-col gap-20">
       {content?.map((item, idx) => {
@@ -42,4 +42,4 @@ const ProffesionalWrapper = ({ content, reverse }) => {
   );
 };
 
-export default ProffesionalWrapper;
+export default ProfessionalWrapper;

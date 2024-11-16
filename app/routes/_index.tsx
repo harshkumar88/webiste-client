@@ -1,14 +1,14 @@
 import type { MetaFunction } from "@remix-run/node";
-import Header from "../components/HeroBanner/page";
-import TrustedTargets from "../components/TrustedTargets/page";
-import NeedsComponent from "../components/Needs/page";
-import Story from "../components/Story/page";
-import CaseStudy from "../components/CaseStudy/page";
-import Testimonials from "../components/Testimonials/page";
-import Blogs from "../components/Blogs/page";
-import Footer from "../components/Footer/page";
-import InteractiveSection from "../components/InteractiveSection/page";
-import Navbar from "../components/Navbar/page";
+import Header from "../PageComponents/HeroBanner/page";
+import TrustedTargets from "../PageComponents/TrustedTargets/page";
+import NeedsComponent from "../PageComponents/Needs/page";
+import Story from "../PageComponents/Story/page";
+import CaseStudy from "../PageComponents/CaseStudy/page";
+import Testimonials from "../PageComponents/Testimonials/page";
+import Blogs from "../PageComponents/Blogs/page";
+import Footer from "../PageComponents/Footer/page";
+import InteractiveSection from "../PageComponents/InteractiveSection/page";
+import Navbar from "../PageComponents/Navbar/page";
 
 export const meta: MetaFunction = () => {
   return [

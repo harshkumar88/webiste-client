@@ -3,8 +3,8 @@ import { useEffect, useRef, useState } from "react";
 import { IoMdArrowBack } from "react-icons/io";
 import { IoMdArrowForward } from "react-icons/io";
 import { story_data } from "../../static";
-import Slider from "../CommonComponents/Slider/page";
-import StoryCard from "../CommonComponents/Cards/StoryCard";
+import Slider from "../../CommonComponents/Slider/page";
+import StoryCard from "../../CommonComponents/Cards/StoryCard";
 
 const Story = () => {
   let [left, setLeft] = useState(false);

@@ -1,7 +1,7 @@
 import { useRef, useState } from "react";
-import CardCarousel from "../CommonComponents/Caraousel/page";
-import HeroCard from "../CommonComponents/Cards/HeroCard";
-import CardZoomer from "../CommonComponents/CardZoomer/page";
+import CardCarousel from "../../CommonComponents/Caraousel/page";
+import HeroCard from "../../CommonComponents/Cards/HeroCard";
+import CardZoomer from "../../CommonComponents/CardZoomer/page";
 import { card_zoomer_content } from "../../static";
 const HeroBanner = () => {
   const [activeIndex, setActiveIndex] = useState(0);

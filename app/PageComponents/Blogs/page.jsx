@@ -3,8 +3,8 @@ import { useEffect, useRef, useState } from "react";
 import { IoMdArrowBack } from "react-icons/io";
 import { IoMdArrowForward } from "react-icons/io";
 import { blog_data } from "../../static";
-import Slider from "../CommonComponents/Slider/page";
-import BlogCard from "../CommonComponents/Cards/BlogCard";
+import Slider from "../../CommonComponents/Slider/page";
+import BlogCard from "../../CommonComponents/Cards/BlogCard";
 
 const Blogs = () => {
   let [left, setLeft] = useState(false);

@@ -1,7 +1,7 @@
 import { interactive_section_data } from "../../static";
-import InteractiveSectionCard from "../CommonComponents/Cards/InteractiveSectionCard";
-import Button from "../CommonComponents/Button";
-import CardCarousel from "../CommonComponents/Caraousel/page";
+import InteractiveSectionCard from "../../CommonComponents/Cards/InteractiveSectionCard";
+import Button from "../../CommonComponents/Button";
+import CardCarousel from "../../CommonComponents/Caraousel/page";
 import { useRef, useState } from "react";
 
 const InteractiveSection = () => {
