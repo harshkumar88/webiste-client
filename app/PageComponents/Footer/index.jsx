@@ -1,8 +1,8 @@
 import { styles } from "../../styles";
 import { footerLinks } from "../../static";
 import SocialMedia from "./components/SocialMedia";
-import LinkCard from "./components/LinkCard";
 import { useState } from "react";
+import FooterLink from "./components/FooterLink";
 
 const Footer = ({ rounded }) => {
   const [isActiveIndex, setActiveIndex] = useState(0);
@@ -26,7 +26,7 @@ const Footer = ({ rounded }) => {
       >
         <div className="flex-[1] w-full flex sm:flex-row flex-col justify-between sm:flex-wrap md:mt-0 mt-5">
           {footerLinks.map((footerlink) => (
-            <LinkCard
+            <FooterLink
               key={footerlink.id}
               footerlink={footerlink}
               isActiveIndex={isActiveIndex}

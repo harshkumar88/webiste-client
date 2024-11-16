@@ -11,8 +11,6 @@ const StoryCard = ({ item }) => {
         />
 
         <div className="bg-dim_yellow -mt-[80px] p-6 rounded-[30px] flex flex-col   z-10 relative">
-          {/* <p className="md:text-[2rem]">{item.title}</p>
-          <p className="md:text-[2.8rem] font-bold">{item.sub_title}</p> */}
           <p className=" md:text-[1.6rem] text-[1.3rem] font-bold">
             {item.details}
           </p>

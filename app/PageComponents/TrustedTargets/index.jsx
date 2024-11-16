@@ -16,7 +16,6 @@ const TrustedTargets = () => {
               src={item.img}
               key={idx}
               className="object-contain sm:w-[200px] w-[120px]"
-              // style={{ width: "100%", height: "auto" }}
               alt="img"
             />
           );

@@ -20,10 +20,10 @@ const FeaturesWrapper = ({ content, reverse }) => {
               />
             </div>
             <div className="md:w-[50%] w-[100%]  flex flex-col gap-3 md:text-start text-center ">
-              <p className="font-bold sm:text-[2.7rem] xs:text-[2.5rem] text-[2rem] ">
+              <p className="font-bold sm:text-[2.5rem] lg:text-[2.7rem] md:text-[2.2rem] xs:text-[2.5rem] text-[2rem] ">
                 {item.title}
               </p>
-              <p className="  w-[100%] xsm:text-[1rem] text-[0.9rem] md:text-justify text-center">
+              <p className="  w-[100%] sm:text-[0.9rem] lg:text-[1rem] text-[0.9rem] md:text-justify text-center">
                 {item.details}
               </p>
             </div>

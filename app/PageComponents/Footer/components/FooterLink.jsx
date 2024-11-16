@@ -1,6 +1,6 @@
 import { IoIosArrowDown as DownArrow } from "react-icons/io";
 
-const LinkCard = ({ footerlink, isActiveIndex, setToggle }) => {
+const FooterLink = ({ footerlink, isActiveIndex, setToggle }) => {
   const checkToggle = () => {
     return isActiveIndex == footerlink.id;
   };
@@ -36,4 +36,4 @@ const LinkCard = ({ footerlink, isActiveIndex, setToggle }) => {
   );
 };
 
-export default LinkCard;
+export default FooterLink;
