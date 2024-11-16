@@ -4,7 +4,7 @@ import { IoMdArrowBack } from "react-icons/io";
 import { IoMdArrowForward } from "react-icons/io";
 import { case_study_data } from "../../static";
 import Slider from "../CommonComponents/Slider/page";
-import CaseStudyCard from "../Cards/CaseStudyCard";
+import CaseStudyCard from "../CommonComponents/Cards/CaseStudyCard";
 
 const CaseStudy = () => {
   let [left, setLeft] = useState(false);

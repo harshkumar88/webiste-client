@@ -4,7 +4,7 @@ import { IoMdArrowBack } from "react-icons/io";
 import { IoMdArrowForward } from "react-icons/io";
 import { blog_data } from "../../static";
 import Slider from "../CommonComponents/Slider/page";
-import BlogCard from "../Cards/BlogCard";
+import BlogCard from "../CommonComponents/Cards/BlogCard";
 
 const Blogs = () => {
   let [left, setLeft] = useState(false);

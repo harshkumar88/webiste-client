@@ -4,7 +4,7 @@ import { IoMdArrowBack } from "react-icons/io";
 import { IoMdArrowForward } from "react-icons/io";
 import { testimonials_data } from "../../static";
 import Slider from "../CommonComponents/Slider/page";
-import TestimonialCard from "../Cards/TestimonialCard";
+import TestimonialCard from "../CommonComponents/Cards/TestimonialCard";
 
 const Testimonials = () => {
   let [left, setLeft] = useState(false);

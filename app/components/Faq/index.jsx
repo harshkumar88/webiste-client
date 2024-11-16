@@ -46,7 +46,7 @@ const FAQ = () => {
   };
 
   return (
-    <div className=" flex flex-col gap-2 w-[90%] ">
+    <div className=" flex flex-col gap-2  ">
       {questionsAnswers.map((item, index) => (
         <div
           key={index}

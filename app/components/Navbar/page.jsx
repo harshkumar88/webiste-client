@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
-import Button from "../../../CommonComponents/Button";
-import { nav_links } from "../../../../static";
+import Button from "../CommonComponents/Button";
+import { nav_links } from "../../static";
 import { MdOutlineSegment as Menu } from "react-icons/md";
 import { IoClose as Close } from "react-icons/io5";
 

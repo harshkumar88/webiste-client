@@ -1,4 +1,4 @@
-import Navbar from "../components/Header/components/Navbar/page";
+import Navbar from "../components/Navbar/page";
 import ProffesionalWrapper from "../components/ProffesionalWrapper";
 import { test_content1 } from "../static";
 import CaseStudy from "../components/CaseStudy/page";

@@ -1,4 +1,4 @@
-const HeroCardCarousel = ({ card }) => {
+const HeroCard = ({ card }) => {
   return (
     <div
       className={`flex  flex-shrink-0 flex-col items-start justify-start border-none transition-all ease-in-out duration-500  cursor-pointer relative overflow-hidden w-[100%] sm:h-[460px] h-[400px] `}
@@ -20,4 +20,4 @@ const HeroCardCarousel = ({ card }) => {
   );
 };
 
-export default HeroCardCarousel;
+export default HeroCard;

@@ -1,4 +1,4 @@
-import Navbar from "../components/Header/components/Navbar/page";
+import Navbar from "../components/Navbar/page";
 import FeaturesWrapper from "../components/FeaturesWrapper";
 import StateMent from "../components/Statement/page";
 import { Feauters_content1, Feauters_content2 } from "../static";
@@ -6,7 +6,6 @@ import CaseStudy from "../components/CaseStudy/page";
 import Story from "../components/Story/page";
 import NeedsComponent from "../components/Needs/page";
 import Footer from "../components/Footer/page";
-import FAQ from "../components/Faq";
 
 const Home = () => {
   return (

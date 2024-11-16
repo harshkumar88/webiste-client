@@ -7,20 +7,23 @@ const ProffesionalWrapper = ({ content, reverse }) => {
       {content?.map((item, idx) => {
         return (
           <div
-            className={`w-[90%]  mx-auto flex justify-between items-center md:gap-10  gap-10 md:flex-row  flex-col-reverse  ${
+            className={`w-[90%]  mx-auto flex justify-between items-center  gap-16 md:flex-row  flex-col-reverse  ${
               (reverse + idx) % 2 != 0 ? "md:flex-row-reverse" : ""
             }`}
             key={idx}
           >
             {item.switch ? (
-              <div className=" md:w-[50%] h-[330px] sm:w-[80%] w-[100%]  rounded-[20px] ">
-                <img
-                  src={item.img}
-                  className="  object-cover w-[50%] h-[100%] mx-auto rounded-[20px]"
-                />
+              <div className=" md:w-[50%]  sm:w-[80%] w-[100%]  rounded-[20px ">
+                <div className="md:w-[300px] rounded-[20px] h-[350px] overflow-hidden mx-auto">
+                  {" "}
+                  <img
+                    src={item.img}
+                    className=" object-cover md:w-[100%]  w-[100%] rounded-[20px]"
+                  />
+                </div>
               </div>
             ) : (
-              <div className=" md:w-[50%]  sm:w-[80%] w-[100%]  ">
+              <div className=" md:w-[50%] mx-auto  w-[100%]  ">
                 <FAQ />
               </div>
             )}
@@ -28,7 +31,7 @@ const ProffesionalWrapper = ({ content, reverse }) => {
               <p className="font-bold sm:text-[2.7rem] xs:text-[2.5rem] text-[2rem] ">
                 {item.title}
               </p>
-              <p className=" sm:text-[1rem] w-[85%] xsm:text-[1rem] text-[0.9rem] md:text-justify text-center">
+              <p className=" sm:text-[1rem] w-[100%] xsm:text-[1rem] text-[0.9rem] md:text-justify text-center">
                 {item.details}
               </p>
             </div>
