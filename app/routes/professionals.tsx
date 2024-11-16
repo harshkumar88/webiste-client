@@ -1,9 +1,9 @@
-import Navbar from "../PageComponents/Navbar/page";
+import Navbar from "../PageComponents/Navbar";
 import ProfessionalWrapper from "../PageComponents/ProfessionalWrapper";
 import { test_content1 } from "../static";
-import CaseStudy from "../PageComponents/CaseStudy/page";
-import Story from "../PageComponents/Story/page";
-import Footer from "../PageComponents/Footer/page";
+import CaseStudy from "../PageComponents/CaseStudy";
+import Story from "../PageComponents/Story";
+import Footer from "../PageComponents/Footer";
 
 const Test = () => {
   return (

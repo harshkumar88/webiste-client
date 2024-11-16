@@ -2,11 +2,11 @@ import { slideLeft, slideRight } from "../../Handlers/commonhandlers";
 import { useEffect, useRef, useState } from "react";
 import { IoMdArrowBack } from "react-icons/io";
 import { IoMdArrowForward } from "react-icons/io";
-import { case_study_data } from "../../static";
-import Slider from "../../CommonComponents/Slider/page";
-import CaseStudyCard from "../../CommonComponents/Cards/CaseStudyCard";
+import { blog_data } from "../../static";
+import Slider from "../../CommonComponents/Slider";
+import BlogCard from "../../CommonComponents/Cards/BlogCard";
 
-const CaseStudy = () => {
+const Blogs = () => {
   let [left, setLeft] = useState(false);
   let [right, setRight] = useState(true);
   const cardRef = useRef();
@@ -24,19 +24,19 @@ const CaseStudy = () => {
   }
 
   return (
-    <div className="flex flex-col gap-5 mx-auto  pb-5 px-4 w-[100%] overflow-hidden">
-      <div className="flex flex-col sm:flex-row justify-between items-center w-[90%]  mx-auto">
-        <div className="flex flex-col gap-2 w-[100%]  md:w-[90%] lg:w-[45%] md:text-start text-center">
-          <p className="text-[2.5rem] sm:text-[3rem] md:text-[3.3rem] lg:text-[3.1rem] font-bold">
-            Case <span className="bg-yellow_light">Study</span>
+    <div className="flex flex-col gap-5 mx-auto  pb-2 px-4 w-[100%] overflow-hidden">
+      <div className="flex flex-col sm:flex-row justify-between items-center w-[90%] mt-8 mx-auto">
+        <div className="flex flex-col gap-2 w-[100%]  md:w-[90%] lg:w-[45%]">
+          <p className="text-[2.4rem] sm:text-[3rem] md:text-[3.3rem] lg:text-[3.1rem]  font-bold md:text-start text-center">
+            Read Our <span className="bg-yellow_light px-2">Blogs</span>
           </p>
           <p className="text-[0.9rem] sm:text-[1rem] md:text-[1.1rem] sm:w-[98%] w-[100%] md:text-start text-center">
-            Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Lorem
-            ipsum dolor sit amet, consectetuer adipiscing elit. Lorem ipsum
-            dolor sit amet.
+            Lorem ipsum dolor sit amet, consectetuer adipiscing elit.Lorem ipsum
+            dolor sit amet, consectetuer adipiscing elit.Lorem ipsum dolor sit
+            amet.
           </p>
         </div>
-        <div className=" gap-4 justify-end w-full sm:w-[50%] mt-3 pe-[15%] md:flex hidden ">
+        <div className="md:flex hidden gap-4 justify-end w-full sm:w-[50%] mt-3 pe-[15%]  ">
           <IoMdArrowBack
             size={40}
             className={`cursor-pointer text-black ${
@@ -56,14 +56,14 @@ const CaseStudy = () => {
       <Slider
         checkScroll={checkScroll}
         cardRef={cardRef}
-        style="overflow-x-auto mt-8 flex md:gap-10 gap-6 xsm:w-[90%] w-[100%] mx-auto remove_scrollbar"
+        style="overflow-x-auto mt-8 flex md:gap-10 gap-6 xsm:w-[90%] w-[100%]  mx-auto remove_scrollbar"
       >
-        {case_study_data?.map((item, idx) => {
-          return <CaseStudyCard key={idx} item={item} />;
+        {blog_data?.map((item, idx) => {
+          return <BlogCard key={idx} item={item} />;
         })}
       </Slider>
     </div>
   );
 };
 
-export default CaseStudy;
+export default Blogs;

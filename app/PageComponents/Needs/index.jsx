@@ -1,5 +1,5 @@
 import { useRef, useState } from "react";
-import Slider from "../../CommonComponents/Slider/page";
+import Slider from "../../CommonComponents/Slider";
 import { need_slider_data } from "../../static";
 import NeedsCard from "../../CommonComponents/Cards/NeedsCard";
 import { IoMdArrowBack } from "react-icons/io";

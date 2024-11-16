@@ -1,5 +1,5 @@
 // components/FAQ.js
-import React, { useState, useEffect } from "react";
+import { useState, useEffect } from "react";
 import { questionsAnswers } from "../../static";
 import { IoIosArrowDown as DownArrow } from "react-icons/io";
 
@@ -16,26 +16,6 @@ const FAQ = () => {
       setTyping(true);
       const answerText = questionsAnswers[activeIndex].answer;
       setDisplayedText(answerText); // Reset text
-      return;
-      let charIndex = -1; // Start from the first character
-
-      const typeChar = () => {
-        charIndex++;
-        if (charIndex < answerText.length) {
-          console.log(charIndex);
-          setDisplayedText((prev) => prev + answerText[charIndex]);
-
-          clear = setTimeout(typeChar, 30); // Adjust typing speed here
-        } else {
-          setTyping(false); // Typing is complete
-        }
-      };
-
-      typeChar(); // Start typing effect
-
-      return () => {
-        setDisplayedText(""); // Clean up on unmount or index change
-      };
     }
   }, [activeIndex]);
 

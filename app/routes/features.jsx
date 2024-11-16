@@ -1,11 +1,11 @@
-import Navbar from "../PageComponents/Navbar/page";
+import Navbar from "../PageComponents/Navbar";
 import FeaturesWrapper from "../PageComponents/FeaturesWrapper";
-import StateMent from "../PageComponents/Statement/page";
+import StateMent from "../PageComponents/Statement";
 import { Feauters_content1, Feauters_content2 } from "../static";
-import CaseStudy from "../PageComponents/CaseStudy/page";
-import Story from "../PageComponents/Story/page";
-import NeedsComponent from "../PageComponents/Needs/page";
-import Footer from "../PageComponents/Footer/page";
+import CaseStudy from "../PageComponents/CaseStudy";
+import Story from "../PageComponents/Story";
+import NeedsComponent from "../PageComponents/Needs";
+import Footer from "../PageComponents/Footer";
 
 const Home = () => {
   return (

@@ -1,5 +1,3 @@
-import React from "react";
-
 const FeaturesWrapper = ({ content, reverse }) => {
   return (
     <div className="flex flex-col gap-20">
