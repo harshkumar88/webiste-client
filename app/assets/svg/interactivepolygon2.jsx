@@ -1,11 +1,9 @@
-import React from "react";
-
-const InteractivePolygon = () => {
+const InteractivePolygon2 = () => {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"
-      width="650"
-      height="480"
+      width="330"
+      height="250"
       viewBox="0 0 750 480"
       fill="none"
     >
@@ -17,4 +15,4 @@ const InteractivePolygon = () => {
   );
 };
 
-export default InteractivePolygon;
+export default InteractivePolygon2;
