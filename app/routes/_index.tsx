@@ -6,7 +6,7 @@ import CaseStudy from "../PageComponents/CaseStudy";
 import Testimonials from "../PageComponents/Testimonials";
 import Blogs from "../PageComponents/Blogs";
 import Footer from "../PageComponents/Footer";
-// import InteractiveSection from "../PageComponents/InteractiveSection";
+import InteractiveSection from "../PageComponents/InteractiveSection";
 import Navbar from "../PageComponents/Navbar";
 import HeroBanner from "../PageComponents/HeroBanner";
 
@@ -23,7 +23,7 @@ export default function Index() {
       <Navbar />
       <HeroBanner />
       <div className="flex flex-col gap-12 sm:gap-14 mt-10  overflow-hidden">
-        {/* <InteractiveSection /> */}
+        <InteractiveSection />
         <TrustedTargets />
         <NeedsComponent />
         <Story />
