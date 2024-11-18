@@ -2,8 +2,8 @@ const InteractivePolygon2 = () => {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"
-      width="330"
-      height="250"
+      width="600"
+      height="400"
       viewBox="0 0 750 480"
       fill="none"
     >
