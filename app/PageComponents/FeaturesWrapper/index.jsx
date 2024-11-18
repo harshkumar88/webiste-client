@@ -4,6 +4,7 @@ const FeaturesWrapper = ({ content, reverse }) => {
       {content?.map((item, idx) => {
         return (
           <div
+            data-aos="fade-up"
             className={`w-[90%]  mx-auto flex justify-between items-center gap-16 md:flex-row  flex-col-reverse  ${
               (reverse + idx) % 2 != 0 ? "md:flex-row-reverse" : ""
             }`}

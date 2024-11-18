@@ -1,6 +1,7 @@
 const StateMent = ({ remove_color }) => {
   return (
     <div
+      data-aos="fade-up"
       className={`md:w-[80%] w-[100%]  mx-auto md:p-0 sm:mt-10  pb-10 flex flex-col items-start justify-center relative ${
         remove_color ? "bg-white" : "bg-yellow_light"
       }`}

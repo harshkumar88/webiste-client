@@ -9,6 +9,9 @@ import Footer from "../PageComponents/Footer";
 import InteractiveSection from "../PageComponents/InteractiveSection";
 import Navbar from "../PageComponents/Navbar";
 import HeroBanner from "../PageComponents/HeroBanner";
+import AOS from "aos";
+import "aos/dist/aos.css"; // Import AOS styles
+import { useEffect } from "react";
 
 export const meta: MetaFunction = () => {
   return [
@@ -18,6 +21,9 @@ export const meta: MetaFunction = () => {
 };
 
 export default function Index() {
+  useEffect(() => {
+    AOS.init();
+  }, []);
   return (
     <section className="flex flex-col  remove_scrollbar">
       <Navbar />

@@ -25,7 +25,10 @@ const Story = () => {
   }
 
   return (
-    <div className="flex flex-col gap-5 mx-auto sm:mt-10 mt-5 bg-green_gradient pt-5 pb-14 px-4 w-[100%] overflow-hidden">
+    <div
+      className="flex flex-col gap-5 mx-auto sm:mt-10 mt-5 bg-green_gradient pt-5 pb-14 px-4 w-[100%] overflow-hidden"
+      data-aos="fade-up"
+    >
       <div className="flex flex-col md:flex-row justify-between items-center w-[90%] mt-8 mx-auto">
         <div className="flex flex-col gap-2 w-[100%]  md:w-[90%] lg:w-[45%]">
           <p className="text-[2.5rem] sm:text-[3rem] md:text-[3.3rem] lg:text-[3.1rem] text-white font-bold md:text-start text-center">

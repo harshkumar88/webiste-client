@@ -20,6 +20,7 @@ const InteractiveSection = () => {
     <div
       className="md:w-[93%] w-[100%] ml-auto flex flex-col md:flex-row items-center  gap-10 justify-between  overflow-hidden "
       id="grow"
+      data-aos="fade-up"
     >
       <div className="flex flex-col md:w-[30%] w-[90%]">
         <p className="text-[2.5rem] md:text-start text-center lg:font-normal font-bold ">

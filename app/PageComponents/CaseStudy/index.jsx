@@ -24,7 +24,10 @@ const CaseStudy = () => {
   }
 
   return (
-    <div className="flex flex-col gap-5 mx-auto  pb-5 px-4 w-[100%] overflow-hidden">
+    <div
+      data-aos="fade-up"
+      className="flex flex-col gap-5 mx-auto  pb-5 px-4 w-[100%] overflow-hidden"
+    >
       <div className="flex flex-col sm:flex-row justify-between items-center w-[90%]  mx-auto">
         <div className="flex flex-col gap-2 w-[100%]  md:w-[90%] lg:w-[45%] md:text-start text-center">
           <p className="text-[2.5rem] sm:text-[3rem] md:text-[3.3rem] lg:text-[3.1rem] font-bold">

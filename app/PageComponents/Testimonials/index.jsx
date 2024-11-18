@@ -18,7 +18,7 @@ const Testimonials = () => {
   }
 
   return (
-    <div className="w-[100%] mb-5 sm:h-[600px] h-[580px]  ">
+    <div data-aos="fade-up" className="w-[100%] mb-5 sm:h-[600px] h-[580px]  ">
       <div className="flex flex-col gap-5 mx-auto   px-4 h-[400px] bg-yellow_light">
         <div className="flex flex-col md:flex-row justify-between items-center w-[90%] mt-8 mx-auto ">
           <div className="flex flex-col gap-2  w-[100%]  md:w-[90%] lg:w-[100%]">

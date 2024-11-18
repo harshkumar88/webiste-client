@@ -21,6 +21,7 @@ const NeedsComponent = () => {
     <div
       className="md:w-[93%] w-[100%] ml-auto flex flex-col md:flex-row items-center sm:gap-20 gap-10 justify-between md:mt-5 overflow-hidden "
       id="grow"
+      data-aos="fade-up"
     >
       <div className="flex flex-col md:w-[30%] w-[90%]">
         <p className="text-[2.5rem] md:text-start text-center ">
