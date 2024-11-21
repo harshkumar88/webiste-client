@@ -2,14 +2,14 @@
 .sliderContainer {
   position: relative;
   width: 100%;
-  max-width: 800px;
   margin: auto;
 }
 
 .customCarousel {
   position: relative;
-  overflow: hidden;
+  /* overflow: hidden; */
   border-radius: 0 0 0 50px;
+  display: flex;
 }
 
 .prevButton,
@@ -79,5 +79,3 @@
 .active {
   background-color: blue; /* Change to your preferred active color */
 }
-
-

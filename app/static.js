@@ -108,22 +108,22 @@ export const interactive_section_data = [
     id: 1,
     img: "https://s3-alpha-sig.figma.com/img/7cee/681b/69f23bc30e43b41498b9e5e756d1e7db?Expires=1732492800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=Tkrd6Se3JD37hw935qrsGbnoW1x2nyoIWFGwbb5yS~dRlEwAx4GVuJPRt6l5dKMzzNgSyeKwqcBT35Nhd9jdWXbtWTAG4DQMEBn5wiFMCKpwywdgaPiizRjrAaaBIXbtq~xIotwQLtIu~p0bXcVZoBCcKHXZeZOnXUOca31NPzHNQimD2l2-PBOgBH5Ptvt6YodV~Dd20Ct3GmueJNHBWRNn6HryWstOa3JaXrfTDZTvJPStxDSJiqESf-2f6YNUTf6L464WwlPlDDeKj3FkNmJsXj0vUcAdd4i64GpqqbQX0w7xBfh0NVMt7flufJOQ-LTByP7uND8UAuN1lUBNFQ__",
   },
-  // {
-  //   id: 1,
-  //   img: "https://s3-alpha-sig.figma.com/img/7cee/681b/69f23bc30e43b41498b9e5e756d1e7db?Expires=1732492800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=Tkrd6Se3JD37hw935qrsGbnoW1x2nyoIWFGwbb5yS~dRlEwAx4GVuJPRt6l5dKMzzNgSyeKwqcBT35Nhd9jdWXbtWTAG4DQMEBn5wiFMCKpwywdgaPiizRjrAaaBIXbtq~xIotwQLtIu~p0bXcVZoBCcKHXZeZOnXUOca31NPzHNQimD2l2-PBOgBH5Ptvt6YodV~Dd20Ct3GmueJNHBWRNn6HryWstOa3JaXrfTDZTvJPStxDSJiqESf-2f6YNUTf6L464WwlPlDDeKj3FkNmJsXj0vUcAdd4i64GpqqbQX0w7xBfh0NVMt7flufJOQ-LTByP7uND8UAuN1lUBNFQ__",
-  // },
-  // {
-  //   id: 1,
-  //   img: "https://s3-alpha-sig.figma.com/img/7cee/681b/69f23bc30e43b41498b9e5e756d1e7db?Expires=1732492800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=Tkrd6Se3JD37hw935qrsGbnoW1x2nyoIWFGwbb5yS~dRlEwAx4GVuJPRt6l5dKMzzNgSyeKwqcBT35Nhd9jdWXbtWTAG4DQMEBn5wiFMCKpwywdgaPiizRjrAaaBIXbtq~xIotwQLtIu~p0bXcVZoBCcKHXZeZOnXUOca31NPzHNQimD2l2-PBOgBH5Ptvt6YodV~Dd20Ct3GmueJNHBWRNn6HryWstOa3JaXrfTDZTvJPStxDSJiqESf-2f6YNUTf6L464WwlPlDDeKj3FkNmJsXj0vUcAdd4i64GpqqbQX0w7xBfh0NVMt7flufJOQ-LTByP7uND8UAuN1lUBNFQ__",
-  // },
-  // {
-  //   id: 1,
-  //   img: "https://s3-alpha-sig.figma.com/img/7cee/681b/69f23bc30e43b41498b9e5e756d1e7db?Expires=1732492800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=Tkrd6Se3JD37hw935qrsGbnoW1x2nyoIWFGwbb5yS~dRlEwAx4GVuJPRt6l5dKMzzNgSyeKwqcBT35Nhd9jdWXbtWTAG4DQMEBn5wiFMCKpwywdgaPiizRjrAaaBIXbtq~xIotwQLtIu~p0bXcVZoBCcKHXZeZOnXUOca31NPzHNQimD2l2-PBOgBH5Ptvt6YodV~Dd20Ct3GmueJNHBWRNn6HryWstOa3JaXrfTDZTvJPStxDSJiqESf-2f6YNUTf6L464WwlPlDDeKj3FkNmJsXj0vUcAdd4i64GpqqbQX0w7xBfh0NVMt7flufJOQ-LTByP7uND8UAuN1lUBNFQ__",
-  // },
-  // {
-  //   id: 1,
-  //   img: "https://s3-alpha-sig.figma.com/img/7cee/681b/69f23bc30e43b41498b9e5e756d1e7db?Expires=1732492800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=Tkrd6Se3JD37hw935qrsGbnoW1x2nyoIWFGwbb5yS~dRlEwAx4GVuJPRt6l5dKMzzNgSyeKwqcBT35Nhd9jdWXbtWTAG4DQMEBn5wiFMCKpwywdgaPiizRjrAaaBIXbtq~xIotwQLtIu~p0bXcVZoBCcKHXZeZOnXUOca31NPzHNQimD2l2-PBOgBH5Ptvt6YodV~Dd20Ct3GmueJNHBWRNn6HryWstOa3JaXrfTDZTvJPStxDSJiqESf-2f6YNUTf6L464WwlPlDDeKj3FkNmJsXj0vUcAdd4i64GpqqbQX0w7xBfh0NVMt7flufJOQ-LTByP7uND8UAuN1lUBNFQ__",
-  // },
+  {
+    id: 1,
+    img: "https://s3-alpha-sig.figma.com/img/7cee/681b/69f23bc30e43b41498b9e5e756d1e7db?Expires=1732492800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=Tkrd6Se3JD37hw935qrsGbnoW1x2nyoIWFGwbb5yS~dRlEwAx4GVuJPRt6l5dKMzzNgSyeKwqcBT35Nhd9jdWXbtWTAG4DQMEBn5wiFMCKpwywdgaPiizRjrAaaBIXbtq~xIotwQLtIu~p0bXcVZoBCcKHXZeZOnXUOca31NPzHNQimD2l2-PBOgBH5Ptvt6YodV~Dd20Ct3GmueJNHBWRNn6HryWstOa3JaXrfTDZTvJPStxDSJiqESf-2f6YNUTf6L464WwlPlDDeKj3FkNmJsXj0vUcAdd4i64GpqqbQX0w7xBfh0NVMt7flufJOQ-LTByP7uND8UAuN1lUBNFQ__",
+  },
+  {
+    id: 1,
+    img: "https://s3-alpha-sig.figma.com/img/7cee/681b/69f23bc30e43b41498b9e5e756d1e7db?Expires=1732492800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=Tkrd6Se3JD37hw935qrsGbnoW1x2nyoIWFGwbb5yS~dRlEwAx4GVuJPRt6l5dKMzzNgSyeKwqcBT35Nhd9jdWXbtWTAG4DQMEBn5wiFMCKpwywdgaPiizRjrAaaBIXbtq~xIotwQLtIu~p0bXcVZoBCcKHXZeZOnXUOca31NPzHNQimD2l2-PBOgBH5Ptvt6YodV~Dd20Ct3GmueJNHBWRNn6HryWstOa3JaXrfTDZTvJPStxDSJiqESf-2f6YNUTf6L464WwlPlDDeKj3FkNmJsXj0vUcAdd4i64GpqqbQX0w7xBfh0NVMt7flufJOQ-LTByP7uND8UAuN1lUBNFQ__",
+  },
+  {
+    id: 1,
+    img: "https://s3-alpha-sig.figma.com/img/7cee/681b/69f23bc30e43b41498b9e5e756d1e7db?Expires=1732492800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=Tkrd6Se3JD37hw935qrsGbnoW1x2nyoIWFGwbb5yS~dRlEwAx4GVuJPRt6l5dKMzzNgSyeKwqcBT35Nhd9jdWXbtWTAG4DQMEBn5wiFMCKpwywdgaPiizRjrAaaBIXbtq~xIotwQLtIu~p0bXcVZoBCcKHXZeZOnXUOca31NPzHNQimD2l2-PBOgBH5Ptvt6YodV~Dd20Ct3GmueJNHBWRNn6HryWstOa3JaXrfTDZTvJPStxDSJiqESf-2f6YNUTf6L464WwlPlDDeKj3FkNmJsXj0vUcAdd4i64GpqqbQX0w7xBfh0NVMt7flufJOQ-LTByP7uND8UAuN1lUBNFQ__",
+  },
+  {
+    id: 1,
+    img: "https://s3-alpha-sig.figma.com/img/7cee/681b/69f23bc30e43b41498b9e5e756d1e7db?Expires=1732492800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=Tkrd6Se3JD37hw935qrsGbnoW1x2nyoIWFGwbb5yS~dRlEwAx4GVuJPRt6l5dKMzzNgSyeKwqcBT35Nhd9jdWXbtWTAG4DQMEBn5wiFMCKpwywdgaPiizRjrAaaBIXbtq~xIotwQLtIu~p0bXcVZoBCcKHXZeZOnXUOca31NPzHNQimD2l2-PBOgBH5Ptvt6YodV~Dd20Ct3GmueJNHBWRNn6HryWstOa3JaXrfTDZTvJPStxDSJiqESf-2f6YNUTf6L464WwlPlDDeKj3FkNmJsXj0vUcAdd4i64GpqqbQX0w7xBfh0NVMt7flufJOQ-LTByP7uND8UAuN1lUBNFQ__",
+  },
 ];
 export const story_data = [
   {

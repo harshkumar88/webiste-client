@@ -3,17 +3,13 @@ import CardCarousel from "../../CommonComponents/Caraousel";
 import HeroCard from "../../CommonComponents/Cards/HeroCard";
 import CardZoomer from "../../CommonComponents/CardZoomer";
 import { card_zoomer_content } from "../../static";
+import styles from "./css/slider.module.css";
 const HeroBanner = () => {
   const [activeIndex, setActiveIndex] = useState(0);
   const carouselRef = useRef(null); // Create a ref for the carousel
 
   const handleDotClick = (index) => {
     setActiveIndex(index);
-    carouselRef.current.moveTo(index); // moves to selected slide
-  };
-
-  const handleChange = (index) => {
-    setActiveIndex(index); // updates active index on slide change
   };
 
   return (
@@ -50,9 +46,12 @@ const HeroBanner = () => {
           style={{ borderRadius: "30px" }}
         >
           <CardCarousel
-            hide="true"
+            hide={true}
             carouselRef={carouselRef}
-            handleChange={handleChange}
+            styles={styles}
+            autoSlideInterval="4000"
+            setActiveIndex={setActiveIndex}
+            activeIndex={activeIndex}
           >
             {card_zoomer_content.map((item, idx) => (
               <HeroCard key={idx} card={item} />
