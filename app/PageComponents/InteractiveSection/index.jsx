@@ -27,7 +27,7 @@ const InteractiveSection = ({ show }) => {
         autoSlideInterval="10000"
       >
         {interactive_section_data?.map((item, idx) => {
-          return <SectionCard show={show} key={idx} />;
+          return <SectionCard show={show} key={idx} item={item} />;
         })}
       </CardCarousel>
 

@@ -1,4 +1,15 @@
-const SectionCard = ({ show }) => {
+import { useEffect, useState } from "react";
+
+const SectionCard = ({ show, item }) => {
+  const [activeContent, setActiveContent] = useState(item.data[0]);
+  useEffect(() => {
+    setActiveContent(item.data[0]);
+  }, []);
+
+  const handleClick = (id) => {
+    setActiveContent(item.data[id]);
+  };
+
   return (
     <div className=" w-[100%] ml-auto flex flex-shrink-0  flex-col md:flex-row items-center xsm:gap-10 gap-4 justify-between  overflow-hidden ">
       <div className="flex flex-col md:w-[30%] w-[90%]">
@@ -28,31 +39,34 @@ const SectionCard = ({ show }) => {
           <div className="bg-green_gradient xsm:h-[200px] h-[130px] xsm:w-[50px] w-[40px]  rounded-[50px] flex flex-col gap-5 items-center justify-center  absolute xsm:top-[150px]  top-[100px] lg:left-[28px] md:left-[20px] sm:left-[18px] left-[2px]  z-10">
             <img
               src="/Interactive/animated_images.png"
-              className="xsm:w-[30px] w-[20px] "
+              className="xsm:w-[30px] w-[20px] cursor-pointer border-red-50"
+              onClick={() => handleClick(0)}
             />
             <img
               src="/Interactive/palette.png"
-              className="xsm:w-[30px] w-[20px] "
+              className="xsm:w-[30px] w-[20px] cursor-pointer text-white "
+              onClick={() => handleClick(1)}
             />
             <img
               src="/Interactive/camera_video.png"
-              className="xsm:w-[30px] w-[20px] "
+              className="xsm:w-[30px] w-[20px] cursor-pointer "
+              onClick={() => handleClick(2)}
             />
           </div>
         )}
 
         {/* Interactive Polygon Components */}
-        <img src={"/Interactive/img.png"} className="object-contain " />
+        <img src={activeContent.img} className="object-contain " />
 
         <div className="absolute  sm:w-[60%] w-[70%] p-4 md:bottom-[1%]  sm:bottom-[-3%] bottom-[-5%] lg:left-[25%] left-[30%] ">
           <div className="flex flex-col me-0 mx-auto  z-10  ">
             <p className=" flex items-center gap-2 text-[1.2rem]">
               <span className="font-bold sm:text-[1.3rem] text-[1.1rem]">
-                One chat experience
+                {activeContent.label}
               </span>
             </p>
             <p className="sm:text-[1rem] text-gray-500 text-[0.8rem]">
-              Help people navigate through difficult parts of your video
+              {activeContent.content}
             </p>
           </div>
         </div>

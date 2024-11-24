@@ -48,7 +48,7 @@ const Navbar = () => {
       <div
         className={`px-5 py-2 md:w-[90%] w-[100%] mx-auto flex  justify-between items-center `}
       >
-        <div className="flex gap-3 items-center">
+        <div className="flex gap-8 items-center">
           <div className="xsm:hidden block" onClick={() => setToggle(!toggle)}>
             {!toggle ? (
               <Menu
@@ -59,10 +59,11 @@ const Navbar = () => {
                 className={` text-3xl ${scroll ? "text-black" : "text-white"}`}
               />
             )}
-          </div>
-          <strong className=" text-2xl font-bold">
+          </div>{" "}
+          <img src="/Navbar/logo.png" className="-mt-[4px]" />
+          {/* <strong className=" text-2xl font-bold">
             Chaab<span className="font-extrabold text-[1.7rem]">i</span>
-          </strong>{" "}
+          </strong>{" "} */}
           <div className="gap-5 lg:flex hidden ">
             {nav_links?.map((link, idx) => {
               return (
