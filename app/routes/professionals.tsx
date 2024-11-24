@@ -15,11 +15,9 @@ const Test = () => {
     AOS.init();
   }, []);
   return (
-    <section className="flex flex-col  gap-10 remove_scrollbar">
+    <section className="flex flex-col  gap-16 remove_scrollbar">
       <Navbar />
-      <div className="flex flex-col gap-10 mb-10 mx-auto">
-        <ProfessionalWrapper content={test_content1} reverse={1} />
-      </div>
+      <ProfessionalWrapper content={test_content1} reverse={1} />
       <CaseStudy />
       <InteractiveSection show={true} />
       <div>
