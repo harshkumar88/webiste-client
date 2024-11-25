@@ -4,4 +4,63 @@
 
 .remove_scrollbar::-webkit-scrollbar {
   display: none;
+  width: 0;
 }
+.custom-clip {
+  clip-path: path("M0,0 C0,60 40,60 60,60 H90 C100,60 100,100 100,100 V0 Z");
+}
+
+.custom_shape {
+  clip-path: path(
+    "M0 40C0 17.9086 17.9086 0 40 0H720C736.569 0 750 13.4315 750 30V350C750 366.569 736.569 380 720 380H260C237.909 380 220 397.909 220 420V450C220 466.569 206.569 480 190 480H136.22C119.651 480 106.22 466.569 106.22 450V139.846C106.22 123.277 92.7885 109.846 76.22 109.846H30C13.4315 109.846 0 96.4142 0 79.8457V40Z"
+  );
+}
+
+.custom_clip {
+  clip-path: polygon(
+    9.96% 0,
+    89.35% 9.96%,
+    89.35% 62.4%,
+    34.89% 62.4%,
+    34.89% 75%,
+    22.42% 75%,
+    22.42% 25.07%,
+    9.96% 25.07%
+  );
+}
+
+.highlight_text_bottom {
+  background: linear-gradient(
+    to bottom,
+    white 60%,
+    #cfff92 60%,
+    #cfff92 90%,
+    white 90%
+  );
+  width: fit-content;
+}
+
+.highlight_text_top {
+  background: linear-gradient(
+    to bottom,
+    white 20%,
+    #cfff92 20%,
+    #cfff92 55%,
+    white 55%,
+    white 100%
+  );
+  width: fit-content;
+}
+.customCarousel {
+  touch-action: none;
+}
+.custom_border_radius {
+  border-top-left-radius: 50px;
+  border-bottom-left-radius: 50px;
+}
+
+/* .feature_bg_image {
+  background-image: url("/Interactive/img.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+} */

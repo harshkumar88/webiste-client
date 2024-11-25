@@ -60,11 +60,10 @@ const banner_styles = {
 };
 
 export {
+  styles,
   header_styles,
   form_styles,
   common_styles,
   area_styles,
   banner_styles,
 };
-
-export default styles;

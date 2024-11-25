@@ -2,12 +2,12 @@ export const nav_links = [
   {
     id: 1,
     label: "Build",
-    redirect: "/build",
+    redirect: "build",
   },
-  { id: 2, label: "Engage", redirect: "/engage" },
-  { id: 3, label: "Grow", redirect: "/grow" },
-  { id: 4, label: "Resources", redirect: "/resources" },
-  { id: 5, label: "Prices", redirect: "/prices" },
+  { id: 2, label: "Engage", redirect: "engage" },
+  { id: 3, label: "Grow", redirect: "grow" },
+  { id: 4, label: "Resources", redirect: "resources" },
+  { id: 5, label: "Prices", redirect: "prices" },
 ];
 
 export const targets = [
@@ -61,87 +61,196 @@ export const card_zoomer_content = [
     title: "Build",
     details:
       "Advanced training with interactive videos, quizzes, & custom learning journeys.",
-    img: "https://assets.website-files.com/617fa48948c7ab24b715140e/6183bce7320d030e82c15028_hero_person-1.webp",
+    img: "https://s3-alpha-sig.figma.com/img/b199/df36/fd31a99d25f392783bd90d1316fe77fd?Expires=1732492800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=M6k3nah0HX-R6IiE97YFkj30u6rAeb7rX61D0Mh-gBxkJq0igiL9J2N9-kj5XITBz7PFVWE6B4LQdLj5INIbIGrxh3TcmOXKnhinHTizgCdpqWB29TkmzEahxvtO6YHU~Vt2F2XD3zx3LS5Gai73aH57Lexdym6HCktBIfkXw-oI9e3EdMhe4BDkCGwEb9ttOmKPs~L6X7UQ6nR9XbeTu~rGGLdrDLvTDyZJAZiiqpf~wvOS3bpK3RTbFr3wF-8FWh~cZ4jLg~o2OrBfD1J3FuacbIV1os9VmW8xndMm6FlersTO~7BrYsmV7jjih7wk~i7ipBp~KfJy1oojARw0kQ__",
   },
   {
     id: 2,
     title: "Engage",
     details:
       "Advanced training with interactive videos, quizzes, & custom learning journeys.",
-    img: "https://assets.website-files.com/617fa48948c7ab24b715140e/6183bce3e584104be2e330e0_hero_person-2.webp",
+    img: "https://s3-alpha-sig.figma.com/img/8765/c64c/05e0e15ea67f3971afa781305daf2a13?Expires=1732492800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=XXhLp7SvpLkgRLTD0bDwZlWrxXEBD7xuSHXu8rXj-QdWxsbyBNUuAy6DCYCqRdSxGPftWE6twUB1c0r1vnxWD3bRyOd3iB8sBdq6d8P1ZjTT8r7QbZ5k6SSwUqYslnIQG6zQVUzc8Ei6fEvTl8ClE4kl5~za7mzIO4LJhSV3WmgSYZIjR61yelAUzUwasLbm2pe3MT82h6upbhOYcESx7qYsXa01mDF4rbqdGJzhd7xUzZ1TXUZFMo8Kr51FCoYFzQHyVVmmnlwbf398oaQul2rPEBP3QF9xcnTTuQZEwGTJeDScUZXLih35s8d4FjvxE-pFu88S9jECbLyfaVe25w",
   },
   {
     id: 3,
     title: "Grow",
     details:
       "Advanced training with interactive videos, quizzes, & custom learning journeys.",
-    img: "https://assets.website-files.com/617fa48948c7ab24b715140e/6183bb01e5841050e8e31f3b_hero_person-3.webp",
+    img: "https://s3-alpha-sig.figma.com/img/b199/df36/fd31a99d25f392783bd90d1316fe77fd?Expires=1732492800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=M6k3nah0HX-R6IiE97YFkj30u6rAeb7rX61D0Mh-gBxkJq0igiL9J2N9-kj5XITBz7PFVWE6B4LQdLj5INIbIGrxh3TcmOXKnhinHTizgCdpqWB29TkmzEahxvtO6YHU~Vt2F2XD3zx3LS5Gai73aH57Lexdym6HCktBIfkXw-oI9e3EdMhe4BDkCGwEb9ttOmKPs~L6X7UQ6nR9XbeTu~rGGLdrDLvTDyZJAZiiqpf~wvOS3bpK3RTbFr3wF-8FWh~cZ4jLg~o2OrBfD1J3FuacbIV1os9VmW8xndMm6FlersTO~7BrYsmV7jjih7wk~i7ipBp~KfJy1oojARw0kQ__",
   },
 ];
 
 export const need_slider_data = [
   {
     id: 1,
-    title: "Entrepreneur",
+    title: "L&D Professional",
     details:
-      "Help people navigate throughdifficult stages Help people navigate through",
-    img: "https://assets.website-files.com/617fa48948c7ab24b715140e/6183bce7320d030e82c15028_hero_person-1.webp",
+      "Help people navigate through difficult stages Help people navigate through",
+    img: "https://s3-alpha-sig.figma.com/img/4f41/4893/ef504d265eee523501f0f1f675d3946f?Expires=1732492800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=TooXwPmcR7bQM7m-ZWNPS4ic-kiLIBqyOaC4nmH7DY~sIE8vQGOVKsNCPzfr8B92PdEDjLFudHrNVqKgGWIU-NFde10E36ie93dPx7exY8I3vhhhVM3iu-jFm1QiWSOxCE4~2~cOeWR49EpsCO-xy07u99IZckzwo3slgH51DJFflRmb7AuA38jpqI6HMD4fYnXlS0tLOFIa3ubkmjggVoT3avUwMgrgGWHjfpYGP~5mF436pezV6dUh92r8j~gQi--L6W-u4A-hMVsBlmLQVM9ilECoickcsn3YtTgShZtpUO1r5iBwi2~E41TM3ZARyBs2uuo4RljxhcCp7kYeGA__",
   },
   {
     id: 2,
-    title: "Student",
+    title: "L&D Professional",
     details:
-      "Help people navigate throughdifficult stages Help people navigate through",
-    img: "https://assets.website-files.com/617fa48948c7ab24b715140e/6183bce3e584104be2e330e0_hero_person-2.webp",
+      "Help people navigate through difficult stages Help people navigate through",
+    img: "https://s3-alpha-sig.figma.com/img/4f41/4893/ef504d265eee523501f0f1f675d3946f?Expires=1732492800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=TooXwPmcR7bQM7m-ZWNPS4ic-kiLIBqyOaC4nmH7DY~sIE8vQGOVKsNCPzfr8B92PdEDjLFudHrNVqKgGWIU-NFde10E36ie93dPx7exY8I3vhhhVM3iu-jFm1QiWSOxCE4~2~cOeWR49EpsCO-xy07u99IZckzwo3slgH51DJFflRmb7AuA38jpqI6HMD4fYnXlS0tLOFIa3ubkmjggVoT3avUwMgrgGWHjfpYGP~5mF436pezV6dUh92r8j~gQi--L6W-u4A-hMVsBlmLQVM9ilECoickcsn3YtTgShZtpUO1r5iBwi2~E41TM3ZARyBs2uuo4RljxhcCp7kYeGA__",
   },
   {
     id: 3,
-    title: "Entrepreneur",
+    title: "L&D Professional",
     details:
-      "Help people navigate throughdifficult stages Help people navigate through",
-    img: "https://assets.website-files.com/617fa48948c7ab24b715140e/6183bb01e5841050e8e31f3b_hero_person-3.webp",
+      "Help people navigate through difficult stages Help people navigate through",
+    img: "https://s3-alpha-sig.figma.com/img/4f41/4893/ef504d265eee523501f0f1f675d3946f?Expires=1732492800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=TooXwPmcR7bQM7m-ZWNPS4ic-kiLIBqyOaC4nmH7DY~sIE8vQGOVKsNCPzfr8B92PdEDjLFudHrNVqKgGWIU-NFde10E36ie93dPx7exY8I3vhhhVM3iu-jFm1QiWSOxCE4~2~cOeWR49EpsCO-xy07u99IZckzwo3slgH51DJFflRmb7AuA38jpqI6HMD4fYnXlS0tLOFIa3ubkmjggVoT3avUwMgrgGWHjfpYGP~5mF436pezV6dUh92r8j~gQi--L6W-u4A-hMVsBlmLQVM9ilECoickcsn3YtTgShZtpUO1r5iBwi2~E41TM3ZARyBs2uuo4RljxhcCp7kYeGA__",
   },
 ];
 
+export const interactive_section_data = [
+  {
+    id: 1,
+    img: "https://s3-alpha-sig.figma.com/img/7cee/681b/69f23bc30e43b41498b9e5e756d1e7db?Expires=1732492800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=Tkrd6Se3JD37hw935qrsGbnoW1x2nyoIWFGwbb5yS~dRlEwAx4GVuJPRt6l5dKMzzNgSyeKwqcBT35Nhd9jdWXbtWTAG4DQMEBn5wiFMCKpwywdgaPiizRjrAaaBIXbtq~xIotwQLtIu~p0bXcVZoBCcKHXZeZOnXUOca31NPzHNQimD2l2-PBOgBH5Ptvt6YodV~Dd20Ct3GmueJNHBWRNn6HryWstOa3JaXrfTDZTvJPStxDSJiqESf-2f6YNUTf6L464WwlPlDDeKj3FkNmJsXj0vUcAdd4i64GpqqbQX0w7xBfh0NVMt7flufJOQ-LTByP7uND8UAuN1lUBNFQ__",
+    data: [
+      {
+        img: "/Interactive/img.png",
+        label: "One chat experience",
+        content: "Help people navigate through difficult parts of your video1",
+      },
+      {
+        img: "/Interactive/img.png",
+        label: "One chat experience",
+        content: "Help people navigate through difficult parts of your video2",
+      },
+      {
+        img: "/Interactive/img.png",
+        label: "One chat experience",
+        content: "Help people navigate through difficult parts of your video3",
+      },
+    ],
+  },
+  {
+    id: 1,
+    img: "https://s3-alpha-sig.figma.com/img/7cee/681b/69f23bc30e43b41498b9e5e756d1e7db?Expires=1732492800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=Tkrd6Se3JD37hw935qrsGbnoW1x2nyoIWFGwbb5yS~dRlEwAx4GVuJPRt6l5dKMzzNgSyeKwqcBT35Nhd9jdWXbtWTAG4DQMEBn5wiFMCKpwywdgaPiizRjrAaaBIXbtq~xIotwQLtIu~p0bXcVZoBCcKHXZeZOnXUOca31NPzHNQimD2l2-PBOgBH5Ptvt6YodV~Dd20Ct3GmueJNHBWRNn6HryWstOa3JaXrfTDZTvJPStxDSJiqESf-2f6YNUTf6L464WwlPlDDeKj3FkNmJsXj0vUcAdd4i64GpqqbQX0w7xBfh0NVMt7flufJOQ-LTByP7uND8UAuN1lUBNFQ__",
+    data: [
+      {
+        img: "/Interactive/img.png",
+        label: "One chat experience",
+        content: "Help people navigate through difficult parts of your video1",
+      },
+      {
+        img: "/Interactive/img.png",
+        label: "One chat experience",
+        content: "Help people navigate through difficult parts of your video2",
+      },
+      {
+        img: "/Interactive/img.png",
+        label: "One chat experience",
+        content: "Help people navigate through difficult parts of your video3",
+      },
+    ],
+  },
+  {
+    id: 1,
+    img: "https://s3-alpha-sig.figma.com/img/7cee/681b/69f23bc30e43b41498b9e5e756d1e7db?Expires=1732492800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=Tkrd6Se3JD37hw935qrsGbnoW1x2nyoIWFGwbb5yS~dRlEwAx4GVuJPRt6l5dKMzzNgSyeKwqcBT35Nhd9jdWXbtWTAG4DQMEBn5wiFMCKpwywdgaPiizRjrAaaBIXbtq~xIotwQLtIu~p0bXcVZoBCcKHXZeZOnXUOca31NPzHNQimD2l2-PBOgBH5Ptvt6YodV~Dd20Ct3GmueJNHBWRNn6HryWstOa3JaXrfTDZTvJPStxDSJiqESf-2f6YNUTf6L464WwlPlDDeKj3FkNmJsXj0vUcAdd4i64GpqqbQX0w7xBfh0NVMt7flufJOQ-LTByP7uND8UAuN1lUBNFQ__",
+    data: [
+      {
+        img: "/Interactive/img.png",
+        label: "One chat experience",
+        content: "Help people navigate through difficult parts of your video1",
+      },
+      {
+        img: "/Interactive/img.png",
+        label: "One chat experience",
+        content: "Help people navigate through difficult parts of your video2",
+      },
+      {
+        img: "/Interactive/img.png",
+        label: "One chat experience",
+        content: "Help people navigate through difficult parts of your video3",
+      },
+    ],
+  },
+  {
+    id: 1,
+    img: "https://s3-alpha-sig.figma.com/img/7cee/681b/69f23bc30e43b41498b9e5e756d1e7db?Expires=1732492800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=Tkrd6Se3JD37hw935qrsGbnoW1x2nyoIWFGwbb5yS~dRlEwAx4GVuJPRt6l5dKMzzNgSyeKwqcBT35Nhd9jdWXbtWTAG4DQMEBn5wiFMCKpwywdgaPiizRjrAaaBIXbtq~xIotwQLtIu~p0bXcVZoBCcKHXZeZOnXUOca31NPzHNQimD2l2-PBOgBH5Ptvt6YodV~Dd20Ct3GmueJNHBWRNn6HryWstOa3JaXrfTDZTvJPStxDSJiqESf-2f6YNUTf6L464WwlPlDDeKj3FkNmJsXj0vUcAdd4i64GpqqbQX0w7xBfh0NVMt7flufJOQ-LTByP7uND8UAuN1lUBNFQ__",
+    data: [
+      {
+        img: "/Interactive/img.png",
+        label: "One chat experience",
+        content: "Help people navigate through difficult parts of your video1",
+      },
+      {
+        img: "/Interactive/img.png",
+        label: "One chat experience",
+        content: "Help people navigate through difficult parts of your video2",
+      },
+      {
+        img: "/Interactive/img.png",
+        label: "One chat experience",
+        content: "Help people navigate through difficult parts of your video3",
+      },
+    ],
+  },
+];
 export const story_data = [
   {
     id: 1,
     title: "Now",
     sub_title: "BOOST",
-    details: "Training Completion Rate",
-    sub_details: "By Building Interactive Videos To Engage Employees",
+    details: "L&D Professional",
+    sub_details:
+      "Help people navigate through difficult stages Help people navigate through",
     img: "/Story/img.png",
   },
   {
     id: 2,
     title: "Now",
-    sub_title: "BOOST",
-    details: "Training Completion Rate",
-    sub_details: "By Building Interactive Videos To Engage Employees",
+    sub_title: "ENGAGE",
+    details: "L&D Professional",
+    sub_details:
+      "Help people navigate through difficult stages Help people navigate through",
     img: "/Story/img.png",
   },
   {
     id: 3,
     title: "Now",
     sub_title: "BOOST",
-    details: "Training Completion Rate",
-    sub_details: "By Building Interactive Videos To Engage Employees",
+    details: "L&D Professional",
+    sub_details:
+      "Help people navigate through difficult stages Help people navigate through",
     img: "/Story/img.png",
   },
   {
     id: 4,
     title: "Now",
-    sub_title: "BOOST",
-    details: "Training Completion Rate",
-    sub_details: "By Building Interactive Videos To Engage Employees",
+    sub_title: "ENGAGE",
+    details: "L&D Professional",
+    sub_details:
+      "Help people navigate through difficult stages Help people navigate through",
     img: "/Story/img.png",
   },
   {
     id: 5,
     title: "Now",
-    sub_title: "BOOST",
-    details: "Training Completion Rate",
-    sub_details: "By Building Interactive Videos To Engage Employees",
+    sub_title: "ENGAGE",
+    details: "L&D Professional",
+    sub_details:
+      "Help people navigate through difficult stages Help people navigate through",
+    img: "/Story/img.png",
+  },
+  {
+    id: 6,
+    title: "Now",
+    sub_title: "ENGAGE",
+    details: "L&D Professional",
+    sub_details:
+      "Help people navigate through difficult stages Help people navigate through",
+    img: "/Story/img.png",
+  },
+  {
+    id: 7,
+    title: "Now",
+    sub_title: "ENGAGE",
+    details: "L&D Professional",
+    sub_details:
+      "Help people navigate through difficult stages Help people navigate through",
     img: "/Story/img.png",
   },
 ];
@@ -151,8 +260,9 @@ export const case_study_data = [
     id: 1,
     name: "Jane Cooper",
     sub_title: "Company",
+    label: "Artificial Intelligence",
     details:
-      "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur.",
+      "Help people navigate through difficult stages Help people navigate through Help people navigate through difficult stages Help people navigate through",
     img: "/CaseStudy/icon.png",
     img2: "/CaseStudy/icon2.png",
   },
@@ -160,8 +270,9 @@ export const case_study_data = [
     id: 1,
     name: "Jane Cooper",
     sub_title: "Company",
+    label: "Artificial Intelligence",
     details:
-      "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur.",
+      "Help people navigate through difficult stages Help people navigate through Help people navigate through difficult stages Help people navigate through",
     img: "/CaseStudy/icon.png",
     img2: "/CaseStudy/icon2.png",
   },
@@ -169,8 +280,9 @@ export const case_study_data = [
     id: 1,
     name: "Jane Cooper",
     sub_title: "Company",
+    label: "Artificial Intelligence",
     details:
-      "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur.",
+      "Help people navigate through difficult stages Help people navigate through Help people navigate through difficult stages Help people navigate through",
     img: "/CaseStudy/icon.png",
     img2: "/CaseStudy/icon2.png",
   },
@@ -178,8 +290,9 @@ export const case_study_data = [
     id: 1,
     name: "Jane Cooper",
     sub_title: "Company",
+    label: "Artificial Intelligence",
     details:
-      "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur.",
+      "Help people navigate through difficult stages Help people navigate through Help people navigate through difficult stages Help people navigate through",
     img: "/CaseStudy/icon.png",
     img2: "/CaseStudy/icon2.png",
   },
@@ -187,8 +300,9 @@ export const case_study_data = [
     id: 1,
     name: "Jane Cooper",
     sub_title: "Company",
+    label: "Artificial Intelligence",
     details:
-      "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur.",
+      "Help people navigate through difficult stages Help people navigate through Help people navigate through difficult stages Help people navigate through",
     img: "/CaseStudy/icon.png",
     img2: "/CaseStudy/icon2.png",
   },
@@ -196,8 +310,9 @@ export const case_study_data = [
     id: 1,
     name: "Jane Cooper",
     sub_title: "Company",
+    label: "Artificial Intelligence",
     details:
-      "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur.",
+      "Help people navigate through difficult stages Help people navigate through Help people navigate through difficult stages Help people navigate through",
     img: "/CaseStudy/icon.png",
     img2: "/CaseStudy/icon2.png",
   },
@@ -206,51 +321,80 @@ export const case_study_data = [
 export const blog_data = [
   {
     id: 1,
-    date: "24-10-2024",
-    details: "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. ",
-    img: "/Blog/img.png",
+    label: "Artificial Intelligence",
+    details:
+      "Help people navigate through difficult stages Help people navigate through ",
+    img: "/Blog/img1.png",
   },
   {
     id: 2,
-    date: "24-10-2024",
-    details: "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. ",
-    img: "/Blog/img.png",
+    label: "Artificial Intelligence",
+    details:
+      "Help people navigate through difficult stages Help people navigate through ",
+    img: "/Blog/img2.png",
   },
   {
     id: 3,
-    date: "24-10-2024",
-    details: "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. ",
-    img: "/Blog/img.png",
+    label: "Artificial Intelligence",
+    details:
+      "Help people navigate through difficult stages Help people navigate through ",
+    img: "/Blog/img1.png",
   },
   {
     id: 4,
-    date: "24-10-2024",
-    details: "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. ",
-    img: "/Blog/img.png",
+    label: "Artificial Intelligence",
+    details:
+      "Help people navigate through difficult stages Help people navigate through ",
+    img: "/Blog/img2.png",
   },
   {
     id: 5,
-    date: "24-10-2024",
-    details: "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. ",
-    img: "/Blog/img.png",
+    label: "Artificial Intelligence",
+    details:
+      "Help people navigate through difficult stages Help people navigate through ",
+    img: "/Blog/img1.png",
   },
   {
-    id: 5,
-    date: "24-10-2024",
-    details: "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. ",
-    img: "/Blog/img.png",
+    id: 8,
+    label: "Artificial Intelligence",
+    details:
+      "Help people navigate through difficult stages Help people navigate through ",
+    img: "/Blog/img2.png",
   },
   {
-    id: 5,
-    date: "24-10-2024",
-    details: "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. ",
-    img: "/Blog/img.png",
+    id: 6,
+    label: "Artificial Intelligence",
+    details:
+      "Help people navigate through difficult stages Help people navigate through ",
+    img: "/Blog/img1.png",
   },
   {
-    id: 5,
-    date: "24-10-2024",
-    details: "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. ",
-    img: "/Blog/img.png",
+    id: 7,
+    label: "Artificial Intelligence",
+    details:
+      "Help people navigate through difficult stages Help people navigate through ",
+    img: "/Blog/img2.png",
+  },
+  {
+    id: 9,
+    label: "Artificial Intelligence",
+    details:
+      "Help people navigate through difficult stages Help people navigate through ",
+    img: "/Blog/img2.png",
+  },
+  {
+    id: 10,
+    label: "Artificial Intelligence",
+    details:
+      "Help people navigate through difficult stages Help people navigate through ",
+    img: "/Blog/img2.png",
+  },
+  {
+    id: 7,
+    label: "Artificial Intelligence",
+    details:
+      "Help people navigate through difficult stages Help people navigate through ",
+    img: "/Blog/img2.png",
   },
 ];
 
@@ -293,6 +437,60 @@ export const testimonials_data = [
   },
   {
     id: 5,
+    details:
+      "This platform revolutionized our training program. Our team loves the interactive features. This platform revolutionized our training program. Our team loves the interactive features.",
+    img1: "/Testimonials/img.png",
+    img2: "Testimonials/img1.png",
+    name: "Tushar",
+    designation: "Software Engineer",
+  },
+  {
+    id: 5,
+    details:
+      "This platform revolutionized our training program. Our team loves the interactive features. This platform revolutionized our training program. Our team loves the interactive features.",
+    img1: "/Testimonials/img.png",
+    img2: "Testimonials/img1.png",
+    name: "Tushar",
+    designation: "Software Engineer",
+  },
+  {
+    id: 6,
+    details:
+      "This platform revolutionized our training program. Our team loves the interactive features. This platform revolutionized our training program. Our team loves the interactive features.",
+    img1: "/Testimonials/img.png",
+    img2: "Testimonials/img1.png",
+    name: "Tushar",
+    designation: "Software Engineer",
+  },
+  {
+    id: 7,
+    details:
+      "This platform revolutionized our training program. Our team loves the interactive features. This platform revolutionized our training program. Our team loves the interactive features.",
+    img1: "/Testimonials/img.png",
+    img2: "Testimonials/img1.png",
+    name: "Tushar",
+    designation: "Software Engineer",
+  },
+  {
+    id: 8,
+    details:
+      "This platform revolutionized our training program. Our team loves the interactive features. This platform revolutionized our training program. Our team loves the interactive features.",
+    img1: "/Testimonials/img.png",
+    img2: "Testimonials/img1.png",
+    name: "Tushar",
+    designation: "Software Engineer",
+  },
+  {
+    id: 9,
+    details:
+      "This platform revolutionized our training program. Our team loves the interactive features. This platform revolutionized our training program. Our team loves the interactive features.",
+    img1: "/Testimonials/img.png",
+    img2: "Testimonials/img1.png",
+    name: "Tushar",
+    designation: "Software Engineer",
+  },
+  {
+    id: 10,
     details:
       "This platform revolutionized our training program. Our team loves the interactive features. This platform revolutionized our training program. Our team loves the interactive features.",
     img1: "/Testimonials/img.png",
@@ -537,6 +735,7 @@ export const slider_items = [
 
 export const footerLinks = [
   {
+    id: 1,
     title: "Product",
     links: [
       { name: "Pricing", link: "#" },
@@ -546,16 +745,17 @@ export const footerLinks = [
     ],
   },
   {
+    id: 2,
     title: "Solutions",
     links: [
       { name: "Brainstorming", link: "#" },
       { name: "Ideation", link: "#" },
       { name: "Wireframing", link: "#" },
       { name: "Research", link: "#" },
-      { name: "Ideation", link: "#" },
     ],
   },
   {
+    id: 3,
     title: "Resources",
     links: [
       { name: "Help Centre", link: "#" },
@@ -565,6 +765,7 @@ export const footerLinks = [
     ],
   },
   {
+    id: 4,
     title: "Support",
     links: [
       { name: "Contact Us", link: "#" },
@@ -574,6 +775,7 @@ export const footerLinks = [
     ],
   },
   {
+    id: 5,
     title: "Company",
     links: [
       { name: "About", link: "#" },
@@ -581,5 +783,115 @@ export const footerLinks = [
       { name: "Events", link: "#" },
       { name: "Request Demo", link: "#" },
     ],
+  },
+];
+
+export const Feauters_content1 = [
+  {
+    img1: "/public/BgCut/left.png",
+    img2: "/public/BgScreen/screen.png",
+    title: "Tooltip",
+    details:
+      "Enhance your videos with tooltips that deliver additional information wherever you want. Add text, images, or links to explain key points or dive deeper into concepts. Tailor your content to different skill levels, creating a unique experience for every viewer.",
+  },
+  {
+    img1: "/public/BgCut/right.png",
+    img2: "/public/BgScreen/screen.png",
+    title: "Language Flexibility",
+    details:
+      "Break language barriers by localizing your videos. Whether it is adding multilingual versions, multiple audio tracks, or completely different language variations, chaabi empowers you to customize your videos and reach anyone, anywhere. Having no language limitations, you can now interact with learners seamlessly.",
+  },
+  {
+    img1: "/public/BgCut/left.png",
+    img2: "/public/BgScreen/screen.png",
+    title: "Active Learning",
+    details:
+      "Highlight key concepts, set up checkpoints, and evaluate understanding of your learners on the go. With in-video questions you can make sure your learner is fully engaged from start to finish with interactive, on-the-spot assessments or communications. Now turn passive watching into active learning.",
+  },
+];
+
+export const Feauters_content2 = [
+  {
+    img1: "/public/BgCut/right.png",
+
+    img2: "/public/BgScreen/screen.png",
+    title: "Live Edits",
+    details:
+      "Now edit your videos LIVE with chaabi’s exclusive feature. Add links, texts, images, slides, & more to existing videos in real time, without the hassle of deleting & re-uploading. Keep your content up-to-date with the world’s most advanced platform.",
+  },
+  {
+    img1: "/public/BgCut/left.png",
+
+    img2: "/public/BgScreen/screen.png",
+    title: "Chapters",
+    details:
+      "Make your content more accessible with timestamps. Allow viewers to jump to the parts they care about, bypassing sections they don’t need. Simplify navigation and create a personalized, efficient viewing experience that enables interactivity.",
+  },
+];
+
+export const test_content1 = [
+  {
+    img: "https://s3-alpha-sig.figma.com/img/fc66/1ab7/d76b9b5f67463fb89a08ae0c254fd7d4?Expires=1732492800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=h7W-cUnV98-ObyUH6TXLJkpEBjObcdf9W0kKT2lxUgV-zw4AzXBZPc~9BJi5wDtgRDliQY~bfQMkKDvrx-fzCMYz0w6itHGRlu3O7nDdd6X-NagLam~tk6AopouOzEMl3eIUBAVM3Gbbbg8OlpOsSTVJ9i-UJzrkEAswj5-77S5oGrHnolQkC1I2oBM3w9cyaJbC-7B2hGhbgo5JzN879D1jsm5Er6F6k04tbt2YUErpkRFcULLSPvsgB8uImwNAiyYzx5dbCJgAglv1HpkFz1SL6B6BxVlIKFy5Ds0yWTOeYLE3cz4sb8wbY0VLjQzxIimEKN4mfVV2X0l2gHXW0w__",
+    switch: true,
+    title: "L&D Professional",
+    details:
+      "“Active learning creates ownership of the knowledge, while passive learning only creates memory.” “Active learning creates ownership of the knowledge, while passive learning only creates memory.”“Active learning creates ownership of the knowledge, while passive learning only creates memory.”",
+  },
+  {
+    img: "https://s3-alpha-sig.figma.com/img/fc66/1ab7/d76b9b5f67463fb89a08ae0c254fd7d4?Expires=1732492800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=h7W-cUnV98-ObyUH6TXLJkpEBjObcdf9W0kKT2lxUgV-zw4AzXBZPc~9BJi5wDtgRDliQY~bfQMkKDvrx-fzCMYz0w6itHGRlu3O7nDdd6X-NagLam~tk6AopouOzEMl3eIUBAVM3Gbbbg8OlpOsSTVJ9i-UJzrkEAswj5-77S5oGrHnolQkC1I2oBM3w9cyaJbC-7B2hGhbgo5JzN879D1jsm5Er6F6k04tbt2YUErpkRFcULLSPvsgB8uImwNAiyYzx5dbCJgAglv1HpkFz1SL6B6BxVlIKFy5Ds0yWTOeYLE3cz4sb8wbY0VLjQzxIimEKN4mfVV2X0l2gHXW0w__",
+    switch: false,
+    title: "Training Completion Rate",
+    details:
+      "Training Completion can be a massive challenge to overcome especially when you follow traditional training methods. Boring one-sided videos or trainer-led sessions can often make people lose interest. Upgrade your training methods to achieve 95% & above training completion rate with chaabi.",
+  },
+  {
+    img: "https://s3-alpha-sig.figma.com/img/fc66/1ab7/d76b9b5f67463fb89a08ae0c254fd7d4?Expires=1732492800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=h7W-cUnV98-ObyUH6TXLJkpEBjObcdf9W0kKT2lxUgV-zw4AzXBZPc~9BJi5wDtgRDliQY~bfQMkKDvrx-fzCMYz0w6itHGRlu3O7nDdd6X-NagLam~tk6AopouOzEMl3eIUBAVM3Gbbbg8OlpOsSTVJ9i-UJzrkEAswj5-77S5oGrHnolQkC1I2oBM3w9cyaJbC-7B2hGhbgo5JzN879D1jsm5Er6F6k04tbt2YUErpkRFcULLSPvsgB8uImwNAiyYzx5dbCJgAglv1HpkFz1SL6B6BxVlIKFy5Ds0yWTOeYLE3cz4sb8wbY0VLjQzxIimEKN4mfVV2X0l2gHXW0w__",
+    switch: false,
+    title: "Training Completion Rate",
+    details:
+      "Training Completion can be a massive challenge to overcome especially when you follow traditional training methods. Boring one-sided videos or trainer-led sessions can often make people lose interest. Upgrade your training methods to achieve 95% & above training completion rate with chaabi.",
+  },
+  {
+    img: "https://s3-alpha-sig.figma.com/img/fc66/1ab7/d76b9b5f67463fb89a08ae0c254fd7d4?Expires=1732492800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=h7W-cUnV98-ObyUH6TXLJkpEBjObcdf9W0kKT2lxUgV-zw4AzXBZPc~9BJi5wDtgRDliQY~bfQMkKDvrx-fzCMYz0w6itHGRlu3O7nDdd6X-NagLam~tk6AopouOzEMl3eIUBAVM3Gbbbg8OlpOsSTVJ9i-UJzrkEAswj5-77S5oGrHnolQkC1I2oBM3w9cyaJbC-7B2hGhbgo5JzN879D1jsm5Er6F6k04tbt2YUErpkRFcULLSPvsgB8uImwNAiyYzx5dbCJgAglv1HpkFz1SL6B6BxVlIKFy5Ds0yWTOeYLE3cz4sb8wbY0VLjQzxIimEKN4mfVV2X0l2gHXW0w__",
+    switch: false,
+    title: "Training Completion Rate",
+    details:
+      "Training Completion can be a massive challenge to overcome especially when you follow traditional training methods. Boring one-sided videos or trainer-led sessions can often make people lose interest. Upgrade your training methods to achieve 95% & above training completion rate with chaabi.",
+  },
+  {
+    img: "https://s3-alpha-sig.figma.com/img/fc66/1ab7/d76b9b5f67463fb89a08ae0c254fd7d4?Expires=1732492800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=h7W-cUnV98-ObyUH6TXLJkpEBjObcdf9W0kKT2lxUgV-zw4AzXBZPc~9BJi5wDtgRDliQY~bfQMkKDvrx-fzCMYz0w6itHGRlu3O7nDdd6X-NagLam~tk6AopouOzEMl3eIUBAVM3Gbbbg8OlpOsSTVJ9i-UJzrkEAswj5-77S5oGrHnolQkC1I2oBM3w9cyaJbC-7B2hGhbgo5JzN879D1jsm5Er6F6k04tbt2YUErpkRFcULLSPvsgB8uImwNAiyYzx5dbCJgAglv1HpkFz1SL6B6BxVlIKFy5Ds0yWTOeYLE3cz4sb8wbY0VLjQzxIimEKN4mfVV2X0l2gHXW0w__",
+    switch: false,
+    title: "Training Completion Rate",
+    details:
+      "Training Completion can be a massive challenge to overcome especially when you follow traditional training methods. Boring one-sided videos or trainer-led sessions can often make people lose interest. Upgrade your training methods to achieve 95% & above training completion rate with chaabi.",
+  },
+  {
+    img: "https://s3-alpha-sig.figma.com/img/fc66/1ab7/d76b9b5f67463fb89a08ae0c254fd7d4?Expires=1732492800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=h7W-cUnV98-ObyUH6TXLJkpEBjObcdf9W0kKT2lxUgV-zw4AzXBZPc~9BJi5wDtgRDliQY~bfQMkKDvrx-fzCMYz0w6itHGRlu3O7nDdd6X-NagLam~tk6AopouOzEMl3eIUBAVM3Gbbbg8OlpOsSTVJ9i-UJzrkEAswj5-77S5oGrHnolQkC1I2oBM3w9cyaJbC-7B2hGhbgo5JzN879D1jsm5Er6F6k04tbt2YUErpkRFcULLSPvsgB8uImwNAiyYzx5dbCJgAglv1HpkFz1SL6B6BxVlIKFy5Ds0yWTOeYLE3cz4sb8wbY0VLjQzxIimEKN4mfVV2X0l2gHXW0w__",
+    switch: false,
+    title: "Training Completion Rate",
+    details:
+      "Training Completion can be a massive challenge to overcome especially when you follow traditional training methods. Boring one-sided videos or trainer-led sessions can often make people lose interest. Upgrade your training methods to achieve 95% & above training completion rate with chaabi.",
+  },
+];
+export const questionsAnswers = [
+  {
+    question: "What is your return policy?",
+    answer:
+      "Our return policy lasts 30 days. If 30 days have passed since your purchase, unfortunately, we can't offer you a refund or exchange.",
+  },
+  {
+    question: "How do I track my order?",
+    answer:
+      "Once your order is shipped, we will email you the tracking details. You can use the tracking link to see the status of your shipment.",
+  },
+  {
+    question: "Do you ship internationally?",
+    answer:
+      "Yes, we ship to over 50 countries around the world. Shipping costs and delivery times vary depending on the destination.",
+  },
+  {
+    question: "What payment methods do you accept?",
+    answer:
+      "We accept all major credit cards, including Visa, MasterCard, and American Express, as well as PayPal.",
   },
 ];
