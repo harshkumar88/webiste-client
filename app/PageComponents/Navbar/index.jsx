@@ -4,7 +4,7 @@ import { nav_links } from "../../static";
 import { MdOutlineSegment as Menu } from "react-icons/md";
 import { IoClose as Close } from "react-icons/io5";
 import WhiteLogo from "../../assets/svg/whitelogo";
-import DarkLogo from "../../assets/svg/DarkLogo";
+import DarkLogo from "../../assets/svg/darklogo";
 
 const Navbar = () => {
   const [active, setActive] = useState("Home");
