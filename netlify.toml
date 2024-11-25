@@ -1,5 +1,5 @@
 [build]
-  publish = "public"            # Specify the folder to publish
+  publish = "build"            # Specify the folder to publish
   command = "npm run build"     # Build command (will run `vite build` for Vite)
   
 [[redirects]]
