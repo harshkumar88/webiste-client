@@ -68,21 +68,6 @@ const SectionCard = ({ show, item }) => {
             >
               {activeIndex == 2 ? <ActiveCameraIcon /> : <CameraIcon />}
             </span>
-            {/* <img
-              src="/Interactive/animated_images.png"
-              className="xsm:w-[30px] w-[20px] cursor-pointer border-red-50"
-              onClick={() => handleClick(0)}
-            /> */}
-            {/* <img
-              src="/Interactive/palette.png"
-              className="xsm:w-[30px] w-[20px] cursor-pointer text-white "
-              onClick={() => handleClick(0)}
-            /> */}
-            {/* <img
-              src="/Interactive/camera_video.png"
-              className="xsm:w-[30px] w-[20px] cursor-pointer "
-             onClick={() => handleClick(0)}
-            /> */}
           </div>
         )}
 
