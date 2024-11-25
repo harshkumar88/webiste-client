@@ -41,12 +41,16 @@ const FAQ = () => {
             </span>
           </div>
           <div
-            className={`overflow-hidden max-w-[100%] transition-max-height duration-300 ease-in-out  ${
-              activeIndex === index ? " " : "max-h-0 "
+            className={`overflow-hidden max-w-[100%] transition-all duration-[1200ms] ease-in-out ${
+              activeIndex === index ? "" : "max-h-0"
             }`}
           >
-            <p className="text-gray-600 whitespace-pre-wrap px-4 pt-4 text-[0.84rem]">
-              {activeIndex === index ? displayedText : null}
+            <p
+              className={`text-gray-600 whitespace-pre-wrap px-4 pt-4 text-[0.84rem]  ${
+                activeIndex === index ? "block" : "hidden"
+              }`}
+            >
+              {displayedText}
             </p>
           </div>
         </div>

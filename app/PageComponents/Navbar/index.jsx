@@ -3,6 +3,8 @@ import Button from "../../CommonComponents/Button";
 import { nav_links } from "../../static";
 import { MdOutlineSegment as Menu } from "react-icons/md";
 import { IoClose as Close } from "react-icons/io5";
+import WhiteLogo from "../../assets/svg/whitelogo";
+import DarkLogo from "../../assets/svg/DarkLogo";
 
 const Navbar = () => {
   const [active, setActive] = useState("Home");
@@ -56,15 +58,14 @@ const Navbar = () => {
               />
             ) : (
               <Close
-                className={` text-3xl ${scroll ? "text-black" : "text-white"}`}
+                className={`text-3xl ${scroll ? "text-black" : "text-white"}`}
               />
             )}
-          </div>{" "}
-          <img src="/Navbar/logo.png" className="-mt-[4px]" />
-          {/* <strong className=" text-2xl font-bold">
-            Chaab<span className="font-extrabold text-[1.7rem]">i</span>
-          </strong>{" "} */}
-          <div className="gap-5 lg:flex hidden ">
+          </div>
+
+          {scroll ? <DarkLogo /> : <WhiteLogo />}
+
+          <div className="gap-5 lg:flex hidden mt-1">
             {nav_links?.map((link, idx) => {
               return (
                 <span
@@ -78,7 +79,7 @@ const Navbar = () => {
             })}
           </div>
         </div>
-        <div className="gap-5 flex items-center">
+        <div className="gap-5 flex items-center mt-1">
           <Button
             btn_type="button"
             content="Log In"

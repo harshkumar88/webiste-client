@@ -14,7 +14,7 @@ const InteractiveSection = ({ show }) => {
 
   return (
     <div
-      className="md:w-[93%] w-[100%]  ml-auto    flex flex-col gap-10  "
+      className="md:w-[93%] w-[100%]  ml-auto   overflow-hidden flex flex-col gap-10  "
       id="grow"
       data-aos="fade-up"
     >

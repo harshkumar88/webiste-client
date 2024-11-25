@@ -1,6 +1,6 @@
 import FAQ from "../Faq";
 
-const ProfessionalWrapper = ({ content, reverse }) => {
+const FaqWrapper = ({ content, reverse }) => {
   return (
     <div className="flex flex-col gap-20">
       {content?.map((item, idx) => {
@@ -42,4 +42,4 @@ const ProfessionalWrapper = ({ content, reverse }) => {
   );
 };
 
-export default ProfessionalWrapper;
+export default FaqWrapper;

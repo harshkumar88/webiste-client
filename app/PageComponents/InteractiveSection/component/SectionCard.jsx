@@ -1,12 +1,21 @@
 import { useEffect, useState } from "react";
+import AnimatedVideoIcon from "../../../assets/svg/animatedVideo";
+import CameraIcon from "../../../assets/svg/camera";
+import PalleteIcon from "../../../assets/svg/palette";
+import ActiveanimatedIcon from "../../../assets/svg/activeanimatedVideo";
+import ActiveCameraIcon from "../../../assets/svg/activecamera";
+import ActivePalleteIcon from "../../../assets/svg/activepalette";
 
 const SectionCard = ({ show, item }) => {
   const [activeContent, setActiveContent] = useState(item.data[0]);
+  const [activeIndex, setActiveIndex] = useState(0);
   useEffect(() => {
     setActiveContent(item.data[0]);
+    setActiveIndex(0);
   }, []);
 
   const handleClick = (id) => {
+    setActiveIndex(id);
     setActiveContent(item.data[id]);
   };
 
@@ -36,22 +45,44 @@ const SectionCard = ({ show, item }) => {
       <div className="md:w-[60%]  sm:w-[85%] w-[95%] xsm:h-[430px] h-[280px]  flex lg:justify-start justify-center overflow-hidden md:p-0 relative md:rounded-tl-[50px] md:rounded-bl-[50px] ">
         {/* Image Component */}
         {show && (
-          <div className="bg-green_gradient xsm:h-[200px] h-[130px] xsm:w-[50px] w-[40px]  rounded-[50px] flex flex-col gap-5 items-center justify-center  absolute xsm:top-[150px]  top-[100px] lg:left-[28px] md:left-[20px] sm:left-[18px] left-[2px]  z-10">
-            <img
+          <div className="bg-green_gradient xsm:h-[200px] h-[140px] xsm:w-[50px] w-[40px]  rounded-[50px] flex flex-col gap-5 items-center justify-center  absolute xsm:top-[150px]  top-[100px] lg:left-[28px] md:left-[20px] sm:left-[18px] left-[2px]  z-10">
+            <span
+              onClick={() => handleClick(0)}
+              className="cursor-pointer xsm:w-[34px] w-[24px]"
+            >
+              {activeIndex == 0 ? (
+                <ActiveanimatedIcon />
+              ) : (
+                <AnimatedVideoIcon />
+              )}
+            </span>
+            <span
+              onClick={() => handleClick(1)}
+              className="cursor-pointer xsm:w-[34px]  w-[24px]"
+            >
+              {activeIndex == 1 ? <ActivePalleteIcon /> : <PalleteIcon />}
+            </span>
+            <span
+              onClick={() => handleClick(2)}
+              className="cursor-pointer xsm:w-[34px]  w-[24px]"
+            >
+              {activeIndex == 2 ? <ActiveCameraIcon /> : <CameraIcon />}
+            </span>
+            {/* <img
               src="/Interactive/animated_images.png"
               className="xsm:w-[30px] w-[20px] cursor-pointer border-red-50"
               onClick={() => handleClick(0)}
-            />
-            <img
+            /> */}
+            {/* <img
               src="/Interactive/palette.png"
               className="xsm:w-[30px] w-[20px] cursor-pointer text-white "
-              onClick={() => handleClick(1)}
-            />
-            <img
+              onClick={() => handleClick(0)}
+            /> */}
+            {/* <img
               src="/Interactive/camera_video.png"
               className="xsm:w-[30px] w-[20px] cursor-pointer "
-              onClick={() => handleClick(2)}
-            />
+             onClick={() => handleClick(0)}
+            /> */}
           </div>
         )}
 

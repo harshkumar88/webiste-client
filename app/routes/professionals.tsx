@@ -1,5 +1,5 @@
 import Navbar from "../PageComponents/Navbar";
-import ProfessionalWrapper from "../PageComponents/ProfessionalWrapper";
+import FaqWrapper from "../PageComponents/FaqWrapper";
 import { test_content1 } from "../static";
 import CaseStudy from "../PageComponents/CaseStudy";
 import Story from "../PageComponents/Story";
@@ -17,7 +17,7 @@ const Test = () => {
   return (
     <section className="flex flex-col  gap-16 remove_scrollbar">
       <Navbar />
-      <ProfessionalWrapper content={test_content1} reverse={1} />
+      <FaqWrapper content={test_content1} reverse={1} />
       <CaseStudy />
       <InteractiveSection show={true} />
       <div>
