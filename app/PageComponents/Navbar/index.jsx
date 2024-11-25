@@ -50,7 +50,7 @@ const Navbar = () => {
       <div
         className={`px-5 py-2 md:w-[90%] w-[100%] mx-auto flex  justify-between items-center `}
       >
-        <div className="flex gap-8 items-center">
+        <div className="flex gap-3 items-center ">
           <div className="xsm:hidden block" onClick={() => setToggle(!toggle)}>
             {!toggle ? (
               <Menu
