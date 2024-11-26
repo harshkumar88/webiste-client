@@ -525,22 +525,22 @@ export const footerLinks = [
 
 export const Feauters_content1 = [
   {
-    img1: "/public/BgCut/left.png",
-    img2: "/public/BgScreen/screen.png",
+    img1: "/BgCut/left.png",
+    img2: "/BgScreen/screen.png",
     title: "Tooltip",
     details:
       "Enhance your videos with tooltips that deliver additional information wherever you want. Add text, images, or links to explain key points or dive deeper into concepts. Tailor your content to different skill levels, creating a unique experience for every viewer.",
   },
   {
-    img1: "/public/BgCut/right.png",
-    img2: "/public/BgScreen/screen.png",
+    img1: "/BgCut/right.png",
+    img2: "/BgScreen/screen.png",
     title: "Language Flexibility",
     details:
       "Break language barriers by localizing your videos. Whether it is adding multilingual versions, multiple audio tracks, or completely different language variations, chaabi empowers you to customize your videos and reach anyone, anywhere. Having no language limitations, you can now interact with learners seamlessly.",
   },
   {
-    img1: "/public/BgCut/left.png",
-    img2: "/public/BgScreen/screen.png",
+    img1: "/BgCut/left.png",
+    img2: "/BgScreen/screen.png",
     title: "Active Learning",
     details:
       "Highlight key concepts, set up checkpoints, and evaluate understanding of your learners on the go. With in-video questions you can make sure your learner is fully engaged from start to finish with interactive, on-the-spot assessments or communications. Now turn passive watching into active learning.",
@@ -549,16 +549,16 @@ export const Feauters_content1 = [
 
 export const Feauters_content2 = [
   {
-    img1: "/public/BgCut/right.png",
-    img2: "/public/BgScreen/screen.png",
+    img1: "/BgCut/right.png",
+    img2: "/BgScreen/screen.png",
     title: "Live Edits",
     details:
       "Now edit your videos LIVE with chaabi’s exclusive feature. Add links, texts, images, slides, & more to existing videos in real time, without the hassle of deleting & re-uploading. Keep your content up-to-date with the world’s most advanced platform.",
   },
   {
-    img1: "/public/BgCut/left.png",
+    img1: "/BgCut/left.png",
 
-    img2: "/public/BgScreen/screen.png",
+    img2: "/BgScreen/screen.png",
     title: "Chapters",
     details:
       "Make your content more accessible with timestamps. Allow viewers to jump to the parts they care about, bypassing sections they don’t need. Simplify navigation and create a personalized, efficient viewing experience that enables interactivity.",
