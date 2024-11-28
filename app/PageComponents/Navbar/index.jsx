@@ -43,29 +43,25 @@ const Navbar = () => {
     <section
       className={` py-2 sticky top-0  z-50 ${
         scroll
-          ? "bg-white text-green_gradient border border-1 shadow-lg border-b-green_gradient"
+          ? "text-white bg-green_gradient "
           : "text-white bg-green_gradient"
       }`}
     >
       <div
-        className={`px-5 py-2 md:w-[90%] w-[100%] mx-auto flex  justify-between items-center `}
+        className={` lg:px-[80px] lg:py-[10px] sm:px-[40px] sm:py-[10px] px-[20px] py-[10px] mx-auto flex  justify-between items-center `}
       >
-        <div className="flex gap-3 items-center ">
+        <div className="flex lg:gap-[30px] sm:gap-[30px] gap-[20px] items-center ">
           <div className="xsm:hidden block" onClick={() => setToggle(!toggle)}>
             {!toggle ? (
-              <Menu
-                className={`text-3xl  ${scroll ? "text-black" : "text-white"}`}
-              />
+              <Menu className={`text-3xl  text-white `} />
             ) : (
-              <Close
-                className={`text-3xl ${scroll ? "text-black" : "text-white"}`}
-              />
+              <Close className={`text-3xl text-white `} />
             )}
           </div>
 
-          {scroll ? <DarkLogo /> : <WhiteLogo />}
+          <WhiteLogo />
 
-          <div className="gap-5 lg:flex hidden mt-1">
+          <div className="lg:gap-[30px] lg:flex hidden mt-1">
             {nav_links?.map((link, idx) => {
               return (
                 <span
@@ -79,12 +75,12 @@ const Navbar = () => {
             })}
           </div>
         </div>
-        <div className="gap-5 flex items-center mt-1">
+        <div className="gap-[30px] flex items-center mt-1">
           <Button
             btn_type="button"
             content="Log In"
             callbackfn={handleLogin}
-            btn_styles={` border border-gray-300 rounded-full sm:px-6 sm:py-1 text-[1rem] sm:block hidden ${
+            btn_styles={` border border-gray-300 rounded-full  text-[16px] sm:block hidden h-[40px] w-[94px] ${
               scroll ? "bg-green_gradient  text-white" : "text-white"
             }`}
           />
@@ -93,7 +89,7 @@ const Navbar = () => {
             content="Try Chaabi for Free"
             callbackfn={handleLogin}
             btn_styles={
-              "bg-yellow_light text-green_gradient border border-gray-300 rounded-full xsm:px-4 xsm:py-1  px-3 py-1"
+              "bg-yellow_light text-green_gradient border border-gray-300 rounded-full  sm:text-[16px] text-[13px] sm:h-[40px] sm:w-[194px]  w-[151px] h-[32px]  "
             }
           />
           <div
@@ -101,13 +97,9 @@ const Navbar = () => {
             onClick={() => setToggle(!toggle)}
           >
             {!toggle ? (
-              <Menu
-                className={`text-3xl  ${scroll ? "text-black" : "text-white"}`}
-              />
+              <Menu className={`text-3xl  text-white`} />
             ) : (
-              <Close
-                className={` text-3xl ${scroll ? "text-black" : "text-white"}`}
-              />
+              <Close className={` text-3xl text-white`} />
             )}
           </div>
         </div>

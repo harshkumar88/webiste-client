@@ -11,6 +11,7 @@
   /* overflow: hidden; */
   border-radius: 0 0 0 50px;
   display: flex;
+  gap: 10px;
 }
 
 .prevButton,

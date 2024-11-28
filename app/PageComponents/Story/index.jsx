@@ -26,35 +26,37 @@ const Story = () => {
 
   return (
     <div
-      className="flex flex-col gap-5 mx-auto sm:mt-10 mt-5 bg-green_gradient pt-5 pb-14 px-4 w-[100%] overflow-hidden"
+      className="flex flex-col gap-[60px] mx-auto  bg-green_gradient  w-[100%] md:px-[80px] xsm:px-[40px] px-[20px] md:py-[60px] xsm:py-[70px] py-[60px]  overflow-hidden"
       data-aos="fade-up"
     >
-      <div className="flex flex-col md:flex-row justify-between items-center w-[90%] mt-8 mx-auto">
+      <div className="flex flex-col md:flex-row justify-between items-baseline w-[100%]    mx-auto">
         <div className="flex flex-col gap-2 w-[100%]  md:w-[90%] lg:w-[45%]">
-          <p className="text-[2.5rem] sm:text-[3rem] md:text-[3.3rem] lg:text-[3.1rem] text-white font-bold md:text-start text-center">
+          <p className="text-[32px] sm:text-[42px]  md:text-[44px] text-white font-bold md:text-start text-center">
             Pick a{" "}
-            <span className="bg-yellow_light text-green_gradient">Story</span>
+            <span className="bg-yellow_light text-green_gradient text-[32px] sm:text-[42px]">
+              Story
+            </span>
           </p>
-          <p className="text-[0.9rem] sm:text-[1rem] md:text-[1.1rem] text-white md:w-[90%] w-[100%] md:text-start text-center">
+          <p className="text-[15px] sm:text-[16px] md:text-[18px] text-white md:w-[90%] w-[100%] md:text-start text-center">
             Say NO to boring videos and create interesting, interactive,
             creative videos that boost performance. Say NO to boring videos and
             create interesting,
           </p>
         </div>
-        <div className="md:flex hidden gap-4 justify-end w-full sm:w-[50%] mt-3 pe-[15%]  ">
+        <div className="md:flex hidden gap-4 justify-end w-full sm:w-[50%]  ">
           <IoMdArrowBack
             size={40}
             className={`cursor-pointer text-white ${
               !left ? "opacity-50 cursor-not-allowed" : ""
             } border border-white transition duration-300 rounded-full p-1`}
-            onClick={() => slideLeft(left, cardRef, 5)}
+            onClick={() => slideLeft(left, cardRef, 5, 27)}
           />
           <IoMdArrowForward
             size={40}
             className={`cursor-pointer text-white ${
               !right ? "opacity-50 cursor-not-allowed" : ""
             } border border-white transition duration-300 rounded-full p-1`}
-            onClick={() => slideRight(right, cardRef, 5)}
+            onClick={() => slideRight(right, cardRef, 5, 27)}
           />
         </div>
       </div>
@@ -62,7 +64,7 @@ const Story = () => {
         checkScroll={checkScroll}
         cardRef={cardRef}
         style={
-          " overflow-x-auto md:mt-3 lg:mt-0 xl:mt-4 flex md:gap-10 gap-6  xsm:w-[90%] w-[100%] mx-auto remove_scrollbar"
+          " overflow-x-auto  flex gap-[27px] w-[100%] mx-auto remove_scrollbar"
         }
       >
         {story_data?.map((item, idx) => {

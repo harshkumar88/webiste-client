@@ -231,6 +231,7 @@ export const case_study_data = [
     name: "Jane Cooper",
     sub_title: "Company",
     label: "Artificial Intelligence",
+    short_label: "Intelligence",
     details:
       "Help people navigate through difficult stages Help people navigate through Help people navigate through difficult stages Help people navigate through",
     img: "/CaseStudy/icon.png",
@@ -241,6 +242,8 @@ export const case_study_data = [
     name: "Jane Cooper",
     sub_title: "Company",
     label: "Artificial Intelligence",
+    short_label: "Intelligence",
+
     details:
       "Help people navigate through difficult stages Help people navigate through Help people navigate through difficult stages Help people navigate through",
     img: "/CaseStudy/icon.png",
@@ -251,6 +254,8 @@ export const case_study_data = [
     name: "Jane Cooper",
     sub_title: "Company",
     label: "Artificial Intelligence",
+    short_label: "Intelligence",
+
     details:
       "Help people navigate through difficult stages Help people navigate through Help people navigate through difficult stages Help people navigate through",
     img: "/CaseStudy/icon.png",
@@ -261,6 +266,8 @@ export const case_study_data = [
     name: "Jane Cooper",
     sub_title: "Company",
     label: "Artificial Intelligence",
+    short_label: "Intelligence",
+
     details:
       "Help people navigate through difficult stages Help people navigate through Help people navigate through difficult stages Help people navigate through",
     img: "/CaseStudy/icon.png",
@@ -271,6 +278,8 @@ export const case_study_data = [
     name: "Jane Cooper",
     sub_title: "Company",
     label: "Artificial Intelligence",
+    short_label: "Intelligence",
+
     details:
       "Help people navigate through difficult stages Help people navigate through Help people navigate through difficult stages Help people navigate through",
     img: "/CaseStudy/icon.png",
@@ -281,6 +290,8 @@ export const case_study_data = [
     name: "Jane Cooper",
     sub_title: "Company",
     label: "Artificial Intelligence",
+    short_label: "Intelligence",
+
     details:
       "Help people navigate through difficult stages Help people navigate through Help people navigate through difficult stages Help people navigate through",
     img: "/CaseStudy/icon.png",

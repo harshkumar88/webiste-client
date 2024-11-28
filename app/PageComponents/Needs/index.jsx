@@ -19,23 +19,23 @@ const NeedsComponent = () => {
 
   return (
     <div
-      className="md:w-[93%] w-[100%] ml-auto flex flex-col md:flex-row items-center sm:gap-20 gap-10 justify-between md:mt-5 overflow-hidden "
+      className=" w-[100%] md:ps-[80px] ml-auto flex flex-col md:flex-row items-center sm:gap-[50px] gap-[30px] justify-between md:mt-5 overflow-hidden "
       id="grow"
       data-aos="fade-up"
     >
       <div className="flex flex-col md:w-[30%] w-[90%]">
-        <p className="text-[2.5rem] md:text-start text-center ">
+        <p className="md:text-[14px] xsm:text-[22px] text-[14px] md:text-start text-center ">
           Let’s talk about
         </p>
-        <p className="md:text-[3.5rem] text-[3rem] font-bold md:text-start text-center">
-          Your <span className="highlight_text_bottom">Needs</span>
+        <p className="md:text-[44px] xsm:text-[42px] text-[32px] font-bold md:mx-0  mx-auto bg-yellow_light w-fit ">
+          Your <span className="">Needs</span>
         </p>
-        <p className="text-[1rem] mt-4 md:block hidden">
+        <p className="xsm:text-[18px] text-[15px] mt-2 md:block hidden">
           Say NO to boring videos and create interesting, interactive, creative
           videos that boost performance. Say NO to boring videos and create
           interesting, interactive, creative videos that boost performance.
         </p>
-        <p className="text-[1rem] mt-4 md:hidden block md:text-start text-center w-[80%] mx-auto">
+        <p className="xsm:text-[18px] text-[15px] mt-2 md:hidden block md:text-start text-center w-[80%] mx-auto">
           Create videos that perform using advanced tools and techniques that
           grab attention.
         </p>
@@ -62,7 +62,7 @@ const NeedsComponent = () => {
           checkScroll={checkScroll}
           cardRef={cardRef}
           style={
-            "flex  mx-auto sm:gap-7 gap-6 overflow-x-auto remove_scrollbar me-0 w-[99%] py-12 sm:ps-10 ps-4 pe-3 "
+            "flex  mx-auto gap-[20px] overflow-x-auto remove_scrollbar me-0 w-[100%] py-12 sm:ps-[40px] ps-[20px] w-[99%] pe-3 "
           }
         >
           {need_slider_data.map((item, idx) => (

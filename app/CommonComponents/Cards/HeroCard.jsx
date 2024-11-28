@@ -1,20 +1,20 @@
 const HeroCard = ({ card }) => {
   return (
     <div
-      className={`flex  flex-shrink-0 flex-col items-start justify-start border-none transition-all ease-in-out duration-500  cursor-pointer relative overflow-hidden w-[100%] sm:h-[460px] h-[400px] `}
+      className={`flex  flex-shrink-0  flex-col items-start justify-start border-none transition-all ease-in-out duration-500  cursor-pointer relative overflow-hidden  `}
       style={{ borderRadius: "30px" }}
     >
       <img
         src={card.img}
         alt="content_img"
-        className="object-cover opacity-90"
-        style={{ width: "100%", height: "100%", borderRadius: "30px" }}
+        className="object-cover opacity-90  sm:w-[688px] sm:h-[460px]   w-[372px] h-[270px]"
+        style={{ borderRadius: "30px" }}
       />
-      <div className="absolute bottom-10 left-2 right-0  px-8  text-left">
-        <h2 className="text-[3rem] font-extrabold text-white shadow-lg">
+      <div className="absolute bottom-0 left-0 right-0  px-8 pb-4  text-left bg-gradient-to-t from-black/70 via-black/50 to-transparent">
+        <h2 className="sm:text-[54px] text-[28px] font-extrabold text-white shadow-lg">
           {card.title}
         </h2>
-        <p className="text-white text-[1rem] ">{card.details}</p>
+        <p className="text-white sm:text-[18px] text-[15px] ">{card.details}</p>
       </div>
     </div>
   );

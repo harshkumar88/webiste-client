@@ -14,22 +14,25 @@ const InteractiveSection = ({ show }) => {
 
   return (
     <div
-      className="md:w-[93%] w-[100%]  ml-auto   overflow-hidden flex flex-col gap-10  "
+      className=" w-[100%] md:px-[80px] xsm:px-[40px] px-[10px] mx-auto    flex flex-col gap-[10px] "
       id="grow"
       data-aos="fade-up"
     >
-      <CardCarousel
-        hide="true"
-        carouselRef={carouselRef}
-        styles={styles}
-        setActiveIndex={setActiveIndex}
-        activeIndex={activeIndex}
-        autoSlideInterval="10000"
-      >
-        {interactive_section_data?.map((item, idx) => {
-          return <SectionCard show={show} key={idx} item={item} />;
-        })}
-      </CardCarousel>
+      <div className=" overflow-hidden">
+        <CardCarousel
+          hide="true"
+          carouselRef={carouselRef}
+          styles={styles}
+          setActiveIndex={setActiveIndex}
+          activeIndex={activeIndex}
+          autoSlideInterval="10000"
+          per={100}
+        >
+          {interactive_section_data?.map((item, idx) => {
+            return <SectionCard show={show} key={idx} item={item} />;
+          })}
+        </CardCarousel>
+      </div>
 
       <div className=" justify-center sm:mt-5  space-x-2 flex ">
         {interactive_section_data.map((_, index) => (
@@ -37,8 +40,8 @@ const InteractiveSection = ({ show }) => {
             key={index}
             className={`cursor-pointer transition-all duration-300 ease-in-out ${
               activeIndex === index
-                ? "w-8 h-3 bg-green_gradient rounded-full" // Active dot: oval-shaped, dark green
-                : "w-3 h-3 bg-gray-300 rounded-full" // Inactive dots: narrow and light gray
+                ? "sm:w-[38px] sm:h-[13px] w-[21px] h-[7px] bg-green_gradient rounded-full" // Active dot: oval-shaped, dark green
+                : "sm:w-[12px] sm:h-[12px] w-[7px] h-[7px] bg-gray-300 rounded-full" // Inactive dots: narrow and light gray
             }`}
             onClick={() => handleDotClick(index)}
           />

@@ -25,10 +25,11 @@ export default function Index() {
     AOS.init();
   }, []);
   return (
-    <section className="flex flex-col  remove_scrollbar">
+    <section className="flex flex-col   remove_scrollbar">
       <Navbar />
       <HeroBanner />
-      <div className="flex flex-col gap-12 sm:gap-14 mt-10  overflow-hidden">
+
+      <div className="flex flex-col gap-[60px] sm:mt-[60px]  mt-[30px] overflow-hidden">
         <InteractiveSection show={true} />
         <TrustedTargets />
         <NeedsComponent />

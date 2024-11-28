@@ -16,19 +16,18 @@ const Home = () => {
     AOS.init();
   }, []);
   return (
-    <section className="flex flex-col  gap-10 remove_scrollbar">
+    <section className="flex flex-col  sm:gap-[80px] xsm:gap-[70px] gap-[60px] remove_scrollbar">
       <Navbar />
-      <div className="flex flex-col gap-16 ">
-        <InteractiveFeatures />
-        <FeaturesWrapper content={Feauters_content1} reverse={0} />
-        <StateMent remove_color="true" />
-        <FeaturesWrapper content={Feauters_content2} reverse={1} />
 
-        <CaseStudy />
-        <Story />
-        <NeedsComponent />
-        <Footer />
-      </div>
+      <InteractiveFeatures />
+      <FeaturesWrapper content={Feauters_content1} reverse={0} />
+      <StateMent remove_color="true" />
+      <FeaturesWrapper content={Feauters_content2} reverse={1} />
+
+      <CaseStudy />
+      <Story />
+      <NeedsComponent />
+      <Footer />
     </section>
   );
 };

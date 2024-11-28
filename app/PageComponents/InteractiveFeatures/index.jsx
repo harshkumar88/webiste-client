@@ -1,22 +1,22 @@
 const InteractiveFeatures = () => {
   return (
     <div
-      className=" w-[100%]  flex flex-col  relative  gap-12 md:flex-col-reverse  items-center  justify-between xsm:mt-5  md:mb-20"
+      className=" w-[100%] md:px-[80px] xsm:px-[40px] px-[20px]  flex flex-col  relative  gap-12 md:flex-col-reverse  items-center  justify-between xsm:mt-5  md:mb-20"
       id="grow"
       data-aos="fade-up"
     >
       <div className="flex flex-col gap-1  md:absolute   bottom-[-40px]">
-        <p className="xsm:text-[2.7rem] text-[2rem]  md:text-start text-center font-bold ">
+        <p className="sm:text-[44px] xsm:text-[42px] text-[32px]  md:text-start text-center font-bold ">
           Interactive <span className="highlight_text_bottom">Videos</span>
         </p>
 
-        <p className="xsm:text-[1.2rem] text-[1rem]  md:text-start text-center w-[85%] mx-auto">
+        <p className="sm:text-[22px] xsm:text-[18px] text-[16px] md:text-start text-center w-[85%] mx-auto">
           Build for Advanced Learning.
         </p>
       </div>
       {/* md:w-[70%] w-[100%] */}
 
-      <div className="  xsm:w-[85%] w-[95%] xsm:h-[400px]  h-[280px]  flex lg:justify-start justify-center  md:p-0 relative md:rounded-tl-[50px] md:rounded-bl-[50px] ">
+      <div className=" w-[90%] xsm:h-[400px]  h-[280px]  flex lg:justify-start justify-center  md:p-0 relative md:rounded-tl-[50px] md:rounded-bl-[50px] ">
         {/* Interactive Polygon Components */}
         <img
           src={"/Interactive/feature_img.png"}

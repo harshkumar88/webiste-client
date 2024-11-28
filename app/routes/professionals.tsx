@@ -15,7 +15,7 @@ const Test = () => {
     AOS.init();
   }, []);
   return (
-    <section className="flex flex-col  gap-16 remove_scrollbar">
+    <section className="flex flex-col   remove_scrollbar sm:gap-[80px] xsm:gap-[70px] gap-[60px]">
       <Navbar />
       <FaqWrapper content={professional_content} reverse={1} />
       <CaseStudy />

@@ -1,15 +1,18 @@
 const CaseStudyCard = ({ item }) => {
   return (
-    <div className="xl:w-[280px] xsm:w-[270px] w-[250px] bg-green_gradient flex-shrink-0 border border-yellow_light text-white rounded-3xl  shadow-lg flex flex-col relative gap-3 overflow-hidden px-2 py-6">
-      <p className="text-[1.4rem] sm:text-[1.6rem] leading-6 font-bold sm:leading-8 px-4 ">
-        {item.label}
-      </p>
+    <div className="w-[300px]   bg-green_gradient flex-shrink-0 border border-yellow_light text-white rounded-3xl  shadow-lg flex flex-col relative gap-[18px] py-[30px] overflow-hidden ">
+      <div className="flex flex-col gap-1 px-4">
+        {" "}
+        <span className="text-[24px]  font-bold leading-5 ">
+          {item.label}
+        </span>{" "}
+        <span className="text-[24px]  font-bold ">{item.short_label}</span>
+      </div>
       {/* Details Text */}
-      <p className="text-[0.82rem] sm:text-[0.9rem] leading-7 px-4">
-        {item.details}
-      </p>
+      <p className="text-[14px] leading-[22px] px-4">{item.details}</p>
+
       {/* Profile Section */}
-      <div className="flex items-center gap-4  px-2">
+      <div className="flex items-center gap-4  px-4">
         {/* Secondary Image */}
         <img
           src={item.img2}
@@ -26,3 +29,4 @@ const CaseStudyCard = ({ item }) => {
 };
 
 export default CaseStudyCard;
+// px-2 py-6

@@ -9,6 +9,7 @@ const CardCarousel = ({
   autoSlideInterval = 3000, // Default to 3 seconds auto-slide
   setActiveIndex,
   activeIndex,
+  per,
 }) => {
   const totalItems = children?.length;
 
@@ -38,7 +39,7 @@ const CardCarousel = ({
         ref={carouselRef}
         className={styles.customCarousel}
         style={{
-          transform: `translateX(-${activeIndex * 100}%)`, // Move the carousel
+          transform: `translateX(-${activeIndex * per}%)`, // Move the carousel
           transition: "transform 1s ease-in-out", // Smooth transition effect
         }}
       >
