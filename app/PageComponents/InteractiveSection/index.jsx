@@ -7,9 +7,11 @@ import { interactive_section_data } from "../../static";
 const InteractiveSection = ({ show }) => {
   const [activeIndex, setActiveIndex] = useState(0);
   const carouselRef = useRef(null); // Create a ref for the carousel
+  const [triggerInterval, setTriggerInterval] = useState(0);
 
   const handleDotClick = (index) => {
     setActiveIndex(index);
+    setTriggerInterval((prev) => prev + 1);
   };
 
   return (
@@ -27,6 +29,8 @@ const InteractiveSection = ({ show }) => {
           activeIndex={activeIndex}
           autoSlideInterval="10000"
           per={100}
+          gap={0}
+          triggerInterval={triggerInterval}
         >
           {interactive_section_data?.map((item, idx) => {
             return <SectionCard show={show} key={idx} item={item} />;

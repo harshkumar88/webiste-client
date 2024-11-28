@@ -10,6 +10,8 @@ const CardCarousel = ({
   setActiveIndex,
   activeIndex,
   per,
+  gap,
+  triggerInterval,
 }) => {
   const totalItems = children?.length;
 
@@ -31,7 +33,7 @@ const CardCarousel = ({
 
     // Cleanup interval on component unmount or when auto-slide stops
     return () => clearInterval(interval);
-  }, [autoSlideInterval]);
+  }, [triggerInterval]);
 
   return (
     <div className={styles.sliderContainer}>
@@ -39,7 +41,7 @@ const CardCarousel = ({
         ref={carouselRef}
         className={styles.customCarousel}
         style={{
-          transform: `translateX(-${activeIndex * per}%)`, // Move the carousel
+          transform: `translateX(calc(-${activeIndex * per}%))`, // Adjusting with gap in percentage
           transition: "transform 1s ease-in-out", // Smooth transition effect
         }}
       >

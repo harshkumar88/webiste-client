@@ -7,9 +7,11 @@ import styles from "./css/slider.module.css";
 const HeroBanner = () => {
   const [activeIndex, setActiveIndex] = useState(0);
   const carouselRef = useRef(null); // Create a ref for the carousel
+  const [triggerInterval, setTriggerInterval] = useState(0);
 
   const handleDotClick = (index) => {
     setActiveIndex(index);
+    setTriggerInterval((prev) => prev + 1);
   };
 
   return (
@@ -52,7 +54,9 @@ const HeroBanner = () => {
             autoSlideInterval="4000"
             setActiveIndex={setActiveIndex}
             activeIndex={activeIndex}
-            per={102}
+            per={100}
+            gap={"10px"}
+            triggerInterval={triggerInterval}
           >
             {card_zoomer_content.map((item, idx) => (
               <HeroCard key={idx} card={item} />

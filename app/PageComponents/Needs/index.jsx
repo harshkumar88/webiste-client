@@ -48,14 +48,14 @@ const NeedsComponent = () => {
             className={`cursor-pointer text-black bg-gray-300 ${
               !left ? "opacity-50 cursor-not-allowed" : ""
             } border border-gray transition duration-300 rounded-full p-2`}
-            onClick={() => slideLeft(left, cardRef)}
+            onClick={() => slideLeft(left, cardRef, 3, 20)}
           />
           <IoMdArrowForward
             size={40}
             className={`cursor-pointer text-black  bg-gray-300 ${
               !right ? "opacity-50 cursor-not-allowed" : ""
             } border border-gray transition duration-300 rounded-full p-2`}
-            onClick={() => slideRight(right, cardRef)}
+            onClick={() => slideRight(right, cardRef, 3, 20)}
           />
         </div>
         <Slider
