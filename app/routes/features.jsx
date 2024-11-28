@@ -18,7 +18,6 @@ const Home = () => {
   return (
     <section className="flex flex-col  sm:gap-[80px] xsm:gap-[70px] gap-[60px] remove_scrollbar">
       <Navbar />
-
       <InteractiveFeatures />
       <FeaturesWrapper content={Feauters_content1} reverse={0} />
       <StateMent remove_color="true" />

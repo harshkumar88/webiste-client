@@ -615,6 +615,16 @@ export const professional_content = [
       "Training Completion can be a massive challenge to overcome especially when you follow traditional training methods. Boring one-sided videos or trainer-led sessions can often make people lose interest. Upgrade your training methods to achieve 95% & above training completion rate with chaabi.",
   },
 ];
+
+export const boost_content = [
+  {
+    img: "/Professionals/img.pngs",
+    title: "L&D Professional",
+    details:
+      "“Active learning creates ownership of the knowledge, while passive learning only creates memory.” “Active learning creates ownership of the knowledge, while passive learning only creates memory.”“Active learning creates ownership of the knowledge, while passive learning only creates memory.”",
+  },
+];
+
 export const questionsAnswers = [
   {
     question: "What is your return policy?",

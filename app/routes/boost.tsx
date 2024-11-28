@@ -1,31 +1,29 @@
 import Navbar from "../PageComponents/Navbar";
-import FaqWrapper from "../PageComponents/FaqWrapper";
-import { professional_content } from "../static";
+import { boost_content } from "../static";
 import CaseStudy from "../PageComponents/CaseStudy";
 import Story from "../PageComponents/Story";
 import Footer from "../PageComponents/Footer";
 import InteractiveSection from "../PageComponents/InteractiveSection";
-
+import BoostTrainingSection from "../PageComponents/BoostTrainingSection";
 import AOS from "aos";
 import "aos/dist/aos.css"; // Import AOS styles
 import { useEffect } from "react";
+import NeedsComponent from "~/PageComponents/Needs";
 
-const Professionals = () => {
+const Boost = () => {
   useEffect(() => {
     AOS.init();
   }, []);
   return (
-    <section className="flex flex-col   remove_scrollbar sm:gap-[80px] xsm:gap-[70px] gap-[60px]">
+    <section className="flex flex-col   remove_scrollbar sm:gap-[60px] xsm:gap-[70px] gap-[60px]">
       <Navbar />
-      <FaqWrapper content={professional_content} reverse={1} />
-      <CaseStudy />
+      <BoostTrainingSection />
       <InteractiveSection show={true} />
-      <div>
-        <Story />
-        <Footer rounded={true} />
-      </div>
+      <CaseStudy />
+      <NeedsComponent />
+      <Footer rounded={true} />
     </section>
   );
 };
 
-export default Professionals;
+export default Boost;
