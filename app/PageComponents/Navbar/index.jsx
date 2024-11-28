@@ -5,11 +5,13 @@ import { MdOutlineSegment as Menu } from "react-icons/md";
 import { IoClose as Close } from "react-icons/io5";
 import WhiteLogo from "../../assets/svg/whitelogo";
 import DarkLogo from "../../assets/svg/darklogo";
+import { useNavigate } from "@remix-run/react";
 
 const Navbar = () => {
   const [active, setActive] = useState("Home");
   const [toggle, setToggle] = useState(false);
   const [scroll, setScroll] = useState(false);
+  const navigate = useNavigate();
 
   useEffect(() => {
     const handleScrolling = () => {
@@ -29,6 +31,8 @@ const Navbar = () => {
 
   const handleLogin = async () => {};
   const handleScroll = (id) => {
+    navigate(id);
+    return;
     const element = document.getElementById(id);
     if (element) {
       const topOffset = element.offsetTop; // Get the element's position from the top

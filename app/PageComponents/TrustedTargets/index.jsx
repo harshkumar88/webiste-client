@@ -4,7 +4,6 @@ const TrustedTargets = () => {
   return (
     <div
       className=" md:w-[100%] w-[100%] mx-auto flex  flex-col items-center  lg:bg-white bg-dim_green py-8 gap-10"
-      id="engage"
       data-aos="fade-up"
     >
       <p className="font-bold text-[44px] text-center text-green_gradient">

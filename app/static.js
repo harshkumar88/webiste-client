@@ -2,12 +2,12 @@ export const nav_links = [
   {
     id: 1,
     label: "Build",
-    redirect: "build",
+    redirect: "/",
   },
-  { id: 2, label: "Engage", redirect: "engage" },
-  { id: 3, label: "Grow", redirect: "grow" },
-  { id: 4, label: "Resources", redirect: "resources" },
-  { id: 5, label: "Prices", redirect: "prices" },
+  { id: 2, label: "Engage", redirect: "/features" },
+  { id: 3, label: "Grow", redirect: "/professionals" },
+  { id: 4, label: "Resources", redirect: "/boost" },
+  { id: 5, label: "Prices", redirect: "/pricing" },
 ];
 
 export const targets = [

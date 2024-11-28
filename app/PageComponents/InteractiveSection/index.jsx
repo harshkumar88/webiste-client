@@ -17,7 +17,6 @@ const InteractiveSection = ({ show }) => {
   return (
     <div
       className=" w-[100%] md:px-[80px] xsm:px-[40px] px-[10px] mx-auto    flex flex-col gap-[10px] "
-      id="grow"
       data-aos="fade-up"
     >
       <div className=" overflow-hidden">

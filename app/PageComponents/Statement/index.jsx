@@ -6,7 +6,6 @@ const StateMent = ({ remove_color }) => {
         remove_color ? "bg-white" : "bg-yellow_light"
       }`}
       style={{ borderRadius: "0px 100px 100px 0px" }}
-      id="resources"
     >
       <img
         src="/Statement/img2.png"

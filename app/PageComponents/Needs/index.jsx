@@ -20,7 +20,6 @@ const NeedsComponent = () => {
   return (
     <div
       className=" w-[100%] md:ps-[80px] ml-auto flex flex-col md:flex-row items-center sm:gap-[50px] gap-[30px] justify-between md:mt-5 overflow-hidden "
-      id="grow"
       data-aos="fade-up"
     >
       <div className="flex flex-col md:w-[30%] w-[90%]">

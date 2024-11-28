@@ -2,7 +2,6 @@ const InteractiveFeatures = () => {
   return (
     <div
       className=" w-[100%] md:px-[80px] xsm:px-[40px] px-[20px]  flex flex-col  relative  gap-12 md:flex-col-reverse  items-center  justify-between xsm:mt-5  md:mb-20"
-      id="grow"
       data-aos="fade-up"
     >
       <div className="flex flex-col gap-1  md:absolute   bottom-[-40px]">
