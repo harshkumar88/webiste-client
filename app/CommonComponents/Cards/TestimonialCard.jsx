@@ -1,6 +1,6 @@
 const TestimonialCard = ({ item }) => {
   return (
-    <div className="w-[300px]   flex-shrink-0 text-black rounded-3xl shadow-lg z-10 flex flex-col gap-[8px] relative overflow-hidden bg-dim_green py-[30px] px-4 ">
+    <div className="xsm:w-[300px]  w-[270px]  flex-shrink-0 text-black rounded-3xl shadow-lg z-10 flex flex-col gap-[8px] relative overflow-hidden bg-dim_green py-[30px] px-4 ">
       {" "}
       {/* Main Image */}
       <img

@@ -29,7 +29,7 @@ export default function Index() {
       <Navbar />
       <HeroBanner />
 
-      <div className="flex flex-col gap-[60px] sm:mt-[60px]  mt-[30px] overflow-hidden">
+      <div className="flex flex-col gap-[60px] sm:mt-[60px]  mt-[60px] overflow-hidden">
         <InteractiveSection show={true} />
         <TrustedTargets />
         <NeedsComponent />

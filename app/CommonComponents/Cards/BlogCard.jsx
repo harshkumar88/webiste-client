@@ -1,6 +1,6 @@
 const BlogCard = ({ item }) => {
   return (
-    <div className=" w-[300px]  rounded-[30px] h-[340px]   flex-shrink-0  flex flex-col   ">
+    <div className=" xsm:w-[300px]  w-[270px] rounded-[30px] h-[340px]   flex-shrink-0  flex flex-col   ">
       <img
         src={item.img}
         alt="Main Content"

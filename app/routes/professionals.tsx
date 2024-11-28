@@ -15,7 +15,7 @@ const Professionals = () => {
     AOS.init();
   }, []);
   return (
-    <section className="flex flex-col   remove_scrollbar sm:gap-[80px] xsm:gap-[70px] gap-[60px]">
+    <section className="flex flex-col   remove_scrollbar sm:gap-[40px] xsm:gap-[70px] gap-[60px]">
       <Navbar />
       <FaqWrapper content={professional_content} reverse={1} />
       <CaseStudy />

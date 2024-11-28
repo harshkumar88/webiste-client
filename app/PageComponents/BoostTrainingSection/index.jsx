@@ -12,7 +12,7 @@ const BoostTrainingSection = () => {
         <img src="/Boost/img.png" className="md:block hidden" />
         <img src="/Boost/img3.png" className="md:hidden block" />
       </div>
-      <div className="w-[372px] xsm:w-[688px] lg:w-[860px] mx-auto flex flex-col gap-[10px]">
+      <div className="w-[90%] xsm:w-[688px] lg:w-[860px] mx-auto flex flex-col gap-[10px]">
         <p className="md:text-[44px] xsm:text-[42px] text-[32px] text-center font-bold">
           Let’s face it
         </p>
@@ -40,18 +40,20 @@ const BoostTrainingSection = () => {
           learner gets the most out of your training.
         </p>
       </div>
-      <div className="w-[372px] xsm:w-[688px] lg:w-[860px] mx-auto flex flex-col gap-[10px]">
+      <div className="w-[90%]  xsm:w-[688px] lg:w-[860px] mx-auto flex flex-col gap-[10px]">
         <img src="/Boost/img2.png" />
       </div>
-      <div className="w-[372px] xsm:w-[688px] lg:w-[860px] mx-auto flex flex-col gap-[2px] bg-dim_green px-[30px] py-[20px] rounded-[32px]">
-        <p className=" text-[24px] text-center mx-auto leading-[110%]">
+      <div className="w-[90%]  xsm:w-[688px] lg:w-[860px] mx-auto flex flex-col gap-[2px] bg-dim_green px-[30px] py-[20px] rounded-[32px]">
+        <p className=" xsm:text-[24px] text-[18px] text-center mx-auto leading-[110%]">
           “Active learning creates ownership of the knowledge, while passive
           learning only creates memory.”
         </p>
-        <p className="text-[24px] font-bold text-center"> Erik Mazur</p>
+        <p className="xsm:text-[24px] text-[18px] font-bold text-center">
+          Erik Mazur
+        </p>
       </div>
 
-      <div className="w-[372px] xsm:w-[688px] lg:w-[860px] mx-auto flex flex-col gap-[10px] text-center">
+      <div className="w-[90%]  xsm:w-[688px] lg:w-[860px] mx-auto flex flex-col gap-[10px] xsm:text-[16px] text-[14px] text-center">
         But here’s the problem: Passive learning doesn’t cut it anymore. When
         employees simply watch a video without any interaction, they might
         temporarily absorb the information, but without engagement, it rarely
@@ -69,10 +71,10 @@ const BoostTrainingSection = () => {
         face a challenge of delivering consistent, high-quality training across
         diverse regions and languages.
       </div>
-      <div className="w-[372px] xsm:w-[688px] lg:w-[860px] mx-auto flex flex-col gap-[10px]">
+      <div className="w-[90%]  xsm:w-[688px] lg:w-[860px] mx-auto flex flex-col gap-[10px]">
         <img src="/Boost/img2.png" />
       </div>
-      <div className="w-[372px] xsm:w-[688px] lg:w-[860px] mx-auto flex flex-col gap-[10px] md:text-start text-center">
+      <div className="w-[90%]  xsm:w-[688px] lg:w-[860px] mx-auto flex flex-col gap-[10px] xsm:text-[16px] text-[14px] md:text-start text-center">
         Using chaabi would be a game-changer for such organisations. By
         uploading multiple audio tracks of various languages in a single video,
         they could offer the same content across the globe, having employees

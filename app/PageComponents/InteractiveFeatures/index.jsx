@@ -16,7 +16,7 @@ const InteractiveFeatures = () => {
       </div>
       {/* md:w-[70%] w-[100%] */}
 
-      <div className=" w-[90%] xsm:h-[400px]  h-[280px]  flex lg:justify-start justify-center  md:p-0 relative md:rounded-tl-[50px] md:rounded-bl-[50px] ">
+      <div className="xsm:w-[90%] w-[100%] xsm:h-[400px]  h-[280px]  flex lg:justify-start justify-center  md:p-0 relative md:rounded-tl-[50px] md:rounded-bl-[50px] ">
         {/* Interactive Polygon Components */}
         <img
           src={"/Interactive/feature_img.png"}

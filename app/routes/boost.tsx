@@ -15,7 +15,7 @@ const Boost = () => {
     AOS.init();
   }, []);
   return (
-    <section className="flex flex-col   remove_scrollbar sm:gap-[60px] xsm:gap-[70px] gap-[60px]">
+    <section className="flex flex-col   remove_scrollbar sm:gap-[40px] xsm:gap-[70px] gap-[60px]">
       <Navbar />
       <BoostTrainingSection />
       <InteractiveSection show={true} />

@@ -1,6 +1,6 @@
 const CaseStudyCard = ({ item }) => {
   return (
-    <div className="w-[300px]   bg-green_gradient flex-shrink-0 border border-yellow_light text-white rounded-3xl  shadow-lg flex flex-col relative gap-[18px] py-[30px] overflow-hidden ">
+    <div className="xsm:w-[300px]  w-[270px]  bg-green_gradient flex-shrink-0 border border-yellow_light text-white rounded-3xl  shadow-lg flex flex-col relative gap-[18px] py-[30px] overflow-hidden ">
       <div className="flex flex-col gap-1 px-4">
         {" "}
         <span className="text-[24px]  font-bold leading-5 ">

@@ -31,7 +31,7 @@ const HeroBanner = () => {
             True Potential
           </p>
         </div>
-        <div className="sm:w-[688px]  w-[372px] text-[44px] text-center lg:hidden block">
+        <div className="sm:w-[688px]  w-[320px]  text-[44px] text-center lg:hidden block">
           <p className="sm:text-[54px] text-[44px] font-bold text-white">
             Your Hub For{" "}
             <span className="bg-yellow_light text-green_gradient text-[44px] ">
@@ -44,7 +44,7 @@ const HeroBanner = () => {
           <CardZoomer content={card_zoomer_content} />
         </div>
         <div
-          className="flex  sm:w-[688px] sm:h-[460px] w-[372px] h-[270px] md:hidden overflow-x-auto remove_scrollbar "
+          className="flex  sm:w-[688px] sm:h-[460px] w-[320px]  h-[270px] md:hidden overflow-x-auto remove_scrollbar "
           style={{ borderRadius: "30px" }}
         >
           <CardCarousel

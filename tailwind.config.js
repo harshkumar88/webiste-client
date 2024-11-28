@@ -21,6 +21,7 @@ export default {
         yellow_light: "#CFFF92",
         dim_yellow: "#E6FFE2",
         dim_green: "#EEFFEB",
+        light_green: "#B6E8AE",
       },
       fontFamily: {
         sans: [

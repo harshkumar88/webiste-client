@@ -647,3 +647,77 @@ export const questionsAnswers = [
       "We accept all major credit cards, including Visa, MasterCard, and American Express, as well as PayPal.",
   },
 ];
+
+export const pricing_content = [
+  {
+    title: "Chaabi Pro",
+    subtitle: "For One Person",
+    price: "$10",
+    time: "month",
+    note: "save 20% when billed annually",
+    buttonText: "Get started",
+    description:
+      "This plan enables you to create templates and publish them and this is a dummy text that a person would read to understand more about the Chaabi Pro plan",
+    features: [
+      "All templates unlocked",
+      "All templates unlocked",
+      "All templates unlocked",
+      "All templates unlocked",
+    ],
+    highlighted: false,
+    mostPopular: false,
+  },
+  {
+    title: "Chaabi Teams",
+    subtitle: "For Your Team",
+    price: "$20",
+    time: "month",
+    note: "save 20% when billed annually",
+    buttonText: "Get started",
+    description:
+      "This plan enables you to create templates and publish them and this is a dummy text that a person would read to understand more about the Chaabi Pro plan",
+    features: [
+      "All templates unlocked",
+      "All templates unlocked",
+      "All templates unlocked",
+      "All templates unlocked",
+    ],
+    highlighted: true,
+    mostPopular: true,
+  },
+  {
+    title: "Chaabi Growth",
+    subtitle: "For A Growing Startup",
+    price: "$20",
+    time: "month",
+    note: "save 20% when billed annually",
+    buttonText: "Get started",
+    description:
+      "This plan enables you to create templates and publish them and this is a dummy text that a person would read to understand more about the Chaabi Pro plan",
+    features: [
+      "All templates unlocked",
+      "All templates unlocked",
+      "All templates unlocked",
+      "All templates unlocked",
+    ],
+    highlighted: false,
+    mostPopular: false,
+  },
+  {
+    title: "Chaabi Enterprise",
+    subtitle: "For a Large Company",
+    price: "Let’s talk",
+    note: "Get in touch for custom pricing",
+    buttonText: "Contact Sales",
+    description:
+      "This plan enables you to create templates and publish them and this is a dummy text that a person would read to understand more about the Chaabi Pro plan",
+    features: [
+      "All templates unlocked",
+      "All templates unlocked",
+      "All templates unlocked",
+      "All templates unlocked",
+    ],
+    highlighted: false,
+    mostPopular: false,
+  },
+];
