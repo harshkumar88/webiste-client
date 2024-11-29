@@ -44,7 +44,7 @@ const SectionCard = ({ show, item }) => {
       </div>
       {/* md:w-[70%] w-[100%] */}
 
-      <div className="md:w-[750px] lg:h-[480px]  md:h-[400px]  xsm:w-[688px] xsm:h-[510px] h-[323px] min-w-[330px]  flex lg:justify-start justify-center overflow-hidden md:p-0 relative md:rounded-tl-[50px] md:rounded-bl-[50px] ">
+      <div className="md:w-[750px] lg:h-[480px]  md:h-[400px]  xsm:w-[688px] xsm:h-[510px] h-[366px]  min-w-[330px]  flex lg:justify-start justify-center overflow-hidden md:p-0 relative md:rounded-tl-[50px] md:rounded-bl-[50px] ">
         {/* Image Component */}
         {show && (
           <div className="bg-green_gradient xsm:h-[200px] h-[140px] xsm:w-[50px] w-[40px]  rounded-[10px] flex flex-col gap-5 items-center justify-center  absolute xsm:top-[160px] lg:top-[150px] md:top-[110px] top-[110px] lg:left-[38px] md:left-[10px] sm:left-[30px] xsm:left-[20px] left-[5px]  z-10">
@@ -74,16 +74,23 @@ const SectionCard = ({ show, item }) => {
         )}
 
         {/* Interactive Polygon Components */}
-        <img src={activeContent.img} className="sm:w-[97%] w-[95%] " />
+        <img
+          src={activeContent.img}
+          className="sm:w-[97%] w-[95%] xsm:h-[510px] md:h-[393px] lg:h-[480px] xsm:block hidden "
+        />
+        <img
+          src={activeContent.img2}
+          className="sm:w-[97%] w-[95%] h-[303px] xsm:hidden block "
+        />
 
-        <div className="absolute  sm:w-[70%] w-[75%] p-4 lg:bottom-[2%] md:bottom-[-4%]  sm:bottom-[3%] bottom-[-5%] lg:left-[31%]  left-[30%] ">
+        <div className="absolute  sm:w-[70%] w-[75%] p-4 lg:bottom-[2%] md:bottom-[-4%]  sm:bottom-[3%] bottom-[5%] lg:left-[31%]  left-[30%] ">
           <div className="flex flex-col me-0 mx-auto  z-10  ">
-            <p className=" flex items-center gap-2 text-[1.2rem]">
-              <span className="font-bold sm:text-[1.3rem] text-[1.1rem]">
+            <p className=" flex items-center gap-2 text-[15px]">
+              <span className="font-bold md:text-[22px] text-[15px]">
                 {activeContent.label}
               </span>
             </p>
-            <p className="sm:text-[1rem] text-gray-500 text-[0.8rem]">
+            <p className="md:text-[18px] text-gray-500 text-[15px]">
               {activeContent.content}
             </p>
           </div>

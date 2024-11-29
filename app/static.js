@@ -83,16 +83,20 @@ export const interactive_section_data = [
     data: [
       {
         img: "/Interactive/img.png",
+        img2: "/Interactive/img2.png",
         label: "One chat experience",
         content: "Help people navigate through difficult parts of your video1",
       },
       {
         img: "/Interactive/img.png",
+        img2: "/Interactive/img2.png",
         label: "One chat experience",
         content: "Help people navigate through difficult parts of your video2",
       },
       {
         img: "/Interactive/img.png",
+        img2: "/Interactive/img2.png",
+
         label: "One chat experience",
         content: "Help people navigate through difficult parts of your video3",
       },
@@ -103,16 +107,19 @@ export const interactive_section_data = [
     data: [
       {
         img: "/Interactive/img.png",
+        img2: "/Interactive/img2.png",
         label: "One chat experience",
         content: "Help people navigate through difficult parts of your video1",
       },
       {
         img: "/Interactive/img.png",
+        img2: "/Interactive/img2.png",
         label: "One chat experience",
         content: "Help people navigate through difficult parts of your video2",
       },
       {
         img: "/Interactive/img.png",
+        img2: "/Interactive/img2.png",
         label: "One chat experience",
         content: "Help people navigate through difficult parts of your video3",
       },
@@ -123,16 +130,19 @@ export const interactive_section_data = [
     data: [
       {
         img: "/Interactive/img.png",
+        img2: "/Interactive/img2.png",
         label: "One chat experience",
         content: "Help people navigate through difficult parts of your video1",
       },
       {
         img: "/Interactive/img.png",
+        img2: "/Interactive/img2.png",
         label: "One chat experience",
         content: "Help people navigate through difficult parts of your video2",
       },
       {
         img: "/Interactive/img.png",
+        img2: "/Interactive/img2.png",
         label: "One chat experience",
         content: "Help people navigate through difficult parts of your video3",
       },
@@ -143,16 +153,19 @@ export const interactive_section_data = [
     data: [
       {
         img: "/Interactive/img.png",
+        img2: "/Interactive/img2.png",
         label: "One chat experience",
         content: "Help people navigate through difficult parts of your video1",
       },
       {
         img: "/Interactive/img.png",
+        img2: "/Interactive/img2.png",
         label: "One chat experience",
         content: "Help people navigate through difficult parts of your video2",
       },
       {
         img: "/Interactive/img.png",
+        img2: "/Interactive/img2.png",
         label: "One chat experience",
         content: "Help people navigate through difficult parts of your video3",
       },

@@ -22,7 +22,6 @@ const Home = () => {
       <FeaturesWrapper content={Feauters_content1} reverse={0} />
       <StateMent remove_color="true" />
       <FeaturesWrapper content={Feauters_content2} reverse={1} />
-
       <CaseStudy />
       <Story />
       <NeedsComponent />

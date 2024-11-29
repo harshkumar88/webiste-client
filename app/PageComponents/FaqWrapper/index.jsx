@@ -31,7 +31,7 @@ const FaqWrapper = ({ content, reverse }) => {
               <p className="font-bold sm:text-[44px] xsm:text-[42px] text-[32px] ">
                 {item.title}
               </p>
-              <p className=" w-[100%] sm:text-[16px] xsm:text-[16px] text-[15px] md:text-justify text-center">
+              <p className=" w-[100%] md:text-[18px] xsm:text-[16px] text-[15px] md:text-justify text-center">
                 {item.details}
               </p>
             </div>
