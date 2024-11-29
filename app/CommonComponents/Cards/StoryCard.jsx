@@ -11,7 +11,7 @@ const StoryCard = ({ item }) => {
         />
 
         <div className="bg-dim_yellow -mt-[80px] p-4 rounded-[30px] flex flex-col gap-2 xsm:w-[300px]  w-[270px] h-[146px]   z-10 relative">
-          <p className=" text-[24px]  font-bold">{item.details}</p>
+          <p className=" text-[24px]  font-semibold">{item.details}</p>
           <p className="  text-[14px] leading-[22px]">{item.sub_details}</p>
         </div>
       </div>

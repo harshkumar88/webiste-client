@@ -8,7 +8,7 @@ const BlogCard = ({ item }) => {
       />
 
       <div className="flex flex-col gap-2 p-4 bg-dim_green  rounded-b-3xl">
-        <p className=" text-[24px]  font-bold">{item.label}</p>
+        <p className=" text-[24px]  font-semibold">{item.label}</p>
         <p className="  text-[14px] leading-[22px]"> {item.details}</p>
 
         <p className="cursor-pointer w-fit">Read Blog {"->"}</p>

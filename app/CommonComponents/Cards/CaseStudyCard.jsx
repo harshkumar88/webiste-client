@@ -3,10 +3,10 @@ const CaseStudyCard = ({ item }) => {
     <div className="xsm:w-[300px]  w-[270px]  bg-green_gradient flex-shrink-0 border border-yellow_light text-white rounded-3xl  shadow-lg flex flex-col relative gap-[18px] py-[30px] overflow-hidden ">
       <div className="flex flex-col gap-1 px-4">
         {" "}
-        <span className="text-[24px]  font-bold leading-5 ">
+        <span className="text-[24px]  font-semibold leading-5 ">
           {item.label}
         </span>{" "}
-        <span className="text-[24px]  font-bold ">{item.short_label}</span>
+        <span className="text-[24px]  font-semibold ">{item.short_label}</span>
       </div>
       {/* Details Text */}
       <p className="text-[14px] leading-[22px] px-4">{item.details}</p>
