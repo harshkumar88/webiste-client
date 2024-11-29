@@ -30,9 +30,9 @@ const Blogs = () => {
     >
       <div className="flex flex-col sm:flex-row justify-between items-baseline w-[100%] mx-auto">
         <div className="flex flex-col gap-2 w-[100%]  md:w-[90%] lg:w-[45%]">
-          <p className="text-[32px] sm:text-[42px]  font-bold md:text-start text-center">
+          <p className="text-[32px] sm:text-[42px]  md:text-[44px]  font-bold md:text-start text-center">
             Read Our{" "}
-            <span className="bg-yellow_light px-2 text-[32px] sm:text-[42px]">
+            <span className="bg-yellow_light px-2 text-[32px] sm:text-[42px]  md:text-[44px]">
               Blogs
             </span>
           </p>

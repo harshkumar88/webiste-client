@@ -30,7 +30,7 @@ const CaseStudy = () => {
     >
       <div className="flex flex-col sm:flex-row justify-between items-baseline w-[100%]  mx-auto">
         <div className="flex flex-col gap-2 w-[100%]  md:w-[90%] lg:w-[45%] md:text-start text-center">
-          <p className="text-[2.5rem] sm:text-[3rem] md:text-[3.3rem] lg:text-[3.1rem] font-bold">
+          <p className="text-[32px] sm:text-[42px]  md:text-[44px] font-bold">
             Case <span className="bg-yellow_light">Study</span>
           </p>
           <p className="text-[0.9rem] sm:text-[1rem] md:text-[1.1rem] sm:w-[98%] w-[100%] md:text-start text-center">

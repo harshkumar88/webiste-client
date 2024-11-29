@@ -22,7 +22,7 @@ const Testimonials = () => {
       <div className="flex flex-col  mx-auto w-[100%] md:px-[80px] xsm:px-[40px] px-[20px] pt-[60px] gap-[60px] h-[400px] bg-yellow_light">
         <div className="flex flex-col md:flex-row justify-between items-baseline w-[100%]  mx-auto ">
           <div className="flex flex-col gap-2   w-[100%]  md:w-[90%] lg:w-[45%]">
-            <p className="text-[1.8rem] sm:text-[3rem] md:text-[2.3rem] lg:text-[3.1rem] text-green_gradient font-bold md:text-start text-center">
+            <p className="text-[32px] sm:text-[42px]  md:text-[44px] text-green_gradient font-bold md:text-start text-center">
               Because They{" "}
               <span className="text-yellow_light bg-green_gradient px-2 ">
                 Love
