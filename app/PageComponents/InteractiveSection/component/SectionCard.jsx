@@ -47,7 +47,7 @@ const SectionCard = ({ show, item }) => {
       <div className="md:w-[750px] lg:h-[480px]  md:h-[400px]  xsm:w-[688px] xsm:h-[510px] h-[366px]  min-w-[330px]  flex lg:justify-start justify-center overflow-hidden md:p-0 relative md:rounded-tl-[50px] md:rounded-bl-[50px] ">
         {/* Image Component */}
         {show && (
-          <div className="bg-green_gradient xsm:h-[200px] h-[140px] xsm:w-[50px] w-[40px]  rounded-[10px] flex flex-col gap-5 items-center justify-center  absolute xsm:top-[160px] lg:top-[150px] md:top-[110px] top-[110px] lg:left-[38px] md:left-[10px] sm:left-[30px] xsm:left-[20px] left-[5px]  z-10">
+          <div className="bg-green_gradient xsm:h-[200px] h-[140px] xsm:w-[50px] w-[40px]  rounded-[10px] flex flex-col gap-5 items-center justify-center  absolute xsm:top-[160px] lg:top-[150px] md:top-[110px] top-[80px] lg:left-[38px] md:left-[10px] sm:left-[30px] xsm:left-[80px] left-[5px]  z-10">
             <span
               onClick={() => handleClick(0)}
               className="cursor-pointer xsm:w-[34px] w-[24px]"
@@ -76,14 +76,14 @@ const SectionCard = ({ show, item }) => {
         {/* Interactive Polygon Components */}
         <img
           src={activeContent.img}
-          className="sm:w-[97%] w-[95%] xsm:h-[510px] md:h-[393px] lg:h-[480px] xsm:block hidden "
+          className="lg:w-[750px]  sm:w-[688px] xsm:w-[560px] w-[374px] xsm:h-[510px] md:h-[393px] lg:h-[480px] xsm:block hidden "
         />
         <img
           src={activeContent.img2}
-          className="sm:w-[97%] w-[95%] h-[303px] xsm:hidden block "
+          className="w-[373px] h-[303px] xsm:hidden block "
         />
 
-        <div className="absolute  sm:w-[70%] w-[75%] p-4 lg:bottom-[2%] md:bottom-[-4%]  sm:bottom-[3%] bottom-[5%] lg:left-[31%]  left-[30%] ">
+        <div className="absolute lg:w-[60%] sm:w-[70%] xsm:w-[50%] w-[75%] p-4 lg:bottom-[-3%] md:bottom-[-4%]  sm:bottom-[3%] xsm:bottom-[1%] bottom-[5%] lg:left-[31%]  sm:left-[30%] xsm:left-[35%] left-[30%] ">
           <div className="flex flex-col me-0 mx-auto  z-10  ">
             <p className=" flex items-center gap-2 text-[15px]">
               <span className="font-bold md:text-[22px] text-[15px]">
