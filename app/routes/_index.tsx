@@ -28,7 +28,6 @@ export default function Index() {
     <section className="flex flex-col   remove_scrollbar">
       <Navbar />
       <HeroBanner />
-
       <div className="flex flex-col gap-[60px] sm:mt-[60px]  mt-[60px] overflow-hidden">
         <InteractiveSection show={true} />
         <TrustedTargets />

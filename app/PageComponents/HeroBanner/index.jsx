@@ -15,8 +15,8 @@ const HeroBanner = () => {
   };
 
   return (
-    <section className="flex flex-col  bg-green_gradient pb-16 sm:pt-[70px] pt-[40px] ">
-      <div className="flex justify-between flex-col lg:flex-row  lg:gap-[54px] sm:gap-[50px] gap-[40px] items-center lg:w-[1280px] sm:w-[768px] mx-auto  ">
+    <section className="flex flex-col  bg-green_gradient pb-16 sm:pt-[70px] pt-[40px]   ">
+      <div className="flex justify-between flex-col lg:flex-row  lg:gap-[54px] sm:gap-[50px] gap-[40px] items-center  mx-auto  w-[100%]  lg:px-[80px]  sm:px-[40px] px-[20px]  ">
         <div className=" lg:w-[50%] w-[100%]  lg:block hidden  ">
           <p className="sm:text-[54px] lg:text-[64px]  font-bold text-white">
             Your Hub
